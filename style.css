@@ -1,7 +1,7 @@
 #id-main-content {
   box-shadow: 0 0 5px black;
   width: 300px;
-  height: fit-content;
+  height: auto;
   margin: auto;
   background-image: url(/images/image_geometry_1.png);
   background-size: 90px;
@@ -10,13 +10,15 @@
   display: flex;
   flex-direction: column;
 }
+
 #id-header-content {
   width: 98%;
-  height: fit-content;
+  height: auto;
   margin: 10px auto 50px auto;
   display: flex;
   justify-content: flex-end;
 }
+
 :nth-child(1) #id-side-menu {
   width: 20px;
   height: 20px;
@@ -60,7 +62,7 @@
 
 #id-title-see-project {
   width: fit-content;
-  height: fit-content;
+  height: auto;
   color: white;
   margin: auto;
   text-transform: initial;
