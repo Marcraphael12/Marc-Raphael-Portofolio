@@ -1,9 +1,9 @@
 #id-main-content {
   box-shadow: 0 0 5px black;
-  width: 300px;
+  width: 320px;
   height: auto;
   margin: auto;
-  background-image: url(/images/image_geometry_1.png);
+  background-image: url(./images/image_geometry_1.png);
   background-size: 90px;
   background-repeat: no-repeat;
   background-attachment: initial;
@@ -11,6 +11,7 @@
   flex-direction: column;
 }
 
+/*Header style start here*/
 #id-header-content {
   width: 98%;
   height: auto;
@@ -38,8 +39,9 @@
   height: 20px;
   align-self: flex-end;
   margin-right: 10px;
-}
+}/*Header style end here*/
 
+/*Presentation section start here*/
 #id-presentation-section {
   margin: 50px auto 0 auto;
   width: 90%;
@@ -56,6 +58,7 @@
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-size: xx-large;
+  font-weight: 100;
 }
 
 #id-about-me:nth-child(2) {
@@ -86,14 +89,123 @@
 
 #id-start-see-project:hover {
   background-color: rgb(228, 88, 101);
-}
+}/*Presentation section end here*/
 
+/*Little background*/
 #id-litle-background {
   width: 100%;
   height: 150px;
-  background-image: url(/images/image_geometry_2.png);
+  background-image: url(./images/image_geometry_2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-top: 10px;
 }
+
+/*Works or Projects section start here*/
+#id-works-section {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#id-project-title {
+  width: fit-content;
+  height: auto;
+  margin: 0 0 30px 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.class-project {
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgba(26, 34, 54, 1)
+}
+
+.class-project-image {
+  margin: 0 0;
+}
+
+.class-project-description {
+  margin: 0 0;
+  width: 100%;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class-project-languages {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  width: fit-content;
+  margin: 0 0 0 20px;
+  height: auto;
+  background-color: rgba(26, 34, 54, 1);
+}
+
+.class-project-name {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgba(26, 34, 54, 1);
+  margin: 2Opx auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+}
+
+.class-project-span {
+  width: 70px;
+  padding: 3px 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-small;
+  text-align: center;
+  color: rgba(26, 34, 54, 1);
+  background-color: rgba(152, 222, 222, 1);
+}
+
+.class-project-link {
+  border: 2px solid rgba(255, 255, 255, 0.911);
+  width: 178px;
+  height: 44px;
+  background-color: rgba(26, 34, 54, 1);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: auto auto;
+  margin: 0 auto 20px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+}
+
+.class-project-link:hover {
+  background-color: rgba(228, 88, 101);
+}
+
+.class-project-button {
+  width: fit-content;
+  height: min-content;
+  margin: auto 0 auto 12px;
+  border: none;
+  background-color: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+}
+
+.class-union-pic {
+  margin: auto 5px;
+}/*Works or Projects style end here*/
