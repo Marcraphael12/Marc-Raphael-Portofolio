@@ -30,7 +30,7 @@
   height: auto;
   align-self: flex-start;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;
 }
 
 #id-side-menu:nth-child(2) {
@@ -54,7 +54,6 @@
   width: 100%;
   height: auto;
   margin: auto;
-  font-size: 35px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-size: xx-large;
@@ -79,15 +78,15 @@
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;
   font-weight: bold;
   text-align: center;
   border: none;
-  box-shadow: 0 0 2px black
+  box-shadow: 0 0 2px black;
 }
 
 #id-start-see-project:hover {
-  background-color: rgb(228, 88, 101)
+  background-color: rgb(228, 88, 101);
 }
 
 #id-litle-background {
