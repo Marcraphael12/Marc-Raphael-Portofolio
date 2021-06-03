@@ -26,10 +26,11 @@
 #id-my-logo:nth-child(1) {
   display: block;
   width: 100px;
+  margin-left: 10px;
   height: auto;
   align-self: flex-start;
-  margin-left: 10px;
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 #id-side-menu:nth-child(2) {
@@ -43,7 +44,6 @@
 #id-main-section {
   margin: 50px auto 0 auto;
   width: 90%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #id-my-name {
@@ -62,9 +62,8 @@
   height: auto;
   font-size: small;
   font-family: 'Poppins', sans-serif;
-  color: rgba(26, 34, 54, 1)!important;
+  color: rgba(26, 34, 54, 1);
   text-align: initial;
-  text-transform: initial;
 }
 
 #id-start-see-project {
@@ -75,21 +74,16 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
+  color: white;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  box-shadow: 0 0 2px black
 }
 
 #id-start-see-project:hover {
-  background-color: rgba(228, 88, 101)
-}
-
-#id-title-see-project {
-  width: fit-content;
-  height: auto;
-  color: white;
-  font-family: 'Poppins';
-  margin: auto;
-  text-transform: initial;
-  text-decoration: none;
-  font-weight: bold;
+  background-color: rgb(228, 88, 101)
 }
 
 #id-litle-background {
