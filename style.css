@@ -12,17 +12,32 @@
 }
 
 #id-header-content {
+  box-shadow: 0 0 5px black;
   width: 98%;
   height: auto;
   margin: 10px auto 50px auto;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-:nth-child(1) #id-side-menu {
+#id-my-logo:nth-child(1){
+  display: block;
+  width: 100px;
+  height: auto;
+  align-self: flex-start;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#id-side-menu:nth-child(2) {
+  display: block;
   width: 20px;
   height: 20px;
   align-self: flex-end;
+  margin-right: 10px;
 }
 
 #id-main-section {
@@ -30,6 +45,8 @@
   width: 90%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 #id-my-name {
   width: 100%;
