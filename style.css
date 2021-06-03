@@ -30,7 +30,7 @@
   height: auto;
   align-self: flex-start;
   font-weight: bold;
-  font-family: sans-serif 'Poppins' ;
+  font-family: 'Poppins', sans-serif;
 }
 
 #id-side-menu:nth-child(2) {
@@ -78,7 +78,7 @@
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
   color: white;
-  font-family: sans-serif 'Poppins' ;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
   border: none;
