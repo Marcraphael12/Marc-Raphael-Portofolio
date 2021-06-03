@@ -46,15 +46,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #id-my-name {
   width: 100%;
   height: auto;
   margin: auto;
   font-size: 35px;
-  font-weight: bold;
-  font-family: inherit;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: xx-large;
 }
 
 #id-about-me {
@@ -62,7 +61,8 @@
   width: 100%;
   height: auto;
   font-size: small;
-  font-family: inherit;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(26, 34, 54, 1)!important;
   text-align: initial;
   text-transform: initial;
 }
@@ -85,6 +85,7 @@
   width: fit-content;
   height: auto;
   color: white;
+  font-family: 'Poppins';
   margin: auto;
   text-transform: initial;
   text-decoration: none;
