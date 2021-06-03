@@ -41,12 +41,16 @@
   margin-right: 10px;
 }
 
-#id-main-section {
+#id-presentation-section {
   margin: 50px auto 0 auto;
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#id-my-name {
+#id-my-name:nth-child(1) {
   width: 100%;
   height: auto;
   margin: auto;
@@ -56,7 +60,7 @@
   font-size: xx-large;
 }
 
-#id-about-me {
+#id-about-me:nth-child(2) {
   margin: 30px auto auto auto;
   width: 100%;
   height: auto;
@@ -66,7 +70,7 @@
   text-align: initial;
 }
 
-#id-start-see-project {
+#id-start-see-project:nth-child(3) {
   margin: 30px auto auto auto;
   width: 100%;
   height: 50px;
