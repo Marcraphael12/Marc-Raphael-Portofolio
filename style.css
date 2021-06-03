@@ -23,7 +23,7 @@
   align-items: center;
 }
 
-#id-my-logo:nth-child(1){
+#id-my-logo:nth-child(1) {
   display: block;
   width: 100px;
   height: auto;
@@ -77,12 +77,17 @@
   background-color: rgba(26, 34, 54, 1);
 }
 
+#id-start-see-project:hover {
+  background-color: rgba(228, 88, 101)
+}
+
 #id-title-see-project {
   width: fit-content;
   height: auto;
   color: white;
   margin: auto;
   text-transform: initial;
+  text-decoration: none;
   font-weight: bold;
 }
 
