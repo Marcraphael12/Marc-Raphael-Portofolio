@@ -209,3 +209,124 @@
 .class-union-pic {
   margin: auto 5px;
 }/*Works or Projects style end here*/
+
+/*About my self style start here*/
+#id-section-about-my-self {
+  margin: 0 auto 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#id-about-title {
+  width: fit-content;
+  height: auto;
+  margin: 56px 0 0 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: left;
+}
+
+#id-about-description {
+  margin: 20px auto auto auto;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(26, 34, 54, 1);
+  text-align: left;
+}
+
+#id-about-cv {
+  width: 100%;
+  height: 50px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(26, 34, 54, 1);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 15px;
+}
+
+#id-about-cv:hover { background-color: rgb(228, 88, 101);}
+
+#id-about-span {
+  background-color: none;
+}
+
+.class-about-div { /*container*/
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class-about-div-title {
+  margin: 50px auto 11px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.class-about-div-ul {
+  margin: 11px auto 53px 50px;
+  padding: 0 0 0 15px;
+  width: fit-content;
+  list-style-type: disc;
+
+}
+
+.class-div-list {
+  margin: 5px auto 5px 0;
+  padding: 0 0;
+  list-style-position: unset;
+  text-indent: -7px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#id-about-languages {
+  margin-top: 40px!important;
+  background-color: rgba(28, 82, 138, 1);  
+  background-position: bottom;
+  background-size: contain;
+  background-image: url(./images/htag.png);
+  background-position: bottom right;
+  background-size: initial;
+  background-repeat: no-repeat;
+}
+
+#id-about-frameworks {
+  background-color: rgba(226, 80, 92, 1);  
+  background-position: bottom;
+  background-size: contain;
+  background-image: url(./images/Group18.png);
+  background-position: bottom right;
+  background-size: initial;
+  background-repeat: no-repeat;
+}
+
+#id-about-skills {
+  background-color: rgba(254, 191, 82, 1);
+  background-position: bottom;
+  background-size: contain;
+  background-image: url(./images/ic_skills.png);
+  background-position: bottom right;
+  background-size: initial;
+  background-repeat: no-repeat;
+}
