@@ -124,6 +124,7 @@
 }
 
 #id-works-section h1 { margin-bottom: 26px; }
+
 /* end of sections title style */
 
 /* the container of all the project */
@@ -184,7 +185,7 @@
 .class-project-li {
   list-style-type: none;
   width: 70px;
-  height: fit-content;
+  height: auto;
   margin: 0 10px 10px 0;
   padding: 3px 3px;
   font-family: 'Poppins', sans-serif;
@@ -262,7 +263,7 @@
 
 #id-about-cv:hover { background-color: rgb(228, 88, 101); }
 
-#id-about-span { 
+#id-about-span {
   background-color: transparent;
   color: white;
   font-family: 'Poppins', sans-serif;
