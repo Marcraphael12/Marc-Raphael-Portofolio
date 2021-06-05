@@ -10,6 +10,7 @@
   flex-direction: column;
 }
 
+/* Header style start here */
 #id-header-content {
   width: 98%;
   height: auto;
@@ -21,7 +22,7 @@
   align-items: center;
 }
 
-#id-my-logo:nth-child(1) {
+.class-my-logo:nth-child(1) {
   display: block;
   width: 100px;
   margin-left: 10px;
@@ -31,14 +32,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#id-side-menu:nth-child(2) {
+.class-side-menu:nth-child(2) {
   display: block;
   width: 20px;
   height: 20px;
   align-self: flex-end;
   margin-right: 10px;
-}
+}/* Header style end here */
 
+/* Presentation section start here */
 #id-presentation-section {
   margin: 50px auto 0 auto;
   width: 90%;
@@ -48,16 +50,17 @@
   justify-content: space-between;
 }
 
-#id-my-name:nth-child(1) {
+.class-my-name:nth-child(1) {
   width: 100%;
   height: auto;
   margin: auto;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-size: xx-large;
+  font-weight: 100;
 }
 
-#id-about-me:nth-child(2) {
+.class-about-me:nth-child(2) {
   margin: 30px auto auto auto;
   width: 100%;
   height: auto;
@@ -67,7 +70,7 @@
   text-align: initial;
 }
 
-#id-start-see-project:nth-child(3) {
+.class-start-see-project:nth-child(3) {
   margin: 30px auto auto auto;
   width: 100%;
   height: 50px;
@@ -83,16 +86,17 @@
   box-shadow: 0 0 2px black;
 }
 
-#id-start-see-project:hover {
+.class-start-see-project:hover {
   background-color: rgb(228, 88, 101);
-}
+}/* Presentation section end here */
 
-#id-litle-background {
+/* Little background */
+.class-litle-background {
   width: 100%;
   height: 150px;
   background-image: url(./images/image_geometry_2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-top: 10px;
 }
