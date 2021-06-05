@@ -1,5 +1,4 @@
 #id-main-content {
-  box-shadow: 0 0 1px black;
   width: 320px;
   height: auto;
   margin: auto;
@@ -129,7 +128,6 @@
 
 /* the container of all the project */
 #id-project-container {
-  box-shadow: 0 0 5px red;
   list-style-type: none;
   padding: 0 0;
   width: fit-content;
