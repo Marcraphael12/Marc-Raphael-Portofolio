@@ -276,9 +276,22 @@
   font-size: 16px;
 }
 
+.class-about-technologies { /* global container for class-about-div */
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .class-about-div { /* container */
   margin: 16px 0 0 0;
   display: flex;
+  width: 100%;
+  height: auto;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
