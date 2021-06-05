@@ -1,7 +1,7 @@
 #id-main-content {
   width: 320px;
   height: auto;
-  margin: auto;
+  margin: auto auto;
   background-image: url(./images/image_geometry_1.png);
   background-size: 90px;
   background-repeat: no-repeat;
