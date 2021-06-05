@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-#id-my-logo:nth-child(1) {
+.class-my-logo:nth-child(1) {
   display: block;
   width: 100px;
   margin-left: 10px;
@@ -32,7 +32,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#id-side-menu:nth-child(2) {
+.class-side-menu:nth-child(2) {
   display: block;
   width: 20px;
   height: 20px;
@@ -50,7 +50,7 @@
   justify-content: space-between;
 }
 
-#id-my-name:nth-child(1) {
+.class-my-name:nth-child(1) {
   width: 100%;
   height: auto;
   margin: auto;
@@ -60,7 +60,7 @@
   font-weight: 100;
 }
 
-#id-about-me:nth-child(2) {
+.class-about-me:nth-child(2) {
   margin: 30px auto auto auto;
   width: 100%;
   height: auto;
@@ -70,7 +70,7 @@
   text-align: initial;
 }
 
-#id-start-see-project:nth-child(3) {
+.class-start-see-project:nth-child(3) {
   margin: 30px auto auto auto;
   width: 100%;
   height: 50px;
@@ -86,12 +86,12 @@
   box-shadow: 0 0 2px black;
 }
 
-#id-start-see-project:hover {
+.class-start-see-project:hover {
   background-color: rgb(228, 88, 101);
 }/* Presentation section end here */
 
 /* Little background */
-#id-litle-background {
+.class-litle-background {
   width: 100%;
   height: 150px;
   background-image: url(./images/image_geometry_2.png);
@@ -106,10 +106,9 @@
   width: 100%;
   height: auto;
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* Style for all section title */
@@ -133,6 +132,9 @@
   padding: 0 0;
   width: fit-content;
   display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
 }
 
 .class-project {
@@ -175,11 +177,12 @@
 }
 
 .class-project-name {
-  margin: 20px 30px 16px 0;
+  margin: 20px 30px 16px 20px;
   list-style-type: none;
   background-color: rgba(26, 34, 54, 1);
   font-family: 'Poppins', sans-serif;
   font-size: large;
+  font-weight: 300;
 }
 
 .class-project-li {
@@ -221,6 +224,7 @@
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: medium;
+  font-weight: 500;
 }
 
 .class-union-pic {
@@ -237,7 +241,7 @@
   justify-content: space-between;
 }
 
-#id-about-description {
+.class-about-description {
   margin: 10px auto auto auto;
   width: 100%;
   height: auto;
@@ -247,13 +251,14 @@
   text-align: left;
 }
 
-#id-about-cv {
+.class-about-cv {
   width: 100%;
   height: 50px;
   margin: 30px auto 0 auto;
   justify-content: center;
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   display: grid;
@@ -261,9 +266,9 @@
   grid-column-gap: 15px;
 }
 
-#id-about-cv:hover { background-color: rgb(228, 88, 101); }
+.class-about-cv:hover { background-color: rgb(228, 88, 101); }
 
-#id-about-span {
+.class-about-span {
   background-color: transparent;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -294,6 +299,7 @@
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
   list-style-type: none;
+  padding-left: 50px;
 }
 
 .class-div-list {/* same block  ######### */
