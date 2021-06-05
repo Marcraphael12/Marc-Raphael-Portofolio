@@ -1,4 +1,5 @@
 #id-main-content {
+  box-shadow: 0 0 1px black;
   width: 320px;
   height: auto;
   margin: auto;
@@ -109,17 +110,30 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
 }
 
-#id-project-title {
-  width: fit-content;
+/* Style for all section title */
+.class-sections-titles {
+  width: 288px;
   height: auto;
-  margin: 0 0 30px 15px;
+  margin: 56px auto 10px auto;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-weight: 100;
   text-align: left;
+}
+
+#id-works-section h1 { margin-bottom: 26px; }
+/* end of sections title style */
+
+/* the container of all the project */
+#id-project-container {
+  box-shadow: 0 0 5px red;
+  list-style-type: none;
+  padding: 0 0;
+  width: fit-content;
+  display: grid;
 }
 
 .class-project {
@@ -131,6 +145,8 @@
   flex-wrap: wrap;
   color: white;
   background-color: rgba(26, 34, 54, 1);
+  list-style-type: none;
+  padding: 0 0 0 0;
 }
 
 .class-project-image {
@@ -140,33 +156,38 @@
 .class-project-description {
   margin: 0 0;
   width: 100%;
-  height: 156px;
+  height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .class-project-languages {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
-  width: fit-content;
-  margin: 0 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 300px;
+  margin: 0 0 0 0;
+  padding: 0 0;
   height: auto;
   background-color: rgba(26, 34, 54, 1);
+  align-self: flex-end;
 }
 
 .class-project-name {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  margin: 20px 30px 16px 0;
+  list-style-type: none;
   background-color: rgba(26, 34, 54, 1);
-  margin: 20px auto;
   font-family: 'Poppins', sans-serif;
   font-size: large;
 }
 
-.class-project-span {
+.class-project-li {
+  list-style-type: none;
   width: 70px;
+  height: fit-content;
+  margin: 0 10px 10px 0;
   padding: 3px 3px;
   font-family: 'Poppins', sans-serif;
   font-size: xx-small;
@@ -217,18 +238,8 @@
   justify-content: space-between;
 }
 
-#id-about-title {
-  width: fit-content;
-  height: auto;
-  margin: 56px 0 0 15px;
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  font-weight: 100;
-  text-align: left;
-}
-
 #id-about-description {
-  margin: 20px auto auto auto;
+  margin: 10px auto auto auto;
   width: 100%;
   height: auto;
   font-size: 14px;
@@ -244,9 +255,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
   display: grid;
@@ -256,7 +264,13 @@
 
 #id-about-cv:hover { background-color: rgb(228, 88, 101); }
 
-#id-about-span { background-color: transparent; }
+#id-about-span { 
+  background-color: transparent;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
 
 .class-about-div { /* container */
   margin: 16px 0 0 0;
@@ -266,32 +280,35 @@
   justify-content: space-between;
 }
 
-.class-about-div-title {
-  margin: 50px auto 11px 50px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 1);
-}
-
 .class-about-div-ul {
   margin: 11px auto 53px 50px;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   width: fit-content;
   list-style-type: disc;
 }
 
-.class-div-list {
-  margin: 5px auto 5px 0;
-  padding: 0 0;
-  list-style-position: unset;
-  text-indent: -7px;
-  text-align: left;
+.class-about-div-title {
+  width: 100%;
+  margin: 50px 0 11px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+}
+
+.class-div-list {/* same block  ######### */
+  list-style-position: inside;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
 }
+
+.class-div-list span {
+  position: relative;
+  left: -14px;
+}/* ######### */
 
 #id-about-languages {
   margin-top: 40px !important;
