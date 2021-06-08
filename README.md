@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Marcraphael12/Marc-Raphael-Portofolio/deployments/activity_log?environment=github-pages)
+[Live Demo Link](https://marcraphael12.github.io/Marc-Raphael-Portofolio)
 
 
 👤 **Author1**
@@ -33,4 +33,4 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [@Figma](https://www.Figma.com) for the template 
+- [@Figma](https://www.Figma.com) for the template
