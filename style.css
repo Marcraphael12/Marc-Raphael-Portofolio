@@ -30,7 +30,7 @@
   height: auto;
   align-self: flex-start;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .class-side-menu:nth-child(2) {
@@ -39,7 +39,7 @@
   height: 20px;
   align-self: flex-end;
   margin-right: 10px;
-}/* Header style end here */
+} /* Header style end here */
 
 /* Presentation section start here */
 #id-presentation-section {
@@ -55,7 +55,7 @@
   width: 100%;
   height: auto;
   margin: auto;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-size: xx-large;
   font-weight: 100;
@@ -66,7 +66,7 @@
   width: 100%;
   height: auto;
   font-size: small;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgba(26, 34, 54, 1);
   text-align: initial;
 }
@@ -80,7 +80,7 @@
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   border: none;
@@ -89,7 +89,7 @@
 
 .class-start-see-project:hover {
   background-color: rgb(228, 88, 101);
-}/* Presentation section end here */
+} /* Presentation section end here */
 
 /* Little background */
 .class-litle-background {
@@ -117,13 +117,15 @@
   width: 288px;
   height: auto;
   margin: 56px auto 10px auto;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 100;
   text-align: left;
 }
 
-#id-works-section h1 { margin-bottom: 26px; }
+#id-works-section h1 {
+  margin-bottom: 26px;
+}
 
 /* end of sections title style */
 
@@ -181,7 +183,7 @@
   margin: 20px 30px 16px 20px;
   list-style-type: none;
   background-color: rgba(26, 34, 54, 1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: large;
   font-weight: 300;
 }
@@ -192,7 +194,7 @@
   height: auto;
   margin: 0 10px 10px 0;
   padding: 3px 3px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: xx-small;
   text-align: center;
   color: rgba(26, 34, 54, 1);
@@ -205,7 +207,7 @@
   height: 44px;
   background-color: rgba(26, 34, 54, 1);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 10px auto 10px 20px;
   display: grid;
   grid-template-columns: auto auto;
@@ -223,14 +225,14 @@
   border: none;
   background-color: transparent;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
   font-weight: 500;
 }
 
 .class-union-pic {
   margin: auto 5px;
-}/* Works or Projects style end here */
+} /* Works or Projects style end here */
 
 /* About my self style start here */
 #id-section-about-my-self {
@@ -247,9 +249,13 @@
   width: 100%;
   height: auto;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgba(26, 34, 54, 1);
   text-align: left;
+}
+
+#id-contact-div {
+  margin: 10px 20px;
 }
 
 .class-about-cv {
@@ -267,17 +273,20 @@
   grid-column-gap: 15px;
 }
 
-.class-about-cv:hover { background-color: rgb(228, 88, 101); }
+.class-about-cv:hover {
+  background-color: rgb(228, 88, 101);
+}
 
 .class-about-span {
   background-color: transparent;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-.class-about-technologies { /* global container for class-about-div */
+.class-about-technologies {
+  /* global container for class-about-div */
   list-style-type: none;
   padding-left: 0;
   width: 100%;
@@ -288,7 +297,8 @@
   align-items: center;
 }
 
-.class-about-div { /* container */
+.class-about-div {
+  /* container */
   margin: 16px 0 0 0;
   display: flex;
   width: 100%;
@@ -308,7 +318,7 @@
 .class-about-div-title {
   width: 100%;
   margin: 50px 0 11px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
@@ -316,9 +326,10 @@
   padding-left: 50px;
 }
 
-.class-div-list {/* same block  ######### */
+.class-div-list {
+  /* same block  ######### */
   list-style-position: inside;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
@@ -327,7 +338,7 @@
 .class-div-list span {
   position: relative;
   left: -14px;
-}/* ######### */
+} /* ######### */
 
 #id-about-languages {
   margin-top: 40px !important;
@@ -357,7 +368,6 @@
 #id-footer {
   width: 100%;
   height: auto;
-  box-shadow: 0 0 2px red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -368,9 +378,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-left: 18px;
-  box-shadow: 0 0 5px black;
-  width: 288px;
   background-image: url(./images/image_geometry_1.png);
   background-repeat: no-repeat;
   background-position: top left;
@@ -384,24 +391,21 @@
 }
 
 .class-contact-div h1 {
-  margin-top: 0!important;
-  margin-bottom: 20px!important;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
 }
 .class-contact-div p {
   margin-bottom: 32px;
   height: fit-content;
 }
 
-#contact-form {
-  box-shadow: 0 0 5px black;
-  margin: 0 auto 0 auto!important;
-}
-
 #form {
   width: 100%;
 }
 
-.class-form-label { width: 99%; }
+.class-form-label {
+  width: 99%;
+}
 
 .name-email {
   width: 281px;
@@ -424,9 +428,38 @@
   height: 44px;
   width: 288px;
   border: 1px solid rgb(210, 212, 212);
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: white;
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-size: 16px;
+}
+
+.class-social-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-container {
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+}
+
+.class-button a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #92dcdc;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.class-button {
+  margin: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 140px;
 }
