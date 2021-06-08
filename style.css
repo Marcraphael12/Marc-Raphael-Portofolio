@@ -352,3 +352,16 @@
   background-size: initial;
   background-repeat: no-repeat;
 }
+
+#id-footer {
+  width: 100%;
+  height: auto;
+}
+
+#id-contact-form {
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+}
