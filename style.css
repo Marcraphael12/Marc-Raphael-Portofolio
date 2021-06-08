@@ -371,29 +371,49 @@
   margin-left: 18px;
   box-shadow: 0 0 5px black;
   width: 288px;
+  background-image: url(./images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: rgba(249, 249, 250, 1);
 }
 
 .class-contact-div {
   height: auto;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 106px;
 }
 
-#form { width: 100%; }
+.class-contact-div h1 {
+  margin-top: 0!important;
+  margin-bottom: 20px!important;
+}
+.class-contact-div p {
+  margin-bottom: 32px;
+  height: fit-content;
+}
+
+#contact-form {
+  box-shadow: 0 0 5px black;
+  margin: 0 auto 0 auto!important;
+}
+
+#form {
+  width: 100%;
+}
 
 .class-form-label { width: 99%; }
 
 .name-email {
   width: 281px;
   height: 52px;
-  margin-top: 1rem;
+  margin-top: 8px;
   border-radius: 3px;
   border: 1px solid rgb(210, 212, 212);
 }
 
 #message {
   width: 281px;
-  margin-top: 1rem;
+  margin-top: 4px;
   border-radius: 3px;
   border: 1px solid rgb(210, 212, 212);
   height: 112px;
