@@ -8,7 +8,6 @@
   background-attachment: initial;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 2px violet;
 }
 
 /* Header style start here */
@@ -358,6 +357,7 @@
 #id-footer {
   width: 100%;
   height: auto;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -399,6 +399,12 @@
 
 .class-form-label { width: 99%; }
 
+.class-form-div { height: auto; box-shadow: 0 0 2px red; }
+
+.class-start-collaboration {
+  margin-top: 0 !important;
+}
+
 .name-email {
   width: 281px;
   height: 52px;
@@ -406,6 +412,7 @@
   border-radius: 4px;
   border: 1px solid rgb(210, 212, 212);
   text-indent: 16px;
+  font-family: 'Poppins', sans-serif;
   outline: none;
 }
 
@@ -418,6 +425,8 @@
   resize: none;
   padding-top: 15px;
   text-indent: 16px;
+  margin: 10px auto 0 auto !important;
+  font-family: 'Poppins', sans-serif;
   outline: none;
 }
 
