@@ -359,9 +359,42 @@
 }
 
 #id-contact-form {
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   box-shadow: 0 0 5px black;
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 288px;
+}
+
+.name-email {
+  width: 288px;
+  height: 52px;
+  margin-top: 1rem;
+  border-radius: 3px;
+  border: 1px solid rgb(210, 212, 212);
+}
+
+#message {
+  width: 288px;
+  margin-top: 1rem;
+  border-radius: 3px;
+  border: 1px solid rgb(210, 212, 212);
+  height: 112px;
+}
+
+.button {
+  height: 44px;
+  width: 288px;
+  border: 1px solid rgb(210, 212, 212);
+  background-color: #1A2236;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 16px;
 }
