@@ -8,6 +8,7 @@
   background-attachment: initial;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 2px violet;
 }
 
 /* Header style start here */
@@ -356,24 +357,34 @@
 #id-footer {
   width: 100%;
   height: auto;
+  box-shadow: 0 0 2px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #id-contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin-left: 18px;
   box-shadow: 0 0 5px black;
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
   width: 288px;
 }
 
+.class-contact-div {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#form { width: 100%; }
+
+.class-form-label { width: 99%; }
+
 .name-email {
-  width: 288px;
+  width: 281px;
   height: 52px;
   margin-top: 1rem;
   border-radius: 3px;
@@ -381,11 +392,12 @@
 }
 
 #message {
-  width: 288px;
+  width: 281px;
   margin-top: 1rem;
   border-radius: 3px;
   border: 1px solid rgb(210, 212, 212);
   height: 112px;
+  resize: none;
 }
 
 .button {
