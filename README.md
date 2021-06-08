@@ -26,7 +26,7 @@ Additional description about the project and its features.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Marcraphael12/Marc-Raphael-Portofolio/issues).
 
 ## Show your support
 
