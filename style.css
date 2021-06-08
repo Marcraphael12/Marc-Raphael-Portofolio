@@ -403,20 +403,22 @@
   width: 281px;
   height: 52px;
   margin-top: 8px;
-  border-radius: 3px;
+  border-radius: 4px;
   border: 1px solid rgb(210, 212, 212);
   text-indent: 16px;
+  outline: none;
 }
 
 #message {
   width: 281px;
   margin-top: 4px;
-  border-radius: 3px;
+  border-radius: 4px;
   border: 1px solid rgb(210, 212, 212);
   height: 112px;
   resize: none;
   padding-top: 15px;
   text-indent: 16px;
+  outline: none;
 }
 
 #message::placeholder {
