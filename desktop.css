@@ -61,48 +61,61 @@ body { padding: 0 0}
   box-shadow: 0 0 5px blue;
   /* set dimension and positionnement */
   width: 484px;
-  height: auto;
-  margin: 292px 94px auto auto;
+  height: 701px;
+  margin-top: 175px;
+  margin-right: 0;
+  margin-left: auto;
 
   /* set the display */
   display : flex;
   flex-direction: column;
 
+  /* set the backgroung */
+  background-image: url(../images/image_dots.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 175px;
+
 }
 
 .class-litle-background {
+  box-shadow: 0 0 5px orange;
   /* set dimension and positionn */
-  width: 600px;
-  height: 800px;
+  width: 702px;
+  height: 877px;
   margin: 0 0 auto 0;
   position: static;
   
   /* set the background */
   background-image: url(./images/image-geometry_1.png);
   background-position: center;
-  background-size: 600px 800px;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 .class-my-name:nth-child(1) {
+  box-shadow: 0 0 5px blue;
   /* set dimension and positionnement */
-  width: 100%;
-  height: auto;
-  margin: 0 auto 30px 0;
+  width: 484px;
+  height: 220px;
+  padding: 0 0;
+  margin-top: 0;
 
   /* set the text and font style */
   font-family: 'Playfair Display', serif;
   font-style: normal;
-  font-size: 75px;
+  font-size: 90px;
   font-weight: 400;
+  text-align:left;
   color: rgba(26, 34, 54, 1);
 }
 
 .class-about-me:nth-child(2) {
+  box-shadow: 0 0 5px red;
   /* set dimension and positionnement */
   width: 480px;
   height: 84px;
-  margin: 30px auto 60px auto;
+  margin-bottom: 59px;
 
   /* set the text and font style */
   font-weight: 400;
@@ -113,6 +126,7 @@ body { padding: 0 0}
 }
 
 .class-start-see-project:nth-child(3) {
+  box-shadow: 0 0 5px violet;
   /* set dimension and positionn */
   width: 254px;
   height: 70px;
