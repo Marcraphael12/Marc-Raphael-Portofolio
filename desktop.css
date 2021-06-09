@@ -1,0 +1,144 @@
+body { padding: 0 0}
+
+#id-main-content {
+  box-shadow: 0 0 5px red;
+
+  /* set dimensions and positionnement */
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+  padding: 0 0;
+
+  /* set the background */
+  background-color: rgba(255, 255, 255, 1);
+
+  /*set the display */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#id-header-content {
+  box-shadow: 0 0 5px green;
+
+  /* set dimension and positionnement */
+  width: 100%;
+  height: 100px;
+  padding: 0 0;
+  margin: 0 0;
+
+  /* set the display */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.class-my-logo, .class-side-menu { display: none; } /* remove the logo and side menu */
+
+.class-header-link {
+
+  /* set dimension and positionnement */
+  width: fit-content;
+  height: auto;
+  margin: auto 25px 25px 25px;
+
+  /* set the text and font style */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(26, 34, 54, 1);
+
+}
+
+.class-header-link:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
+
+#id-presentation-section {
+  box-shadow: 0 0 5px blue;
+  /* set dimension and positionnement */
+  width: 484px;
+  height: auto;
+  margin: 292px 94px auto auto;
+
+  /* set the display */
+  display : flex;
+  flex-direction: column;
+
+}
+
+.class-litle-background {
+  /* set dimension and positionn */
+  width: 600px;
+  height: 800px;
+  margin: 0 0 auto 0;
+  position: static;
+  
+  /* set the background */
+  background-image: url(./images/image-geometry_1.png);
+  background-position: center;
+  background-size: 600px 800px;
+  background-repeat: no-repeat;
+}
+
+.class-my-name:nth-child(1) {
+  /* set dimension and positionnement */
+  width: 100%;
+  height: auto;
+  margin: 0 auto 30px 0;
+
+  /* set the text and font style */
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: 75px;
+  font-weight: 400;
+  color: rgba(26, 34, 54, 1);
+}
+
+.class-about-me:nth-child(2) {
+  /* set dimension and positionnement */
+  width: 480px;
+  height: 84px;
+  margin: 30px auto 60px auto;
+
+  /* set the text and font style */
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(26, 34, 54, 1);
+  text-align: left;
+}
+
+.class-start-see-project:nth-child(3) {
+  /* set dimension and positionn */
+  width: 254px;
+  height: 70px;
+
+  /* set the text and font style */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+
+  /* set the display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* set the background and border */
+  background-color: rgba(26, 34, 54, 1);
+  border: none;
+  box-shadow: 0 0 2px black;
+}
+
+.class-start-see-project:hover { /* set the background color of hover */
+  background-color: rgb(228, 88, 101);
+}
+
+/* Presentation section ends here */
+
+
