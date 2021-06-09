@@ -399,7 +399,7 @@
 
 .class-form-label { width: 99%; }
 
-.class-form-div { height: auto; box-shadow: 0 0 2px red; }
+.class-form-div { height: auto; }
 
 .class-start-collaboration {
   margin-top: 0 !important;
