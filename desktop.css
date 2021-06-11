@@ -52,7 +52,6 @@ body { padding: 0 0}
   font-weight: 400;
   text-decoration: none;
   color: rgba(26, 34, 54, 1);
-
 }
 
 .class-header-link:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
@@ -71,7 +70,7 @@ body { padding: 0 0}
   flex-direction: column;
 
   /* set the backgroung */
-  background-image: url(../images/image_dots.png);
+  background-image: url(./images/image_dots.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 175px;
@@ -83,7 +82,7 @@ body { padding: 0 0}
   /* set dimension and positionn */
   width: 702px;
   height: 877px;
-  margin: 0 0 auto 0;
+  margin: 0 0 0 0;
   position: static;
   
   /* set the background */
@@ -155,4 +154,254 @@ body { padding: 0 0}
 
 /* Presentation section ends here */
 
+/* here is the style for the 'work section' */
+#id-works-section {
+  box-shadow: 0 0 5px black;
 
+  /* set dimension and positionnement */
+  width: 100%;
+  height: auto;
+  margin-top: 210px;
+
+  /* set the display */
+  grid-template-columns: auto auto;
+  display: inline-grid;
+  overflow: hidden;
+}
+
+.works-section-title {
+  box-shadow: 0 0 5px orange;
+  /* set the dimension and positionnement */
+  width: 398px;
+  height: 398px;
+  margin: 0 0 0 auto;
+  transform: rotate(-90deg);
+
+  /* set the text and font style */
+  font-family: 'Playfair Display', serif;
+  font-size: 110px;
+  font-weight: 400;
+  text-align: right;
+
+  /* set the backgroung */
+  background-image: url(./images/image_dots.png);
+  background-repeat: no-repeat;
+  background-size: 160px 160px;
+  background-position: right bottom;
+}
+
+.class-project-container {
+  
+  /* set the positionnement and dimension */
+  width: inherit;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 0;
+  margin-right: 0;
+  
+}
+
+.project1-description {
+  width: fit-content;
+  height: auto;
+  margin: 0 0;
+  padding: 0 0;
+  cursor: pointer;
+}
+
+.project1 {
+  box-shadow: 0 0 5px red;
+  /* set dimension and positionnement */
+  width: 960px;
+  height: 558px;
+  padding: 0 0;
+  margin-top: 0;
+  margin-right: 0;
+  position: relative;
+
+  /* set the display and overflow */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  /* set the background, text color and list style */
+  color: white;
+  background-color: rgba(26, 34, 54, 1);
+  list-style-type: none;
+}
+
+.class-project-image {
+  /* set the dimension and positionnement */
+  width: inherit;
+  height: 205px;
+}
+
+.project1-languages {
+  box-shadow: 0 0 5px red;
+  /* set the display */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: flex-end;
+
+  /* set the dimension and positionnement */
+  width: max-content;
+  height: auto;
+  margin: 34px 0 0 50px;
+  padding: 0 0;
+  height: auto;
+
+  /* set the background */
+  background-color: rgba(26, 34, 54, 1);
+}
+
+.project1-name {
+  box-shadow: 0 0 5px yellow;
+  /* set the dimension, positionnement and list style */
+  width: fit-content;
+  margin: 20px auto 16px 60px;
+  list-style-type: none;
+
+  /* set the background and font style */
+  background-color: rgba(26, 34, 54, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.project1-li {
+  /* set the dimension display and positionnement */
+  width: 144px;
+  height: 40px;
+  margin: 0 10px 0 10px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+
+  /* set the background, font style and list style */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(26, 34, 54, 1);
+  background-color: rgba(152, 222, 222, 1);
+  list-style-type: none;
+}
+
+.project1-link {
+
+  /* set the positionnement and dimension */
+  width: 212px;
+  margin: 60px auto 10px 60px;
+  height: 51px;
+
+  /* set the background and font style */
+  background-color: rgba(255, 255, 255, 0.911);
+  border: 2px solid rgba(255, 255, 255, 0.911);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  
+  /* set the display */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+}
+
+.project1-link:hover {
+  background-color: rgba(152, 222, 222, 1);
+}
+
+.project1-button {
+
+  /* set the positionnement and dimension */
+  width: fit-content;
+  height: min-content;
+  margin: auto 0 auto 12px;
+
+  /* set the border, background and font style */
+  border: none;
+  background-color: transparent;
+  color: rgba(26, 34, 54, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.project1-union-pic { 
+  margin: auto 5px;
+  filter: invert(12%) sepia(52%) saturate(478%) hue-rotate(185deg) brightness(0) contrast(98%);
+}
+
+.project5 {
+
+  /* set the positionnement and dimension */
+  width: 465px;
+  height: auto;
+  margin: 20px 0 auto auto;
+  padding: 0 0 0 0;
+
+  /* set the display */
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+
+  /* set the background, list and font style */
+  color: white;
+  background-color: rgba(26, 34, 54, 1);
+  list-style-type: none;
+}
+
+.project5-image {
+  width: 465px;
+  height: 270px;
+}
+
+.project5-name {
+
+  /* set the positionnement and dimension */
+  margin: 20px 30px 16px 20px;
+
+  /* set background, list and font style */
+  list-style-type: none;
+  background-color: rgba(26, 34, 54, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+.project5-languages {
+
+  /* set the display */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: flex-end;
+
+  /* set the dimension and positionnement */
+  width: 300px;
+  margin: 0 0 0 0;
+  padding: 0 0;
+  height: auto;
+
+  /* set the background */
+  background-color: rgba(26, 34, 54, 1);
+}
+
+.project5-li {
+  list-style-type: none;
+  width: 70px;
+  height: auto;
+  margin: 0 10px 10px 0;
+  padding: 3px 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-small;
+  text-align: center;
+  color: rgba(26, 34, 54, 1);
+  background-color: rgba(152, 222, 222, 1);
+}
+
+.project2, .project3, .project4, .project6, .project5-javascript { display: none; }
