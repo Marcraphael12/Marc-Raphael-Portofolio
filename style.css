@@ -173,11 +173,13 @@
   }
 
   #id-main-content #id-presentation-section {
-    width: 300px;
+
+    box-shadow: 0 0 5px red;
+    width: 270px;
     height: 500px;
     margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin-top: 0;
+    margin-left: auto;
 
     /* set the background */
     background-image: url(./images/image_dots.png);
@@ -187,9 +189,11 @@
   }
 
   #id-main-content .class-litle-background {
-    width: 420px;
+    width: auto;
     height: 500px;
-
+    box-shadow: 0 0 5px blue;
+    margin-right: 0;
+    margin-top: 0;
     /* set the background */
     background-image: url(./images/image-geometry_1.png)
   }
