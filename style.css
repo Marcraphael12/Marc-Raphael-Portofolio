@@ -91,7 +91,7 @@
   #id-footer #id-contact-form { margin: auto auto; }
 } /* @media screen and min-width:360px ends here */
 
-@media  screen and (min-width: 411px) {
+@media  screen and (min-width: 450px) {
 
   #id-main-content .class-litle-background  {
     height: 180px;
@@ -102,7 +102,9 @@
   }
 } /* @media screen and min-width:411px ends here */
 
-
+@media  screen and (min-width: 500) {
+  
+}
 
 /* mobile version style start here */
 body {
