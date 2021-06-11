@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    gap: 0 0;
+    justify-content: space-between;
     background: none;
   }
 
@@ -178,9 +178,98 @@
 
     /* set the display */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
   }
 
+  .class-project-container .works-section-title {
+    box-shadow: 0 0 5px orange;
+    /* set the dimension and positionnement */
+    width: 250px;
+    height: 250px;
+    margin: 0 0 0 auto;
+
+    /* set the text and font style */
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: right;
+
+    /* set the backgroung */
+    background-image: url(./images/image_dots.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: right bottom;
+  }
+
+  .class-project-container .project1 {
+    box-shadow: 0 0 5px red;
+    /* set dimension and positionnement */
+    width: auto;
+    height: 558px;
+    padding: 0 0;
+    margin-top: 0;
+    margin-right: 0;
+
+    /* set the display and overflow */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    /* set the background, text color and list style */
+    color: white;
+    background-color: rgba(26, 34, 54, 1);
+    list-style-type: none;
+  }
+
+  .project1 .project1-desktop-image {
+    /* set the dimension and positionnement */
+    width: inherit;
+    height: 205px;
+
+    /* set the display */
+    display: initial;
+  }
+
+  .project1-mobile-image { display: none; } /* remove the mobile version image */
+
+  .project1-description .project1-languages {
+    box-shadow: 0 0 5px red;
+    /* set the display */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-self: flex-end;
+
+    /* set the dimension and positionnement */
+    width: max-content;
+    height: auto;
+    margin: 34px 0 0 50px;
+    padding: 0 0;
+    height: auto;
+
+    /* set the background */
+    background-color: rgba(26, 34, 54, 1);
+  }
+
+  .project1-description .project1-name {
+    box-shadow: 0 0 5px yellow;
+    /* set the dimension, positionnement and list style */
+    width: fit-content;
+    margin: 20px auto 16px 60px;
+    list-style-type: none;
+
+    /* set the background and font style */
+    background-color: rgba(26, 34, 54, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
 }
 
 /* mobile version style start here */
@@ -213,7 +302,7 @@ body {
   align-items: center;
 }
 
-.class-header-link { display: none;} /* Hide the header link */
+.class-header-link, .project1-desktop-image { display: none;} /* Hide the header link  */
 
 .class-my-logo:nth-child(1) {
   display: block;
