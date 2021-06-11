@@ -202,6 +202,10 @@
     font-weight: 400;
   }
 
+  #id-presentation-section .class-about-me:nth-child(2) {
+    
+  }
+
   #id-main-content .class-litle-background {
     width: auto;
     height: 500px;
