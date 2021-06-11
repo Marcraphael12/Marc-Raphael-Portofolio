@@ -281,12 +281,56 @@
 
     /* set the background, font style and list style */
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
     color: rgba(26, 34, 54, 1);
     background-color: rgba(152, 222, 222, 1);
     list-style-type: none;
+  }
+
+  .project1-description .project1-link {
+
+    /* set the positionnement and dimension */
+    width: 212px;
+    margin: 60px auto 10px 60px;
+    height: 51px;
+
+    /* set the background and font style */
+    background-color: rgba(255, 255, 255, 0.911);
+    border: 2px solid rgba(255, 255, 255, 0.911);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+    /* set the display */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+  }
+
+  .project1-description .project1-link:hover {
+    background-color: rgba(152, 222, 222, 1);
+  }
+
+  .project1-link .project1-button {
+
+    /* set the positionnement and dimension */
+    width: fit-content;
+    height: min-content;
+    margin: auto 0 auto 12px;
+
+    /* set the border, background and font style */
+    border: none;
+    background-color: transparent;
+    color: rgba(26, 34, 54, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .project1-link .project1-union-pic { 
+    margin: auto 5px;
+    filter: invert(12%) sepia(52%) saturate(478%) hue-rotate(185deg) brightness(0) contrast(98%);
   }
 
 }
