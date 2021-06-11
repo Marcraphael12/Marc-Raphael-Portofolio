@@ -104,7 +104,7 @@
 
 @media  screen and (min-width: 500px) {
   #id-main-content .class-litle-background {
-    height: 210px;
+    height: 300px;
   }
 
   .class-project-container .class-project {
@@ -130,12 +130,12 @@
 
 
   #id-main-content #id-header-content {
-    box-shadow: 0 0 5px green;
 
     /* set dimension and positionnement */
     width: 100%;
     height: 100px;
     margin: 0 0;
+    box-shadow: 0 0.5px 0 0 rgba(221, 223, 230, 1);
 
     /* set the display */
     grid-column-start: 1;
@@ -273,7 +273,7 @@ body {
   background-image: url(./images/image_geometry_2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   margin-top: 10px;
 }
 
