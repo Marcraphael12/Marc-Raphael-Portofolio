@@ -175,7 +175,7 @@
   #id-main-content #id-presentation-section {
 
     box-shadow: 0 0 5px red;
-    width: 270px;
+    width: 300px;
     height: 500px;
     margin-right: 0;
     margin-top: 0;
@@ -186,6 +186,20 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100px
+  }
+
+  #id-presentation-section .class-my-name:nth-child(1) {
+    box-shadow: 0 0 5px blue;
+
+    /* set dimension and positionnement */
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0;
+    margin-bottom: 40px;
+
+    /* set the font and text style */
+    font-size: 50px;
+    font-weight: 400;
   }
 
   #id-main-content .class-litle-background {
