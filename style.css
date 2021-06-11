@@ -165,6 +165,10 @@
 
 } /* @media screen and min-width:500px ends here */
 
+@media  screen and (min-width: 700px) {
+  
+}
+
 /* mobile version style start here */
 body {
   width: auto;
