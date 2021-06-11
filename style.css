@@ -1,10 +1,167 @@
+@media  screen and (min-width: 768px) {
+  body { width: auto; }
+
+  body #id-main-content {
+
+    /* set the positionnement and dimension */
+    width: auto;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+
+    /* set the Display and background */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 0 0;
+    background: none;
+  }
+
+  #id-main-content #id-header-content {
+    box-shadow: 0 0 5px green;
+
+    /* set dimension and positionnement */
+    width: 100%;
+    height: 100px;
+    margin: 0 0;
+
+    /* set the display */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #id-header-content .class-header-link {
+
+    /* set dimension and positionnement */
+    width: fit-content;
+    height: auto;
+    margin: 0 25px 0 25px;
+    display: initial;
+
+    /* set the text and font style */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(26, 34, 54, 1);
+  }
+
+  .class-header-link:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
+
+  #id-main-content #id-presentation-section {
+    box-shadow: 0 0 5px blue;
+  /* set dimension and positionnement */
+  width: 334px;
+  height: auto;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: 0;
+
+  /* set the display */
+  display : flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  /* set the backgroung */
+  background-image: url(./images/image_dots.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 95px;
+  }
+
+  #id-presentation-section .class-my-name:nth-child(1) {
+    box-shadow: 0 0 5px blue;
+    /* set dimension and positionnement */
+    width: auto;
+    height: auto;
+    padding: 0 0;
+    margin: 0 auto 0 0;
+
+    /* set the text and font style */
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 400;
+    text-align:left;
+    color: rgba(26, 34, 54, 1);
+  }
+
+  #id-presentation-section .class-about-me:nth-child(2) {
+    box-shadow: 0 0 5px red;
+    /* set dimension and positionnement */
+    width: 300px;
+    height: 84px;
+    margin: 50px auto 0 0;
+
+    /* set the text and font style */
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(26, 34, 54, 1);
+    text-align: left;
+  }
+
+  #id-presentation-section .class-start-see-project:nth-child(3) {
+    box-shadow: 0 0 5px violet;
+    /* set dimension and positionn */
+    width: 154px;
+    height: 50px;
+    margin: 60px auto auto 0;
+
+    /* set the text and font style */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+    /* set the display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* set the background and border */
+    background-color: rgba(26, 34, 54, 1);
+    border: none;
+    box-shadow: 0 0 2px black;
+  }
+
+  .class-start-see-project:hover { /* set the background color of hover */
+    background-color: rgb(228, 88, 101);
+  }
+
+  #id-main-content .class-litle-background {
+    box-shadow: 0 0 5px orange;
+    /* set dimension and positionn */
+    width: 420px;
+    height: 500px;
+    margin: 0 0 0 0;
+    
+    /* set the background */
+    background-image: url(./images/image-geometry_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #id-header-content .class-my-logo, .class-side-menu { display: none; } /* remove the logo and side menu */
+
+  /* start the work section */
+  
+}
+
 body {
-  width: fit-content;
+  width: auto;
   margin: auto auto;
 }
 
 #id-main-content {
-  width: 320px;
+  width: auto;
   height: auto;
   margin: auto auto;
   background-image: url(./images/image_geometry_1.png);
@@ -134,7 +291,7 @@ body {
 /* end of sections title style */
 
 /* the container of all the project */
-#id-project-container {
+.class-project-container {
   list-style-type: none;
   padding: 0 0;
   width: fit-content;
@@ -142,6 +299,7 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto;
   justify-content: center;
+  margin: auto auto;
 }
 
 .class-project {
@@ -204,6 +362,8 @@ body {
   color: rgba(26, 34, 54, 1);
   background-color: rgba(152, 222, 222, 1);
 }
+
+.project5-plus-one { display: none; }
 
 .class-project-link {
   border: 2px solid rgba(255, 255, 255, 0.911);
