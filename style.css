@@ -56,13 +56,42 @@
 
 } /* @media for max-width:280px ends here */
 
-@media  screen and (min-width: 360px) and (max-width: 571px) {
+@media  screen and (min-width: 360px) {
   body #id-main-content { overflow: hidden; }
+
+  #id-works-section .class-project-container {
+
+    /* set the dimension and positionnement */
+    width: auto;
+
+    /* set the display */
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .class-project-container .class-sections-titles {
+    margin-left: 10px;
+  }
+
+  .class-project-container .class-project {
+    /* set the dimension and positionnement */
+    width: 360px;
+  }
+
+  .id-section-about-my-self .class-sections-titles {
+    margin-left: 0;
+  }
+
+  .class-project-description .class-project-languages {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 20px;
+  }
 
   #id-footer #id-contact-form { margin: auto auto; }
 } /* @media screen and min-width:360px ends here */
 
-@media  screen and (min-width: 572px) and (max-width: 900px) {
+@media  screen and (min-width: 572px) {
   body #id-main-content {
     /* set the display */
     display: grid;
@@ -163,6 +192,65 @@
     background-size: 100% 100%;
   }
 
+  #id-main-content #id-works-section {
+
+    /* set dimension and positionnement */
+
+
+    /* set the display */
+
+  }
+
+  #id-works-section .class-project-container {
+    /* set the positionnement and dimension */
+
+    /* set the display */
+    
+  }
+
+  .class-project-container .class-sections-titles {
+
+    box-shadow: 0 0 5px orange;
+    /* set the dimension and positionnement */
+
+    /* set the backgroung */
+    background-image: url(./images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .class-project-container .project1 {
+
+    /* set the dimension and positionnement */
+ 
+    /* set the display */
+
+  }
+
+  .project1 .project1-description {
+    /* set the dimension and positionnement */
+
+  }
+
+  .project1 .project1-desktop-image {
+    /* set the dimension and positionnement */
+
+    /* set the display */
+   
+  }
+
+  .project1-description .project1-name {
+
+    box-shadow: 0 0 5px yellow;
+    /* set the dimension, positionnement and list style */
+
+
+    /* set the background and font style */
+
+  }
+
+  .project1 .project1-mobile-image { display: none }
+
 }
 
 /* mobile version style start here */
@@ -181,6 +269,7 @@ body {
   background-attachment: initial;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 /* Header style start here */
