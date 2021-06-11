@@ -203,7 +203,14 @@
   }
 
   #id-presentation-section .class-about-me:nth-child(2) {
-    
+    box-shadow: 0 0 5px green;
+
+    /* set dimension and positionnement */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
   }
 
   #id-main-content .class-litle-background {
