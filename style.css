@@ -53,8 +53,12 @@
   label #name, label #email, label #message {
     width: 280px;
   }
+
+} /* @media for max-width:280px ends here */
+
+@media  screen and (min-width: 360px) and (max-width: 571px) {
   
-} /* @media for min-width:280px ends here */
+}
 
 /* mobile version style start here */
 body {
