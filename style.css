@@ -91,167 +91,18 @@
   #id-footer #id-contact-form { margin: auto auto; }
 } /* @media screen and min-width:360px ends here */
 
-@media  screen and (min-width: 572px) {
-  body #id-main-content {
-    /* set the display */
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    overflow: hidden;
+@media  screen and (min-width: 411px) {
+
+  #id-main-content .class-litle-background  {
+    height: 180px;
   }
 
-  #id-main-content #id-header-content {
-    box-shadow: 0 0 5px green;
-
-    /* set dimension and positionnement */
-    width: 100%;
-    height: 100px;
-    margin: 0 0;
-
-    /* set the display */
-    grid-column-start: 1;
-    grid-column-end: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .class-project-container .class-project {
+    width: 411px;
   }
-
-  #id-header-content .class-header-link {
-    /* set dimension and positionnement */
-    width: fit-content;
-    height: auto;
-    margin: 0 25px 0 25px;
-    display: initial;
-
-    /* set the text and font style */
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgba(26, 34, 54, 1);
-  }
-
-  #id-header-content .class-my-logo, .class-side-menu { display: none; } /* remove the logo and side menu */
-
-  #id-main-content #id-presentation-section {
-
-    /* set the positionnement and dimension */
-    width: 80%;
-    height: 400px;
-    margin-top: 0;
-    margin-right: 0;
-
-    /* set the background */
-    background-image: url(./images/image_dots.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 80px;
-  }
-
-  #id-presentation-section .class-my-name:nth-child(1) {
-    box-shadow: 0 0 5px blue;
-
-    /* set dimension and positionnement */
-    width: fit-content;
-    height: auto;
-    margin-bottom: 0;
-    margin-left: 0;
-
-    /* set the text and font style */
-    font-size: 45px;
-  }
-
-  #id-presentation-section .class-about-me:nth-child(2) {
-    box-shadow: 0 0 5px red;
-
-    /* set dimension and positionnement */
-    width: 85%;
-    height: auto;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-
-  #id-presentation-section .class-start-see-project:nth-child(3) {
-
-    /* set dimension and positionn */
-    width: 50%;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-
-  #id-main-content .class-litle-background {
-    /* set the dimension and positionnement */
-    width: 100%;
-    height: 400px;
-    margin-top: 0;
-
-    /* set the background */
-    background-image: url(./images/image-geometry_1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-
-  #id-main-content #id-works-section {
-
-    /* set dimension and positionnement */
+} /* @media screen and min-width:411px ends here */
 
 
-    /* set the display */
-
-  }
-
-  #id-works-section .class-project-container {
-    /* set the positionnement and dimension */
-
-    /* set the display */
-    
-  }
-
-  .class-project-container .class-sections-titles {
-
-    box-shadow: 0 0 5px orange;
-    /* set the dimension and positionnement */
-
-    /* set the backgroung */
-    background-image: url(./images/image_dots.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-
-  .class-project-container .project1 {
-
-    /* set the dimension and positionnement */
- 
-    /* set the display */
-
-  }
-
-  .project1 .project1-description {
-    /* set the dimension and positionnement */
-
-  }
-
-  .project1 .project1-desktop-image {
-    /* set the dimension and positionnement */
-
-    /* set the display */
-   
-  }
-
-  .project1-description .project1-name {
-
-    box-shadow: 0 0 5px yellow;
-    /* set the dimension, positionnement and list style */
-
-
-    /* set the background and font style */
-
-  }
-
-  .project1 .project1-mobile-image { display: none }
-
-}
 
 /* mobile version style start here */
 body {
