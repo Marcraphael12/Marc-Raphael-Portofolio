@@ -57,7 +57,7 @@
 } /* @media for max-width:280px ends here */
 
 @media  screen and (min-width: 360px) and (max-width: 571px) {
-  
+  #id-footer #id-contact-form { margin: auto auto; }
 }
 
 /* mobile version style start here */
