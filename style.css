@@ -163,7 +163,7 @@
 
   .class-header-link:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
 
-}
+} /* @media screen and min-width:500px ends here */
 
 /* mobile version style start here */
 body {
