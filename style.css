@@ -213,6 +213,12 @@
     margin-bottom: 40px;
   }
 
+  #id-presentation-section .class-start-see-project:nth-child(3) {
+
+    /* set the dimension and positionnement */
+    
+  }
+
   #id-main-content .class-litle-background {
     width: auto;
     height: 500px;
