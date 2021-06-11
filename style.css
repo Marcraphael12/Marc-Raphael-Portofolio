@@ -152,9 +152,24 @@
   #id-header-content .class-my-logo, .class-side-menu { display: none; } /* remove the logo and side menu */
 
   /* start the work section */
-  
+  #id-main-content #id-works-section {
+    box-shadow: 0 0 5px black;
+
+    /* set dimension and positionnement */
+    width: 100%;
+    height: auto;
+    margin-top: 210px;
+
+    /* set the display */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
 }
 
+/* mobile version style start here */
 body {
   width: auto;
   margin: auto auto;
