@@ -198,7 +198,7 @@
     margin-bottom: 40px;
 
     /* set the font and text style */
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 400;
   }
 
@@ -206,7 +206,7 @@
     box-shadow: 0 0 5px green;
 
     /* set dimension and positionnement */
-    width: 220px;
+    width: 290px;
     height: fit-content;
     margin-top: 0;
     margin-left: 0;
