@@ -206,7 +206,7 @@
     box-shadow: 0 0 5px green;
 
     /* set dimension and positionnement */
-    width: fit-content;
+    width: 220px;
     height: fit-content;
     margin-top: 0;
     margin-left: 0;
@@ -216,7 +216,14 @@
   #id-presentation-section .class-start-see-project:nth-child(3) {
 
     /* set the dimension and positionnement */
-    
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+
+    /* set the font and text style */
+    font-size: 10px;
+    font-weight: 400;
   }
 
   #id-main-content .class-litle-background {
