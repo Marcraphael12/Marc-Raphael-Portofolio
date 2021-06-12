@@ -241,8 +241,11 @@
     grid-column: 1 / 3;
   }
 
-  #id-main-content #id-works-section {
-    
+  #id-works-section .class-project-container {
+
+    /* set the display */
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
 
