@@ -251,7 +251,9 @@
   
   .class-project-container .class-project {
     /* set the dimension and positionnement */
-    width: 360px;
+    min-width: 360px;
+    width: auto;
+    max-width: 500px;
     margin: 25px 25px;
   }
 
@@ -260,7 +262,10 @@
   .class-project-container .project2, .class-project-container .project4, .class-project-container .project6 { margin-right: 0 !important; }
 
   .class-project .class-project-image {
-    width: 360px;
+
+    min-width: 360px;
+    width: auto;
+    max-width: 500px;
     height: auto;
   }
 
@@ -271,7 +276,7 @@
   }
 
   .class-project-container .class-sections-titles {
-    margin-left: 25px;
+    margin-left: auto;
   }
 
   section .class-sections-titles {
@@ -291,8 +296,8 @@
   #id-main-content #id-section-about-my-self {
 
     /* set the dimension and positionnement */
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
 
     /* set the display */
@@ -447,7 +452,7 @@
     font-weight: 500;
     align-self: left;
     margin-left: 0;
-    margin-right: 200px;
+    margin-right: 40%;
     margin-bottom: 0;
   }
 
@@ -459,7 +464,7 @@
 
   .class-social-container .class-social-links {
     height: fit-content;
-    margin: 0 10px 0 10px;
+    margin: 0 0 0 0;
   }
 }
 
