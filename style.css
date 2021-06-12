@@ -240,6 +240,10 @@
     /* set the display */
     grid-column: 1 / 3;
   }
+
+  #id-main-content #id-works-section {
+    
+  }
 }
 
 /* mobile version style start here */
