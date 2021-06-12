@@ -247,6 +247,12 @@
     display: grid;
     grid-template-columns: auto auto;
   }
+
+  .class-project-container .class-sections-titles {
+    
+    /* set the display */
+    grid-column: 1 / 3;
+  }
 }
 
 /* mobile version style start here */
