@@ -1,17 +1,21 @@
 /* mobile version style start here */
 body {
-  width: auto;
-  margin: auto auto;
-}
 
-#id-main-content {
-  width: auto;
-  height: auto;
-  margin: auto auto;
+  /*set the background */
   background-image: url(./images/image_geometry_1.png);
   background-size: 90px;
   background-repeat: no-repeat;
   background-attachment: initial;
+}
+
+#id-main-content {
+  box-shadow: 0 0 5px blue;
+  /*set the dimension and position */
+  width: auto;
+  height: auto;
+  margin: auto auto;
+
+  /* set the display */
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -51,12 +55,17 @@ body {
 
 /* Presentation section start here */
 #id-presentation-section {
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 90%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.class-presentation {
+  box-shadow: 0 0 5px green;
+  
 }
 
 .class-my-name:nth-child(1) {
@@ -124,7 +133,7 @@ body {
 .class-sections-titles {
   width: 288px;
   height: auto;
-  margin: 56px auto 10px auto;
+  margin: 56px auto 10px 0;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-weight: 100;
@@ -241,7 +250,7 @@ body {
 
 .class-union-pic {
   margin: auto 5px;
-}/* Works or Projects style end here */
+} /* Works or Projects style end here */
 
 /* About my self style start here */
 #id-section-about-my-self {
@@ -251,6 +260,12 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.about-container {
+  box-shadow: 0 0 5px green;
+  width: fit-content;
+  height: fit-content;
 }
 
 .class-about-description {
@@ -384,7 +399,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-left: 18px;
+  margin: auto auto;
   width: 288px;
   background-color: transparent;
 }
