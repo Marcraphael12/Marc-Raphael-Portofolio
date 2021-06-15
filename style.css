@@ -53,12 +53,30 @@
 
     /* set the position and dimension */
     width: 484px;
-    height: 510px;
-    margin: 0 auto 10px 0;
+    height: fit-content;
+    margin: 0 auto 0 0;
+
+    /* set the background */
+    background-image: url(./images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: initial;
   }
 
   .class-presentation .class-my-name:nth-child(1) {
     font-size: 110px;
+    font-weight: 500;
+  }
+
+  .class-presentation .class-start-see-project:nth-child(3) {
+
+    /* set the position and dimension */
+    width: 254px;
+    height: 70px;
+    margin: 80px auto 188px 0;
+
+    /* set the font */
+    font-size: 18px;
     font-weight: 500;
   }
 }
