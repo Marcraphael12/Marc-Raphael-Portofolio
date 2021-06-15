@@ -49,6 +49,11 @@
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
+  body #id-header-content {
+    width: 100%;
+  }
+
+
   #id-presentation-section .class-presentation {
 
     /* set the position and dimension */
