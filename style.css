@@ -49,6 +49,7 @@
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
+
   html body { background: none; }
 
   body #id-header-content {
@@ -118,6 +119,13 @@
     /* set the font */
     font-size: 18px;
     font-weight: 500;
+  }
+
+  #id-presentation-section .class-litle-background {
+
+    /* set the position and dimension */
+    margin-top: 0;
+    height: 350px;
   }
 }
 
