@@ -49,7 +49,13 @@
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
-  
+  #id-presentation-section .class-presentation {
+
+    /* set the position and dimension */
+    width: 484px;
+    height: 510px;
+    margin: 0 auto 0 0;
+  }
 }
 
 /* mobile version style start here */
