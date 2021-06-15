@@ -127,6 +127,12 @@
     margin-top: 0;
     height: 350px;
   }
+
+  .class-project .class-project-image {
+    width: 600px;
+  }
+
+  
 }
 
 /* mobile version style start here */
