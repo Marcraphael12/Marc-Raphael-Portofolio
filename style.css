@@ -186,7 +186,28 @@
     width: 300px;
   }
 
+  .about-container .class-sections-titles {
 
+    /* set the position and dimension */
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+
+    /* set the font properties */
+    font-size: 110px;
+  }
+
+  .about-container .class-about-cv {
+
+    /* set the position and dimension */
+    width: 254px;
+    height: 70px;
+    margin-left: 0;
+
+    /* set the font properties */
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 /* mobile version style start here */
