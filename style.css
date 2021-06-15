@@ -46,7 +46,11 @@
   .about-container .class-about-description { /* set a new font style */ font-size: large; }
 
   .class-about-cv .class-about-span { font-weight: 700; }
-} 
+} /* media for min-width: 450px ends here */
+
+@media screen and (min-width: 600px) {
+  
+}
 
 /* mobile version style start here */
 body {
