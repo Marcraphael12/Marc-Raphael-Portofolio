@@ -52,7 +52,7 @@
   #id-presentation-section .class-presentation {
 
     /* set the position and dimension */
-    width: 484px;
+    width: auto;
     height: fit-content;
     margin: 0 auto 0 0;
 
