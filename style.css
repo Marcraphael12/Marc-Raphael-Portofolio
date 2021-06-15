@@ -208,6 +208,23 @@
     font-size: 18px;
     font-weight: 500;
   }
+
+  #id-footer #id-other-links {
+
+    /* set the position and dimension */
+    height: 123px;
+
+    /* set the display */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #id-other-links .class-social-container { margin: 0 10% 0 0; }
+
+  #id-other-links .class-links { margin: 0 0 0 10%; font-size: 14px; font-weight: 500; }
+
+  .class-links .link { color: rgba(146, 220, 220, 1); }
 }
 
 /* mobile version style start here */
