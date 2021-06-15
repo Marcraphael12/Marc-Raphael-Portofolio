@@ -49,10 +49,45 @@
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
+  html body { background: none; }
+
   body #id-header-content {
     width: 100%;
+    height: 100px;
+    margin: 0 0;
+
+    /* set the display */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(185, 185, 185, 0.747);
   }
 
+  #id-header-content .class-my-logo:nth-child(1) { display: none; }
+
+  #id-header-content img { display: none; }
+
+  #id-header-content .class-header-link {
+
+    /* set the position and dimension */
+    width: fit-content;
+    height: fit-content;
+    margin: 0 12.5px 0 12.5px;
+
+    /* set the display */
+    display: initial;
+
+    /* set the font properties */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(26, 34, 54, 1);
+  }
+
+  header a:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
 
   #id-presentation-section .class-presentation {
 
