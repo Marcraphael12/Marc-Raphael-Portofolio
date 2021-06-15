@@ -1,3 +1,53 @@
+/* Starting with @media queries */
+@media  screen and (min-width: 450px) {
+
+  .class-presentation .class-my-name:nth-child(1) {
+
+    /* set a new font style */
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .class-presentation .class-about-me:nth-child(2) { /* set a new font style */ font-size: large; }
+
+  #id-presentation-section .class-litle-background {
+    height: 250px;
+  }
+
+  #id-works-section .class-project-container {
+    /* set a new width and margin */
+    margin: 0 0;
+    width: auto;
+  }
+
+  .class-project .class-project-image {
+    width: 450px;
+  }
+  
+  .class-project-description .class-project-name {
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .class-project-description .class-project-languages {
+    align-self: initial;
+    margin-left: 21px;
+  }
+
+  .class-project-languages .class-project-li {
+    font-size: small;
+    width: auto;
+    padding: 5px 5px;
+    font-weight: 500;
+  }
+
+  .class-project-link .class-project-button { font-weight: 700; }
+
+  .about-container .class-about-description { /* set a new font style */ font-size: large; }
+
+  .class-about-cv .class-about-span { font-weight: 700; }
+} 
+
 /* mobile version style start here */
 body {
 
@@ -56,7 +106,7 @@ body {
 /* Presentation section start here */
 #id-presentation-section {
   margin: 0 auto 0 auto;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -65,6 +115,7 @@ body {
 
 .class-presentation {
   box-shadow: 0 0 5px green;
+  margin: 0 16px auto 16px;
   
 }
 
