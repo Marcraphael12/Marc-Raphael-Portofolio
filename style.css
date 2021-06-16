@@ -471,6 +471,8 @@
     height: 380px;
     margin: 0 0 0 0;
   }
+
+  .class-project-container .class-project { margin: 0 0; }
 }
 
 /* mobile version style start here */
