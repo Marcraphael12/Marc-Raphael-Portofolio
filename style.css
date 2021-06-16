@@ -449,6 +449,10 @@
   }
 } /* end of media queries for min-width: 1200px */
 
+@media screen and (min-width: 1300px) {
+  
+}
+
 /* mobile version style start here */
 body {
 
