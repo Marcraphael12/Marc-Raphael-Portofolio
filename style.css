@@ -1,8 +1,7 @@
 /* Starting with @media queries */
-@media  screen and (min-width: 450px) {
+@media screen and (min-width: 450px) {
 
   .class-presentation .class-my-name:nth-child(1) {
-
     /* set a new font style */
     font-size: 50px;
     font-weight: 400;
@@ -56,7 +55,6 @@
     width: 100%;
     height: 100px;
     margin: 0 0;
-
     /* set the display */
     display: flex;
     flex-direction: row;
@@ -71,15 +69,12 @@
   #id-header-content img { display: none; }
 
   #id-header-content .class-header-link {
-
     /* set the position and dimension */
     width: fit-content;
-    height: fit-content;
+    height: auto;
     margin: 0 12.5px 0 12.5px;
-
     /* set the display */
     display: initial;
-
     /* set the font properties */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -91,12 +86,10 @@
   header a:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
 
   #id-presentation-section .class-presentation {
-
     /* set the position and dimension */
     width: 600px;
-    height: fit-content;
+    height: auto;
     margin: 0 auto 0 0;
-
     /* set the background */
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
@@ -110,26 +103,22 @@
   }
 
   .class-presentation .class-start-see-project:nth-child(3) {
-
     /* set the position and dimension */
     width: 254px;
     height: 70px;
     margin: 80px auto 188px 0;
-
     /* set the font */
     font-size: 18px;
     font-weight: 500;
   }
 
   #id-presentation-section .class-litle-background {
-
     /* set the position and dimension */
     margin-top: 0;
     height: 350px;
   }
 
   #id-works-section .class-project-container {
-
     /* set the display */
     display: grid;
     grid-template-columns: auto auto;
@@ -139,19 +128,16 @@
   #id-works-section h1 { margin-bottom: 10px; }
 
   .class-project-container .class-sections-titles {
-
     /* set the dimension and position */
     width: 100%;
     height: 230px;
-
     /* set the font */
     font-size: 110px;
     font-weight: 400;
-
     /* set the display */
     grid-column: 1 /3;
-
     /* set the background */
+
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -193,23 +179,21 @@
   }
 
   .about-container .class-sections-titles {
-
     /* set the position and dimension */
+
     width: 100%;
     height: auto;
     margin-left: 0;
-
     /* set the font properties */
+
     font-size: 110px;
   }
 
   .about-container .class-about-cv {
-
     /* set the position and dimension */
     width: 254px;
     height: 70px;
     margin-left: 0;
-
     /* set the font properties */
     font-size: 18px;
     font-weight: 500;
@@ -221,21 +205,17 @@
     padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-
     /* set the diplay */
     display: grid;
     grid-template-columns: auto auto;
     justify-content: flex-start;
-
     /* set the background */
     background-image: url(./images/image_dots_with_teal.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-
   }
 
   .class-about-technologies .class-about-div {
-
     /* set the position and dimension */
     width: 289px;
     height: 295px;
@@ -246,10 +226,8 @@
   .class-about-technologies #id-about-languages { margin-top: 0; }
 
   #id-footer #id-other-links {
-
     /* set the position and dimension */
     height: 123px;
-
     /* set the display */
     flex-direction: row;
     justify-content: space-between;
@@ -267,44 +245,37 @@
   .class-links .link { color: rgba(146, 220, 220, 1); }
 
   #id-footer #id-contact-form {
-    
     /* set the position and dimension */
     width: fit-content;
   }
 
   #id-contact-form .class-sections-titles {
-
     /* set the position and dimension */
     width: 548px;
     height: auto;
     margin: 0 auto 0 auto;
-
     /* set the font properties */
     font-size: 110px;
     font-weight: 500;
   }
 
   #id-contact-form .class-about-description {
-
     /* set the position and dimension */
     width: 542px;
     height: auto;
     margin: 0 auto 0 auto;
-
     /* set the font properties */
     font-size: 14px;
     font-weight: 500;
   }
 
   #id-contact-form #form {
-
     /* set the position and dimension */
     width: 542px;
     margin: 82px auto 0 auto;
   }
 
   #form .name-email {
-
     /* set the position and dimension */
     width: 250px;
     height: 60px;
@@ -316,25 +287,23 @@
   #form #email { margin-left: 10px; }
 
   #form #message {
-
     /* set the position and dimension */
     width: 532px;
     height: 142px;
   }
 
   #form .class-start-see-project {
-
     /* set the position and dimension */
     width: 254px;
     height: 70px;
-
     /* set the font properties */
     font-size: 18px;
     font-weight: 500;
   }
 } /* end of media queries for min-width: 600px */
 
-@media  screen and (min-width: 820px) {
+@media screen and (min-width: 820px) {
+
   #id-works-section .class-project-container {
     /* set a new width and margin */
     margin: 0 0;
@@ -343,9 +312,7 @@
 
   .class-project-container .class-project { width: auto;}
 
-  .class-project .class-project-image {
-    width: 450px;
-  }
+  .class-project .class-project-image { width: 450px; }
 
   .class-project .class-project-description { width: 450px; }
   
@@ -369,15 +336,13 @@
   .class-project-link .class-project-button { font-weight: 700; }
 
   #id-presentation-section .class-litle-background {
-
     /* set the position and dimension */
     margin-top: 0;
     height: 500px;
   }
-
 } /* end of style for min-width: 820px */
 
-@media  screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
   #id-main-content #id-presentation-section {
     display: flex;
@@ -387,21 +352,17 @@
   }
 
   #id-presentation-section .class-litle-background {
-
     /* set the position and dimension */
     margin: 0 0;
     width: 702px;
     height: 877px;
-
     /* set the background */
     background-image: url(./images/image-geometry_1.png);
-    
   }
 
   #id-presentation-section .class-presentation {
     margin: 105px 0 0 auto;
   }
-
 
   .class-project .class-project-image {
     width: 550px;
@@ -410,11 +371,9 @@
   .class-project .class-project-description { width: 550px; }
 
   #id-main-content #id-section-about-my-self {
-
     /* set the position and dimension */
     height: 586px;
     margin-top: 216px;
-
     /* set the display */
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -443,14 +402,12 @@
 
   #id-main-content #id-footer {
     margin-top: 126px;
-
     /* set the background */
     background-image: url(./images/image-geometry_6.png), url(./images/image-geometry_7.png);
     background-position: left top, right 490px;
     background-repeat: no-repeat, no-repeat;
     background-size: initial, initial;
   }
-
 } /* end of media queries for min-width: 1200px */
 
 @media screen and (min-width: 1440px) {
@@ -460,7 +417,6 @@
   #id-works-section .class-project-container {
     width: 1440px;
     margin: 0 auto 0 auto;
-
     /* set the display */
     display: flex;
     flex-direction: row;
@@ -473,7 +429,6 @@
   .class-project-container .class-sections-titles:nth-child(1) {
     order: 1;
     transform: rotate(-90deg);
-
     /* set the dimension and position */
     width: 398px;
     height: 380px;
@@ -484,12 +439,10 @@
 
   .class-project-container .project1:nth-child(2) {
     order: 2;
-
     /* set the position and dimension */
     width: 960px;
     height: 558px;
     margin-right: 0;
-
     /* set the background */
     background-image: url(./images/Rectangle21_2.png);
     background-position: center;
@@ -502,7 +455,6 @@
   }
 
   .project1 .project1-description {
-
     /* set the position and dimension */
     width: 100%;
     height: 353px;
@@ -532,7 +484,6 @@
   }
 
   .project1-description .project1-link {
-
     /* set the position and dimension */
     height: 51px;
     width: 212px;
@@ -547,24 +498,19 @@
     color: rgba(26, 34, 54, 1);
   }
 
-  .project1-link .project1-union-pic {
-    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
-  }
+  .project1-link .project1-union-pic { filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%); }
 
   .class-project-container .project2:nth-child(3) {
     order: 3;
-
     /* set the position and dimension */
     width: 950px;
     height: 350px;
     margin: 0 0 0 0;
-
     /* set the background */
     background-image: url(./images/image-geometry_2.png);
     background-repeat: no-repeat;
     background-size: initial;
     background-position: right;
-
   }
 
   .project2 .class-project-description {
@@ -581,7 +527,6 @@
     order: 4;
     width: 455px;
     height: 270px;
-
     /* set the background */
     background-image: url(./images/Rectangle21_6.png);
     background-repeat: no-repeat;
@@ -595,7 +540,6 @@
 
   .project6 .project6-description {
     cursor: pointer;
-
     /* set the position and dimension */
     width: 455px;
     height: 218px;
@@ -635,7 +579,6 @@
   }
 
   .project6-description .project6-link {
-
     /* set the position and dimension */
     height: 51px;
     width: 212px;
@@ -650,16 +593,13 @@
     color: rgba(26, 34, 54, 1);
   }
 
-  .project6-link .project6-union-pic {
-    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
-  }
+  .project6-link .project6-union-pic { filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%); }
 
   .class-project-container .project5:nth-child(6) {
     order: 5;
     height: 450px;
     width: 455px;
     margin-top: -80px;
-
     /* set thebackground */
     background-image: url(./images/Group_83.png);
     background-repeat: no-repeat;
@@ -678,7 +618,6 @@
     order: 5;
     width: 950px;
     height: 460px;
-
     /* set the background */
     background-image: url(./images/Shape.png);
     background-repeat: no-repeat;
@@ -714,7 +653,6 @@
 
 /* mobile version style start here */
 body {
-
   /*set the background */
   background-image: url(./images/image_geometry_1.png);
   background-size: 90px;
@@ -723,12 +661,10 @@ body {
 }
 
 #id-main-content {
-
   /*set the dimension and position */
   width: auto;
   height: auto;
   margin: auto auto;
-
   /* set the display */
   display: flex;
   flex-direction: column;
@@ -765,7 +701,7 @@ body {
   height: 20px;
   align-self: flex-end;
   margin-right: 10px;
-}/* Header style end here */
+} /* Header style end here */
 
 /* Presentation section start here */
 #id-presentation-section {
@@ -819,7 +755,7 @@ body {
 
 .class-start-see-project:hover {
   background-color: rgb(228, 88, 101);
-}/* Presentation section end here */
+} /* Presentation section end here */
 
 /* Little background */
 .class-litle-background {
@@ -854,7 +790,6 @@ body {
 }
 
 .class-project-container .class-sections-titles { margin-bottom: 26px; }
-
 /* end of sections title style */
 
 /* the container of all the project */
@@ -952,7 +887,7 @@ body {
 
 .class-project-button {
   width: fit-content;
-  height: min-content;
+  height: auto;
   margin: auto 0 auto 12px;
   border: none;
   background-color: transparent;
@@ -962,9 +897,7 @@ body {
   font-weight: 500;
 }
 
-.class-union-pic {
-  margin: auto 5px;
-} /* Works or Projects style end here */
+.class-union-pic { margin: auto 5px; } /* Works or Projects style end here */
 
 /* About my self style start here */
 #id-section-about-my-self {
@@ -977,9 +910,8 @@ body {
 }
 
 .about-container {
-  box-shadow: 0 0 5px green;
   width: fit-content;
-  height: fit-content;
+  height: auto;
 }
 
 .class-about-description {
@@ -1056,7 +988,7 @@ body {
   padding-left: 50px;
 }
 
-.class-div-list {/* same block  ######### */
+.class-div-list { /* same block  ######### */
   list-style-position: inside;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -1067,7 +999,7 @@ body {
 .class-div-list span {
   position: relative;
   left: -14px;
-}/* ######### */
+} /* ######### */
 
 #id-about-languages {
   margin-top: 40px;
@@ -1213,7 +1145,7 @@ body {
 
 .class-social-container {
   width: fit-content;
-  height: fit-content;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -1226,7 +1158,7 @@ body {
 
 .class-links {
   width: fit-content;
-  height: fit-content;
+  height: auto;
   margin: 32px 0 22px 16px;
   border: none;
   display: flex;
