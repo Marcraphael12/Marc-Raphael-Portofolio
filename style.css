@@ -374,9 +374,11 @@
     margin-top: 0;
     height: 500px;
   }
+
 } /* end of style for min-width: 820px */
 
 @media  screen and (min-width: 1200px) {
+
   #id-main-content #id-presentation-section {
     display: flex;
     flex-direction: row;
@@ -448,6 +450,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: initial, initial;
   }
+
 } /* end of media queries for min-width: 1200px */
 
 @media screen and (min-width: 1440px) {
@@ -455,9 +458,7 @@
   #id-main-content #id-works-section { margin: 210px auto 0 auto; }
 
   #id-works-section .class-project-container {
-    box-shadow: 0 0 5px rgb(0, 72, 206);
-    width: fit-content;
-    max-width: 1480px;
+    width: 1440px;
     margin: 0 auto 0 auto;
 
     /* set the display */
@@ -470,7 +471,6 @@
   #id-works-section h1 { margin-bottom: 0; }
 
   .class-project-container .class-sections-titles:nth-child(1) {
-    box-shadow: 0 0 5px black;
     order: 1;
     transform: rotate(-90deg);
 
@@ -480,10 +480,9 @@
     margin: 10px 0 0 auto;
   }
 
-  .class-project-container .class-project { margin: 0 0; box-shadow: 0 0 5px red;}
+  .class-project-container .class-project { margin: 0 0;}
 
   .class-project-container .project1:nth-child(2) {
-    box-shadow: 0 0 5px orange;
     order: 2;
 
     /* set the position and dimension */
@@ -497,6 +496,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .project1 .class-project-image {
     display: none;
   }
@@ -570,6 +570,7 @@
   .project2 .class-project-description {
     display: none;
   }
+
   .project2 .class-project-image {
     width: 440px;
     height: 270px;
@@ -695,7 +696,7 @@
     order: 7;
     width: 1264px;
     height: 270px;
-    margin: 0 auto 0 0;
+    margin: 0 auto 0 37px;
     /* set the background */
     background-image: url(./images/image-geometry_4.png), url(./images/image-geometry_5.png);
     background-repeat: no-repeat, no-repeat;
@@ -722,7 +723,7 @@ body {
 }
 
 #id-main-content {
-  box-shadow: 0 0 5px blue;
+
   /*set the dimension and position */
   width: auto;
   height: auto;
@@ -777,9 +778,7 @@ body {
 }
 
 .class-presentation {
-  box-shadow: 0 0 5px green;
   margin: 0 16px auto 16px;
-  
 }
 
 .class-my-name:nth-child(1) {
