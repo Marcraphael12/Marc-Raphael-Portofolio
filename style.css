@@ -472,11 +472,12 @@
   .class-project-container .class-sections-titles:nth-child(1) {
     box-shadow: 0 0 5px black;
     order: 1;
+    transform: rotate(-90deg);
 
     /* set the dimension and position */
     width: 398px;
     height: 380px;
-    margin: 0 0 0 auto;
+    margin: 10px 0 0 auto;
   }
 
   .class-project-container .class-project { margin: 0 0; box-shadow: 0 0 5px red;}
