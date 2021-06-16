@@ -376,6 +376,14 @@
   }
 } /* end of style for min-width: 820px */
 
+@media  screen and (min-width: 1200px) {
+  #id-main-content #id-presentation-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
 /* mobile version style start here */
 body {
 
