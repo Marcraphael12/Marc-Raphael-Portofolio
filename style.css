@@ -186,6 +186,12 @@
     width: 300px;
   }
 
+  #id-section-about-my-self .about-container {
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .about-container .class-sections-titles {
 
     /* set the position and dimension */
@@ -209,6 +215,36 @@
     font-weight: 500;
   }
 
+  #id-section-about-my-self .class-about-technologies {
+    width: fit-content;
+    height: auto;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* set the diplay */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+
+    /* set the background */
+    background-image: url(./images/image_dots_with_teal.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+  }
+
+  .class-about-technologies .class-about-div {
+
+    /* set the position and dimension */
+    width: 289px;
+    height: 295px;
+    margin-top: 0;
+    overflow: hidden;
+  }
+
+  .class-about-technologies #id-about-languages { margin-top: 0; }
+
   #id-footer #id-other-links {
 
     /* set the position and dimension */
@@ -222,9 +258,80 @@
 
   #id-other-links .class-social-container { margin: 0 10% 0 0; }
 
-  #id-other-links .class-links { margin: 0 0 0 10%; font-size: 14px; font-weight: 500; }
+  #id-other-links .class-links {
+    margin: 0 0 0 10%;
+    font-size: 14px;
+    font-weight: 500;
+  }
 
   .class-links .link { color: rgba(146, 220, 220, 1); }
+
+  #id-footer #id-contact-form {
+    
+    /* set the position and dimension */
+    width: fit-content;
+  }
+
+  #id-contact-form .class-sections-titles {
+
+    /* set the position and dimension */
+    width: 548px;
+    height: auto;
+    margin: 0 auto 0 auto;
+
+    /* set the font properties */
+    font-size: 110px;
+    font-weight: 500;
+  }
+
+  #id-contact-form .class-about-description {
+
+    /* set the position and dimension */
+    width: 542px;
+    height: auto;
+    margin: 0 auto 0 auto;
+
+    /* set the font properties */
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #id-contact-form #form {
+
+    /* set the position and dimension */
+    width: 542px;
+    margin: 82px auto 0 auto;
+  }
+
+  #form .name-email {
+
+    /* set the position and dimension */
+    width: 250px;
+    height: 60px;
+    margin-bottom: 32px;
+  }
+
+  #form #name { margin-right: 10px; }
+
+  #form #email { margin-left: 10px; }
+
+  #form #message {
+
+    /* set the position and dimension */
+    width: 532px;
+    height: 142px;
+  }
+
+  #form .class-start-see-project {
+
+    /* set the position and dimension */
+    width: 254px;
+    height: 70px;
+
+    /* set the font properties */
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 /* mobile version style start here */
@@ -550,7 +657,7 @@ body {
   height: auto;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .class-about-div-ul {
