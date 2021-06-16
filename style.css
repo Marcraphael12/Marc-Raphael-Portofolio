@@ -450,22 +450,24 @@
   }
 } /* end of media queries for min-width: 1200px */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1440px) {
 
   #id-works-section .class-project-container {
     box-shadow: 0 0 5px rgb(0, 72, 206);
     width: fit-content;
-    max-width: 1440px;
+    max-width: 1480px;
     /* set the display */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   #id-works-section h1 { margin-bottom: 0; }
 
-  .class-project-container .class-sections-titles {
+  .class-project-container .class-sections-titles:nth-child(1) {
     box-shadow: 0 0 5px black;
+    order: 1;
 
     /* set the dimension and position */
     width: 398px;
@@ -475,8 +477,10 @@
 
   .class-project-container .class-project { margin: 0 0; box-shadow: 0 0 5px red;}
 
-  .class-project-container .project1 {
+  .class-project-container .project1:nth-child(2) {
     box-shadow: 0 0 5px orange;
+    order: 2;
+
     /* set the position and dimension */
     width: 960px;
     height: 558px;
@@ -542,12 +546,13 @@
     filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
   }
 
-  .class-project-container .project2{
+  .class-project-container .project2:nth-child(3) {
+    order: 3;
 
     /* set the position and dimension */
-    width: 965px;
+    width: 950px;
     height: 350px;
-    margin: 0 auto 0 0;
+    margin: 0 0 0 0;
 
     /* set the background */
     background-image: url(./images/image-geometry_2.png);
@@ -561,13 +566,14 @@
     display: none;
   }
   .project2 .class-project-image {
-    width: 455px;
+    width: 440px;
     height: 270px;
     margin: auto auto 0 0;
   }
 
-  .class-project-container .project6 {
-    width: 465px;
+  .class-project-container .project6:nth-child(7){
+    order: 4;
+    width: 455px;
     height: 270px;
 
     /* set the background */
@@ -584,7 +590,7 @@
   .project6 .project6-description {
 
     /* set the position and dimension */
-    width: 465px;
+    width: 455px;
     height: 218px;
     margin: auto 0 0 auto;
   }
@@ -641,9 +647,11 @@
     filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
   }
 
-  .class-project-container .project5 {
-    height: 445px;
-    width: 465px;
+  .class-project-container .project5:nth-child(6) {
+    order: 5;
+    height: 450px;
+    width: 455px;
+    margin-top: -80px;
 
     /* set thebackground */
     background-image: url(./images/Group_83.png);
@@ -655,13 +663,14 @@
   .project5 .class-project-description { display: none; }
 
   .project5 .project5-image {
-    width: 465px;
-    height: 270px;
+    width: 455px;
+    height: 275px;
   }
 
-  .class-project-container .project3 {
-    width: 975px;
-    height: 465px;
+  .class-project-container .project3:nth-child(4) {
+    order: 5;
+    width: 950px;
+    height: 460px;
 
     /* set the background */
     background-image: url(./images/Shape.png);
@@ -672,12 +681,12 @@
   .project3 .class-project-description { display: none; }
 
   .project3 .class-project-image {
-    width: 800px;
-    height: 465px;
+    width: 775px;
+    height: 460px;
   }
 
-  .class-project-container .project4 {
-
+  .class-project-container .project4:nth-child(5) {
+    order: 7;
     width: 1264px;
     height: 270px;
 
