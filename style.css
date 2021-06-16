@@ -381,6 +381,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   #id-presentation-section .class-litle-background {
@@ -453,26 +454,94 @@
 
   #id-works-section .class-project-container {
     box-shadow: 0 0 5px rgb(0, 72, 206);
+    width: fit-content;
+    max-width: 1440px;
     /* set the display */
-    justify-content: initial;
-    align-items: initial;
+    display: grid;
+    justify-content: center;
+    margin: auto auto;
   }
 
   #id-works-section h1 { margin-bottom: 0; }
 
   .class-project-container .class-sections-titles {
     box-shadow: 0 0 5px black;
-
-    /* set the display */
-    grid-column: 1 / 2;
+    grid-column: 1 / 1;
 
     /* set the dimension and position */
     width: 398px;
     height: 380px;
-    margin: 0 0 0 0;
+    margin: 10px 0 0 auto;
+    transform: rotate(-90deg);
   }
 
   .class-project-container .class-project { margin: 0 0; }
+
+  .class-project-container .project1 {
+    box-shadow: 0 0 5px orange;
+    /* set the position and dimension */
+    width: 960px;
+    height: 558px;
+
+    /* set the background */
+    background-image: url(./images/Rectangle21_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .project1 .class-project-image {
+    display: none;
+  }
+
+  .project1 .project1-description {
+
+    /* set the position and dimension */
+    width: 100%;
+    height: 353px;
+    margin: auto auto 0 auto;
+    cursor: pointer;
+  }
+
+  .project1-description .project1-name {
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 34px;
+  }
+
+  .project1-description .project1-languages {
+    align-self: initial;
+    margin-left: 40px;
+    margin-top: 0;
+  }
+
+  .project1-languages .project1-li {
+    font-size: 20px;
+    width: 144px;
+    margin-right: 20px;
+    padding: 15px 5px;
+    font-weight: 300;
+  }
+
+  .project1-description .project1-link {
+
+    /* set the position and dimension */
+    height: 51px;
+    width: 212px;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+  }
+
+  .project1-link .project1-button {
+    color: rgba(26, 34, 54, 1);
+  }
+
+  .project1-link .project1-union-pic {
+    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
+  }
 }
 
 /* mobile version style start here */
