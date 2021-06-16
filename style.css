@@ -405,6 +405,48 @@
   }
 
   .class-project .class-project-description { width: 550px; }
+
+  #id-main-content #id-section-about-my-self {
+
+    /* set the position and dimension */
+    height: 586px;
+    margin-top: 216px;
+
+    /* set the display */
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+
+  #id-section-about-my-self .class-about-technologies {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 0 0;
+  }
+
+  #id-section-about-my-self .about-container {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 96px;
+    margin-top: 28px;
+    height: 336px
+  }
+
+  .about-container .class-sections-titles { margin-top: 0; }
+
+  .about-container .class-about-description {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #id-main-content #id-footer {
+    margin-top: 126px;
+
+    /* set the background */
+    background-image: url(./images/image-geometry_6.png), url(./images/image-geometry_7.png);
+    background-position: left top, right 490px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: initial, initial;
+  }
 }
 
 /* mobile version style start here */
