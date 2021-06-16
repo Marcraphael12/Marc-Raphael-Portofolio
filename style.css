@@ -662,6 +662,18 @@
   .class-project-container .project3 {
     width: 975px;
     height: 465px;
+
+    /* set the background */
+    background-image: url(./images/Shape.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .project3 .class-project-description { display: none; }
+
+  .project3 .class-project-image {
+    width: 800px;
+    height: 465px;
   }
 }
 
