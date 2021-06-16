@@ -457,31 +457,30 @@
     width: fit-content;
     max-width: 1440px;
     /* set the display */
-    display: grid;
-    justify-content: center;
-    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #id-works-section h1 { margin-bottom: 0; }
 
   .class-project-container .class-sections-titles {
     box-shadow: 0 0 5px black;
-    grid-column: 1 / 1;
 
     /* set the dimension and position */
     width: 398px;
     height: 380px;
-    margin: 10px 0 0 auto;
-    transform: rotate(-90deg);
+    margin: 0 0 0 auto;
   }
 
-  .class-project-container .class-project { margin: 0 0; }
+  .class-project-container .class-project { margin: 0 0; box-shadow: 0 0 5px red;}
 
   .class-project-container .project1 {
     box-shadow: 0 0 5px orange;
     /* set the position and dimension */
     width: 960px;
     height: 558px;
+    margin-right: 0;
 
     /* set the background */
     background-image: url(./images/Rectangle21_2.png);
@@ -541,6 +540,61 @@
 
   .project1-link .project1-union-pic {
     filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
+  }
+
+  .class-project-container .project2{
+
+    /* set the position and dimension */
+    width: 965px;
+    height: 350px;
+    margin: 0 auto 0 0;
+
+    /* set the background */
+    background-image: url(./images/image-geometry_2.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: right;
+
+  }
+
+  .project2 .class-project-description {
+    display: none;
+  }
+  .project2 .class-project-image {
+    width: 455px;
+    height: 270px;
+    margin: auto auto 0 0;
+  }
+
+  .class-project-container .project6 {
+    width: 465px;
+    height: 270px;
+
+    /* set the background */
+    background-image: url(./images/Rectangle21_6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .project6 .class-project-image {
+    display: none;
+  }
+
+  .project6 .project6-description {
+
+    /* set the position and dimension */
+    width: 465px;
+    height: 218px;
+    margin: auto 0 0 auto;
+  }
+
+  .project6-description .class-project-name { display: none; }
+  
+  .project6-description .project6-other-h2 {
+    display: initial;
+    font-size: 40px;
+    font-weight: 700;
   }
 }
 
@@ -750,6 +804,8 @@ body {
   font-weight: 300;
 }
 
+.project6-other-h2 { display: none; }
+
 .class-project-li {
   list-style-type: none;
   width: 70px;
@@ -763,7 +819,7 @@ body {
   background-color: rgba(152, 222, 222, 1);
 }
 
-.project5-plus-one { display: none; }
+.project6-plus-one { display: none; }
 
 .class-project-link {
   border: 2px solid rgba(255, 255, 255, 0.911);
