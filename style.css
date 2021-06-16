@@ -447,7 +447,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: initial, initial;
   }
-}
+} /* end of media queries for min-width: 1200px */
 
 /* mobile version style start here */
 body {
