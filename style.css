@@ -641,8 +641,27 @@
     filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
   }
 
-  .project6 {
-    
+  .class-project-container .project5 {
+    height: 445px;
+    width: 465px;
+
+    /* set thebackground */
+    background-image: url(./images/Group_83.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: initial;
+  }
+
+  .project5 .class-project-description { display: none; }
+
+  .project5 .project5-image {
+    width: 465px;
+    height: 270px;
+  }
+
+  .class-project-container .project3 {
+    width: 975px;
+    height: 465px;
   }
 }
 
