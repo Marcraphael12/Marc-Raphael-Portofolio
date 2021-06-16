@@ -452,15 +452,19 @@
 
 @media screen and (min-width: 1440px) {
 
+  #id-main-content #id-works-section { margin: 210px auto 0 auto; }
+
   #id-works-section .class-project-container {
     box-shadow: 0 0 5px rgb(0, 72, 206);
     width: fit-content;
     max-width: 1480px;
+    margin: 0 auto 0 auto;
+
     /* set the display */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   #id-works-section h1 { margin-bottom: 0; }
@@ -689,7 +693,7 @@
     order: 7;
     width: 1264px;
     height: 270px;
-
+    margin: 0 auto 0 0;
     /* set the background */
     background-image: url(./images/image-geometry_4.png), url(./images/image-geometry_5.png);
     background-repeat: no-repeat, no-repeat;
