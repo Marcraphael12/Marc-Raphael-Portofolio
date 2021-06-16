@@ -515,7 +515,7 @@
   }
 
   .project1-languages .project1-li {
-    font-size: 20px;
+    font-size: 20px; 
     width: 144px;
     margin-right: 20px;
     padding: 15px 5px;
@@ -590,11 +590,59 @@
   }
 
   .project6-description .class-project-name { display: none; }
-  
+
   .project6-description .project6-other-h2 {
     display: initial;
     font-size: 40px;
     font-weight: 700;
+    margin: 10px auto 20px 30px;
+  }
+
+  .project6-description .project6-languages {
+    margin-left: 30px;
+  }
+
+  .project6-languages .project6-js { display: none; }
+
+  .project6-languages .class-project-li {
+    font-size: 20px;
+    width: 132px;
+    height: auto;
+    margin-right: 20px;
+    font-weight: 300;
+  }
+
+  .project6-languages .project6-plus-one {
+    display: initial;
+    font-size: 20px;
+    width: 57px;
+    height: auto;
+    margin-right: 20px;
+    font-weight: 300;
+  }
+
+  .project6-description .project6-link {
+
+    /* set the position and dimension */
+    height: 51px;
+    width: 212px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+  }
+
+  .project6-link .project6-button {
+    color: rgba(26, 34, 54, 1);
+  }
+
+  .project6-link .project6-union-pic {
+    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
+  }
+
+  .project6 {
+    
   }
 }
 
