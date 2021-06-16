@@ -155,7 +155,7 @@
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 100px;
+    background-size: 150px;
   }
 
   .class-project-container .class-project {
@@ -450,7 +450,27 @@
 } /* end of media queries for min-width: 1200px */
 
 @media screen and (min-width: 1300px) {
-  
+
+  #id-works-section .class-project-container {
+    box-shadow: 0 0 5px rgb(0, 72, 206);
+    /* set the display */
+    justify-content: initial;
+    align-items: initial;
+  }
+
+  #id-works-section h1 { margin-bottom: 0; }
+
+  .class-project-container .class-sections-titles {
+    box-shadow: 0 0 5px black;
+
+    /* set the display */
+    grid-column: 1 / 2;
+
+    /* set the dimension and position */
+    width: 398px;
+    height: 380px;
+    margin: 0 0 0 0;
+  }
 }
 
 /* mobile version style start here */
