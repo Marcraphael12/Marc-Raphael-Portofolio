@@ -93,7 +93,7 @@
   #id-presentation-section .class-presentation {
 
     /* set the position and dimension */
-    width: auto;
+    width: 600px;
     height: fit-content;
     margin: 0 auto 0 0;
 
@@ -332,6 +332,10 @@
     font-size: 18px;
     font-weight: 500;
   }
+} /* end of media queries for min-width: 600px */
+
+@media  screen and (min-width: 820px) {
+  
 }
 
 /* mobile version style start here */
