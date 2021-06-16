@@ -592,6 +592,7 @@
   }
 
   .project6 .project6-description {
+    cursor: pointer;
 
     /* set the position and dimension */
     width: 455px;
