@@ -683,7 +683,7 @@ body {
   align-items: center;
 }
 
-.class-header-link, .project1-desktop-image { display: none;} /* Hide the header link  */
+.class-header-link, .project1-desktop-image { display: none; } /* Hide the header link  */
 
 .class-my-logo:nth-child(1) {
   display: block;
@@ -790,6 +790,7 @@ body {
 }
 
 .class-project-container .class-sections-titles { margin-bottom: 26px; }
+
 /* end of sections title style */
 
 /* the container of all the project */
@@ -806,7 +807,7 @@ body {
 
 .class-project {
   width: 100%;
-  height: fit-content;
+  height: auto;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
@@ -1179,7 +1180,7 @@ body {
 
 .class-social-links {
   margin: 0 15px 0 10px;
-  height: fit-content;
+  height: auto;
 }
 
 .class-social-links a:hover { border-bottom: 3px solid rgb(228, 88, 101); }
