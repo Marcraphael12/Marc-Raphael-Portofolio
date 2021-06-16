@@ -368,7 +368,12 @@
 
   .class-project-link .class-project-button { font-weight: 700; }
 
-  
+  #id-presentation-section .class-litle-background {
+
+    /* set the position and dimension */
+    margin-top: 0;
+    height: 500px;
+  }
 }
 
 /* mobile version style start here */
