@@ -382,6 +382,29 @@
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
+  #id-presentation-section .class-litle-background {
+
+    /* set the position and dimension */
+    margin: 0 0;
+    width: 702px;
+    height: 877px;
+
+    /* set the background */
+    background-image: url(./images/image-geometry_1.png);
+    
+  }
+
+  #id-presentation-section .class-presentation {
+    margin: 105px 0 0 auto;
+  }
+
+
+  .class-project .class-project-image {
+    width: 550px;
+  }
+
+  .class-project .class-project-description { width: 550px; }
 }
 
 /* mobile version style start here */
