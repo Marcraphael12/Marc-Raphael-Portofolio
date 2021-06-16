@@ -680,6 +680,19 @@
 
     width: 1264px;
     height: 270px;
+
+    /* set the background */
+    background-image: url(./images/image-geometry_4.png), url(./images/image-geometry_5.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 715px top, left top;
+  }
+
+  .project4 .class-project-description { display: none; }
+
+  .project4 .class-project-image {
+    width: 465px;
+    height: 270px;
+    margin: 0 0 0 auto;
   }
 }
 
