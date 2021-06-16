@@ -335,6 +335,39 @@
 } /* end of media queries for min-width: 600px */
 
 @media  screen and (min-width: 820px) {
+  #id-works-section .class-project-container {
+    /* set a new width and margin */
+    margin: 0 0;
+    width: auto;
+  }
+
+  .class-project-container .class-project { width: auto;}
+
+  .class-project .class-project-image {
+    width: 450px;
+  }
+
+  .class-project .class-project-description { width: 450px; }
+  
+  .class-project-description .class-project-name {
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .class-project-description .class-project-languages {
+    align-self: initial;
+    margin-left: 21px;
+  }
+
+  .class-project-languages .class-project-li {
+    font-size: small;
+    width: auto;
+    padding: 5px 5px;
+    font-weight: 500;
+  }
+
+  .class-project-link .class-project-button { font-weight: 700; }
+
   
 }
 
