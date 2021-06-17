@@ -210,7 +210,7 @@
     padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+
     /* set the diplay */
     display: grid;
     grid-template-columns: auto auto;
@@ -306,7 +306,7 @@
     /* set the position and dimension */
     width: 254px;
     height: 70px;
-  
+
     /* set the font properties */
     font-size: 18px;
     font-weight: 500;
