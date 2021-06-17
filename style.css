@@ -210,6 +210,7 @@
     padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    
     /* set the diplay */
     display: grid;
     grid-template-columns: auto auto;
@@ -675,7 +676,7 @@
 /* mobile version style start here */
 
 body {
-  /*set the background */
+  /* set the background */
   background-image: url(./images/image_geometry_1.png);
   background-size: 90px;
   background-repeat: no-repeat;
@@ -683,7 +684,7 @@ body {
 }
 
 #id-main-content {
-  /*set the dimension and position */
+  /* set the dimension and position */
   width: auto;
   height: auto;
   margin: auto auto;
