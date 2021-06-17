@@ -1,6 +1,5 @@
 /* Starting with @media queries */
 @media screen and (min-width: 450px) {
-
   .class-presentation .class-my-name:nth-child(1) {
     /* set a new font style */
     font-size: 50px;
@@ -22,7 +21,7 @@
   .class-project .class-project-image {
     width: 450px;
   }
-  
+
   .class-project-description .class-project-name {
     font-weight: 600;
     font-size: x-large;
@@ -48,13 +47,13 @@
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
-
   html body { background: none; }
 
   body #id-header-content {
     width: 100%;
     height: 100px;
     margin: 0 0;
+
     /* set the display */
     display: flex;
     flex-direction: row;
@@ -73,8 +72,10 @@
     width: fit-content;
     height: auto;
     margin: 0 12.5px 0 12.5px;
+
     /* set the display */
     display: initial;
+
     /* set the font properties */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -90,6 +91,7 @@
     width: 600px;
     height: auto;
     margin: 0 auto 0 0;
+
     /* set the background */
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
@@ -107,6 +109,7 @@
     width: 254px;
     height: 70px;
     margin: 80px auto 188px 0;
+
     /* set the font */
     font-size: 18px;
     font-weight: 500;
@@ -131,13 +134,15 @@
     /* set the dimension and position */
     width: 100%;
     height: 230px;
+
     /* set the font */
     font-size: 110px;
     font-weight: 400;
+
     /* set the display */
     grid-column: 1 /3;
-    /* set the background */
 
+    /* set the background */
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -147,7 +152,7 @@
   .class-project-container .class-project {
     width: 300px;
     margin-bottom: 30px;
-    height: fit-content;
+    height: auto;
     background-color: unset;
   }
 
@@ -180,12 +185,11 @@
 
   .about-container .class-sections-titles {
     /* set the position and dimension */
-
     width: 100%;
     height: auto;
     margin-left: 0;
-    /* set the font properties */
 
+    /* set the font properties */
     font-size: 110px;
   }
 
@@ -194,6 +198,7 @@
     width: 254px;
     height: 70px;
     margin-left: 0;
+
     /* set the font properties */
     font-size: 18px;
     font-weight: 500;
@@ -209,6 +214,7 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: flex-start;
+
     /* set the background */
     background-image: url(./images/image_dots_with_teal.png);
     background-repeat: no-repeat;
@@ -228,6 +234,7 @@
   #id-footer #id-other-links {
     /* set the position and dimension */
     height: 123px;
+
     /* set the display */
     flex-direction: row;
     justify-content: space-between;
@@ -254,6 +261,7 @@
     width: 548px;
     height: auto;
     margin: 0 auto 0 auto;
+
     /* set the font properties */
     font-size: 110px;
     font-weight: 500;
@@ -264,6 +272,7 @@
     width: 542px;
     height: auto;
     margin: 0 auto 0 auto;
+
     /* set the font properties */
     font-size: 14px;
     font-weight: 500;
@@ -296,6 +305,7 @@
     /* set the position and dimension */
     width: 254px;
     height: 70px;
+  
     /* set the font properties */
     font-size: 18px;
     font-weight: 500;
@@ -303,19 +313,18 @@
 } /* end of media queries for min-width: 600px */
 
 @media screen and (min-width: 820px) {
-
   #id-works-section .class-project-container {
     /* set a new width and margin */
     margin: 0 0;
     width: auto;
   }
 
-  .class-project-container .class-project { width: auto;}
+  .class-project-container .class-project { width: auto; }
 
   .class-project .class-project-image { width: 450px; }
 
   .class-project .class-project-description { width: 450px; }
-  
+
   .class-project-description .class-project-name {
     font-weight: 600;
     font-size: x-large;
@@ -343,7 +352,6 @@
 } /* end of style for min-width: 820px */
 
 @media screen and (min-width: 1200px) {
-
   #id-main-content #id-presentation-section {
     display: flex;
     flex-direction: row;
@@ -356,6 +364,7 @@
     margin: 0 0;
     width: 702px;
     height: 877px;
+
     /* set the background */
     background-image: url(./images/image-geometry_1.png);
   }
@@ -374,6 +383,7 @@
     /* set the position and dimension */
     height: 586px;
     margin-top: 216px;
+
     /* set the display */
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -390,7 +400,7 @@
     grid-area: 1 / 2 / 2 / 3;
     margin-left: 96px;
     margin-top: 28px;
-    height: 336px
+    height: 336px;
   }
 
   .about-container .class-sections-titles { margin-top: 0; }
@@ -402,11 +412,11 @@
 
   #id-main-content #id-footer {
     margin-top: 126px;
+
     /* set the background */
     background-image: url(./images/image-geometry_6.png), url(./images/image-geometry_7.png);
     background-position: left top, right 490px;
     background-repeat: no-repeat, no-repeat;
-    background-size: initial, initial;
   }
 } /* end of media queries for min-width: 1200px */
 
@@ -417,6 +427,7 @@
   #id-works-section .class-project-container {
     width: 1440px;
     margin: 0 auto 0 auto;
+
     /* set the display */
     display: flex;
     flex-direction: row;
@@ -429,20 +440,23 @@
   .class-project-container .class-sections-titles:nth-child(1) {
     order: 1;
     transform: rotate(-90deg);
+
     /* set the dimension and position */
     width: 398px;
     height: 380px;
     margin: 10px 0 0 auto;
   }
 
-  .class-project-container .class-project { margin: 0 0;}
+  .class-project-container .class-project { margin: 0 0; }
 
   .class-project-container .project1:nth-child(2) {
     order: 2;
+
     /* set the position and dimension */
     width: 960px;
     height: 558px;
     margin-right: 0;
+
     /* set the background */
     background-image: url(./images/Rectangle21_2.png);
     background-position: center;
@@ -476,7 +490,7 @@
   }
 
   .project1-languages .project1-li {
-    font-size: 20px; 
+    font-size: 20px;
     width: 144px;
     margin-right: 20px;
     padding: 15px 5px;
@@ -502,10 +516,12 @@
 
   .class-project-container .project2:nth-child(3) {
     order: 3;
+
     /* set the position and dimension */
     width: 950px;
     height: 350px;
     margin: 0 0 0 0;
+
     /* set the background */
     background-image: url(./images/image-geometry_2.png);
     background-repeat: no-repeat;
@@ -523,10 +539,11 @@
     margin: auto auto 0 0;
   }
 
-  .class-project-container .project6:nth-child(7){
+  .class-project-container .project6:nth-child(7) {
     order: 4;
     width: 455px;
     height: 270px;
+
     /* set the background */
     background-image: url(./images/Rectangle21_6.png);
     background-repeat: no-repeat;
@@ -540,6 +557,7 @@
 
   .project6 .project6-description {
     cursor: pointer;
+
     /* set the position and dimension */
     width: 455px;
     height: 218px;
@@ -600,6 +618,7 @@
     height: 450px;
     width: 455px;
     margin-top: -80px;
+
     /* set thebackground */
     background-image: url(./images/Group_83.png);
     background-repeat: no-repeat;
@@ -618,6 +637,7 @@
     order: 5;
     width: 950px;
     height: 460px;
+
     /* set the background */
     background-image: url(./images/Shape.png);
     background-repeat: no-repeat;
@@ -636,6 +656,7 @@
     width: 1264px;
     height: 270px;
     margin: 0 auto 0 37px;
+
     /* set the background */
     background-image: url(./images/image-geometry_4.png), url(./images/image-geometry_5.png);
     background-repeat: no-repeat, no-repeat;
@@ -652,6 +673,7 @@
 }
 
 /* mobile version style start here */
+
 body {
   /*set the background */
   background-image: url(./images/image_geometry_1.png);
@@ -665,13 +687,13 @@ body {
   width: auto;
   height: auto;
   margin: auto auto;
+
   /* set the display */
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
+} /* Header style start here */
 
-/* Header style start here */
 #id-header-content {
   width: 98%;
   height: auto;
@@ -683,7 +705,8 @@ body {
   align-items: center;
 }
 
-.class-header-link, .project1-desktop-image { display: none; } /* Hide the header link  */
+.class-header-link,
+.project1-desktop-image { display: none; } /* Hide the header link  */
 
 .class-my-logo:nth-child(1) {
   display: block;
