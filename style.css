@@ -682,6 +682,8 @@
   }
 }
 
+/* animations */
+
 /* mobile version style start here */
 
 body {
@@ -784,6 +786,7 @@ body {
   text-align: center;
   border: none;
   box-shadow: 0 0 2px black;
+  transition: background-color 1s;
 }
 
 .class-start-see-project:hover {
@@ -847,10 +850,12 @@ body {
   flex-wrap: wrap;
   color: white;
   list-style-type: none;
+  transition: width 2s;
 }
 
 .class-project-image {
   margin: 0 0;
+  transition: width 2s;
 }
 
 .class-project-description {
@@ -861,6 +866,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: rgba(26, 34, 54, 1);
+  transition: width 2s;
 }
 
 .class-project-languages {
@@ -874,6 +880,7 @@ body {
   height: auto;
   background-color: rgba(26, 34, 54, 1);
   align-self: flex-end;
+  transition: width 2s;
 }
 
 .class-project-name {
@@ -883,6 +890,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: large;
   font-weight: 300;
+  transition: width 2s;
 }
 
 .project6-other-h2 { display: none; }
@@ -898,6 +906,7 @@ body {
   text-align: center;
   color: rgba(26, 34, 54, 1);
   background-color: rgba(152, 222, 222, 1);
+  transition: width 2s;
 }
 
 .project6-plus-one { display: none; }
@@ -913,6 +922,8 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 5px;
+  transition-property: background-color, width;
+  transition-duration: 1s, 2s;
 }
 
 .class-project-link:hover {
@@ -929,6 +940,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: medium;
   font-weight: 500;
+  transition-property: width;
+  transition-duration: 2s;
 }
 
 .class-union-pic { margin: auto 5px; } /* Works or Projects style end here */
@@ -941,6 +954,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  transition-property: display;
+  transition-duration: 1s;
 }
 
 .about-container {
@@ -971,6 +986,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 15px;
+  transition: background-color 1s;
 }
 
 .class-about-cv:hover { background-color: rgb(228, 88, 101); }
@@ -992,6 +1008,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition-property: display, flex-direction;
+  transition-duration: 0.5s, 1s;
 }
 
 .class-about-div { /* container */
@@ -1164,6 +1182,7 @@ body {
   font-weight: bold;
   text-align: center;
   border: none;
+  transition: background-color 1s;
 }
 
 #id-other-links {
