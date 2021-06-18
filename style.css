@@ -383,7 +383,7 @@
     flex-wrap: wrap;
   }
 
-  .class-project-container .class-sections-titles:nth-child(1) {
+  .class-project-container .works-section-title:nth-child(1) {
     order: 1;
 
     /* set the dimension and position */
@@ -478,8 +478,7 @@
     width: 70%;
     height: 252px;
     margin: 0 0 0 0;
-  
-
+    
     /* set the background */
     background-image: url(./images/image-geometry_2.png);
     background-repeat: no-repeat;
@@ -584,7 +583,7 @@
     background-image: url(./images/Group_83.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 71.5% 42% ;
+    background-size: 71.5% 42%;
   }
 
   .project5 .class-project-description { display: none; }
@@ -629,7 +628,7 @@
   .project4 .class-project-description { display: none; }
 
   .project4 .class-project-image {
-    width:35% ;
+    width: 35%;
     height: auto;
     margin: 0 0 0 auto;
   }
