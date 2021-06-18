@@ -13,61 +13,71 @@
     <title>My Portofolio</title>
   </head>
   <body>
+    <!--the document header-->
+    <header id="id-header-content">
+      <div class="class-my-logo">My Logo</div>
+
+      <a href="#" class="class-header-link">hello</a>
+      <a href="#" class="class-header-link">portofolio</a>
+      <a href="#" class="class-header-link">about</a>
+      <a href="#" class="class-header-link">contact</a>
+      
+      <img src="./images/ic_menu.svg" alt="menu button" class="class-side-menu">
+
+    </header>
+
     <main id="id-main-content"><!--The main container: all elements are in-->
 
-      <!--the document header-->
-      <header id="id-header-content">
-        <div class="class-my-logo">My Logo</div>
-        <img src="./images/ic_menu.svg" alt="menu button" class="class-side-menu">
-      </header>
 
       <!--this section contain information about the author-->
       <section id="id-presentation-section">
-        <h2 class="class-my-name">Marc Raphael</h2>
+        
+        <div class="class-presentation">
+          <h2 class="class-my-name">Marc Raphael</h2>
 
-        <!--Information about the author-->
-        <p class="class-about-me">
-          Hello! I am a software developer! i can help you build a product, feature or website.
-          look through some of my work and experience! If you like what you see and have
-          a project you need coded, feel free to contact me!
-        </p>
+          <!--Information about the author-->
+          <p class="class-about-me">
+            Hello! I am a software developer! i can help you build a product, feature or website.
+            look through some of my work and experience! If you like what you see and have
+            a project you need coded, feel free to contact me!
+          </p>
 
-        <!--Here is the transition to the next section-->
-        <button type="button" class="class-start-see-project"> Start collaboration </button>
+          <!--Here is the transition to the next section-->
+          <button type="button" class="class-start-see-project"> Start collaboration </button>
+        </div>
+
+        <!--a simple div to make a background image easily and end this section-->
+        <div class="class-litle-background"></div>
       </section> 
-
-      <!--a simple div to make a background image easily and end this section-->
-      <div class="class-litle-background"></div>
 
       <!--this section contain information about projects-->
       <section id="id-works-section">
-
-        <!--Introduction to the the project list-->
-        <h1 class="class-sections-titles">Projects</h1>
-
         
-        <ul id="id-project-container">
-          
+        <ul class="class-project-container">
+
+          <!--Introduction to the the project list-->
+          <li class="class-sections-titles works-section-title">Projects</li>
+
           <!--project one-->
-          <li class="class-project">
+          <li class="class-project project1">
             <img src="./images/Rectangle21.png" alt="project image" class="class-project-image">
-            <div class="class-project-description">
-              <h2 class="class-project-name">Project name goes here</h2>
-              <ul class="class-project-languages">
-                <li class="class-project-li">HTML/CSS</li>
-                <li class="class-project-li">Ruby on rails</li>
-                <li class="class-project-li">Javascript</li>
+            <div class="class-project-description project1-description">
+              <h2 class="class-project-name project1-name">Project name goes here</h2>
+              <ul class="class-project-languages project1-languages">
+                <li class="class-project-li project1-li">HTML/CSS</li>
+                <li class="class-project-li project1-li">Ruby on rails</li>
+                <li class="class-project-li project1-li">Javascript</li>
               </ul>
-              <a href="#" target="_parent" class="class-project-link">
-                <span class="class-project-button">See this Project</span>
-                <img src="./images/Union.png" alt="union pic" class="class-union-pic">
+              <a href="#" target="_parent" class="class-project-link project1-link">
+                <span class="class-project-button project1-button">See this Project</span>
+                <img src="./images/Union.svg" alt="union pic" class="class-union-pic project1-union-pic">
               </a>
             </div>
           </li>
           
           <!--project two-->
-          <li class="class-project">
-            <img src="./images/Rectangle21(2).png" alt="project image" class="class-project-image">
+          <li class="class-project project2">
+            <img src="./images/Rectangle21__2.png" alt="project image" class="class-project-image">
             <div class="class-project-description">
               <h2 class="class-project-name">Project name goes here</h2>
               <ul class="class-project-languages">
@@ -83,8 +93,8 @@
           </li>
 
           <!--project three-->
-          <li class="class-project">
-            <img src="./images/Rectangle21(3).png" alt="project image" class="class-project-image">
+          <li class="class-project project3">
+            <img src="./images/Rectangle21_3.png" alt="project image" class="class-project-image">
             <div class="class-project-description">
               <h2 class="class-project-name">Project name goes here</h2>
               <ul class="class-project-languages">
@@ -100,8 +110,8 @@
           </li>
 
           <!--project four-->
-          <li class="class-project">
-            <img src="./images/Rectangle21(4).png" alt="project image" class="class-project-image">
+          <li class="class-project project4">
+            <img src="./images/Rectangle21_4.png" alt="project image" class="class-project-image">
             <div class="class-project-description">
               <h2 class="class-project-name">Project name goes here</h2>
               <ul class="class-project-languages">
@@ -118,14 +128,14 @@
           </li>
 
           <!--project five-->
-          <li class="class-project">
-            <img src="./images/Rectangle21(5).png" alt="project image" class="class-project-image">
-            <div class="class-project-description">
-              <h2 class="class-project-name">Project name goes here</h2>
-              <ul class="class-project-languages">
-                <li class="class-project-li">HTML/CSS</li>
-                <li class="class-project-li">Ruby on rails</li>
-                <li class="class-project-li">Javascript</li>
+          <li class="class-project project5">
+            <img src="./images/Rectangle21_5.png" alt="project image" class="class-project-image project5-image">
+            <div class="class-project-description project5-description">
+              <h2 class="class-project-name project5-name">Project name goes here</h2>
+              <ul class="class-project-languages project5-languages">
+                <li class="class-project-li project5-li">HTML/CSS</li>
+                <li class="class-project-li project5-li">Ruby on rails</li>
+                <li class="class-project-li project5-javascript">Javascript</li>
               </ul>
               <a href="#" target="_parent" class="class-project-link">
                 <span class="class-project-button">See this Project</span>
@@ -135,18 +145,20 @@
           </li>
           
           <!--project six-->
-          <li class="class-project">
-            <img src="./images/Rectangle21(6).png" alt="project image" class="class-project-image">
-            <div class="class-project-description">
+          <li class="class-project project6">
+            <img src="./images/Rectangle21_6.png" alt="project image" class="class-project-image">
+            <div class="class-project-description project6-description">
               <h2 class="class-project-name">Project name goes here</h2>
-              <ul class="class-project-languages">
+              <h2 class="class-project-name project6-other-h2">Project name goes...</h2>
+              <ul class="class-project-languages project6-languages">
                 <li class="class-project-li">HTML/CSS</li>
                 <li class="class-project-li">Ruby on rails</li>
-                <li class="class-project-li">Javascript</li>
+                <li class="class-project-li project6-js">Javascript</li>
+                <li class="class-project-li project6-li project6-plus-one">+1</li>
               </ul>
-              <a href="#" target="_parent" class="class-project-link">
-                <span class="class-project-button">See this Project</span>
-                <img src="./images/Union.png" alt="union pic" class="class-union-pic">
+              <a href="#" target="_parent" class="class-project-link project6-link">
+                <span class="class-project-button project6-button">See this Project</span>
+                <img src="./images/Union.png" alt="union pic" class="class-union-pic project6-union-pic">
               </a>
             </div>
           </li>
@@ -156,21 +168,25 @@
       <!--The section about my self-->
       <section id="id-section-about-my-self">
 
+        <div class="about-container">
+
         <!--Introduction to the the project list-->
-        <h1 class="class-sections-titles">About</h1>
+          <h1 class="class-sections-titles">About</h1>
 
-        <!--litle description about me-->
-        <p class="class-about-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
-        </p>
+          <!--litle description about me-->
+          <p class="class-about-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
+          </p>
 
-        <!--Button to the CV-->
-        <h2 class="class-about-cv">
-          <span class="class-about-span">Get my CV</span>
-          <img src="./images/ic_download.svg" alt="union pic" class="class-about-pic">
-        </h2>
+          <!--Button to the CV-->
+          <h2 class="class-about-cv">
+            <span class="class-about-span">Get my CV</span>
+            <img src="./images/ic_download.svg" alt="union pic" class="class-about-pic">
+          </h2>
+        </div>
+
 
         <!--globa container for all technologies -->
         <ul class="class-about-technologies">
@@ -228,40 +244,25 @@
           <div class="class-contact-div" id="contact-form">
             <form action="https://formspree.io/f/mnqlvaya" method="post" id="form">
 
-              <div class="class-form-div">
-                <label for="name" class="class-form-label">
-                  <input name="name" type="text" id="name" class="name-email" maxlength="30" required placeholder="your name">
-                </label>
-                
-              </div>
+              <input name="name" type="text" id="name" class="name-email" maxlength="30" required placeholder="your name">
 
-              <div class="class-form-div">
-                <label for="email">
-                  <input type="email" name="email" id="email" class="name-email" required placeholder="your email">
-                </label>
-              </div>
+              <input type="email" name="email" id="email" class="name-email" required placeholder="your email">
 
-              <div class="class-form-div">
-                <label for="message" class="class-form-label">
-                  <textarea name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
-                </label>
-              </div>
+              <textarea name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
 
-              <div class="class-start-collaboration">
-                  <button class="class-start-see-project button" type="submit" id="button">Start collaboration</button>
-              </div>
-
+              <button class="class-start-see-project button" type="submit" id="button">Start collaboration</button>
             </form>
           </div>
         </section>
 
         <div id="id-other-links">
-          <ul class="class-social-container">
-            <li class="class-links">
-              <a href="#">Get my resume</a>
-              <img src="./linkpics/ic_union.svg" alt="union">
-            </li>
 
+          <div class="class-links">
+              <a href="#" class="link">Get my resume</a>
+              <img src="./linkpics/ic_union.svg" alt="union">
+          </div>
+          
+          <ul class="class-social-container">
             <li class="class-social-links">
               <a href=""><img src="./linkpics/ic_stackoverflow.svg" alt="stackoverflow"></a>
             </li>
