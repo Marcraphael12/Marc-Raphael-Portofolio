@@ -248,7 +248,7 @@
 
   #id-footer #id-contact-form {
     /* set the position and dimension */
-    width: fit-content;
+    width: auto;
   }
 
   #id-contact-form .class-sections-titles {
