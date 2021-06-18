@@ -349,7 +349,6 @@
   #id-main-content #id-works-section {
     margin: 210px auto 0 auto;
     width: auto;
-    box-shadow: 0 0 5px red;
   }
 
   #id-main-content #id-presentation-section {
@@ -377,7 +376,6 @@
   #id-works-section .class-project-container {
     width: 1024px;
     margin: 0 auto 0 auto;
-    box-shadow: 0 0 5px black;
 
     /* set the display */
     display: flex;
@@ -387,7 +385,6 @@
 
   .class-project-container .class-sections-titles:nth-child(1) {
     order: 1;
-    box-shadow: 0 0 5px red;
 
     /* set the dimension and position */
     width: 25%;
@@ -409,7 +406,6 @@
 
   .class-project-container .project1:nth-child(2) {
     order: 2;
-    box-shadow: 0 0 5px blue;
 
     /* set the position and dimension */
     width: 70%;
@@ -477,7 +473,6 @@
 
   .class-project-container .project2:nth-child(3) {
     order: 3;
-    box-shadow: 0 0 5px orange;
 
     /* set the position and dimension */
     width: 70%;
