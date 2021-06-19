@@ -4,9 +4,38 @@
     /* set a new font style */
     font-size: 50px;
     font-weight: 400;
+    transition: transform 2s;
+    animation-duration: 3s;
+    animation-name: marc;
   }
 
-  .class-presentation .class-about-me:nth-child(2) { /* set a new font style */ font-size: large; }
+  @keyframes marc {
+    from {
+      margin-left: -120%;
+    }
+
+    to {
+      margin-left: 0;
+    }
+  }
+
+  .class-presentation .class-about-me:nth-child(2) {
+    /* set a new font style */
+    font-size: large;
+    animation-duration: 3s;
+    animation-name: about;
+    margin: 0;
+  }
+
+  @keyframes about {
+    from {
+      margin-left: -120%;
+    }
+
+    to {
+      margin-left: 0;
+    }
+  }
 
   #id-presentation-section .class-litle-background {
     height: 250px;
@@ -39,15 +68,24 @@
     font-weight: 500;
   }
 
-  .class-project-link .class-project-button { font-weight: 700; }
+  .class-project-link .class-project-button {
+    font-weight: 700;
+  }
 
-  .about-container .class-about-description { /* set a new font style */ font-size: large; }
+  .about-container .class-about-description {
+    /* set a new font style */
+    font-size: large;
+  }
 
-  .class-about-cv .class-about-span { font-weight: 700; }
+  .class-about-cv .class-about-span {
+    font-weight: 700;
+  }
 } /* media for min-width: 450px ends here */
 
 @media screen and (min-width: 600px) {
-  html body { background: none; }
+  html body {
+    background: none;
+  }
 
   body #id-header-content {
     width: 100%;
@@ -63,9 +101,13 @@
     border-bottom: 0.5px solid rgba(185, 185, 185, 0.747);
   }
 
-  #id-header-content .class-my-logo:nth-child(1) { display: none; }
+  #id-header-content .class-my-logo:nth-child(1) {
+    display: none;
+  }
 
-  #id-header-content img { display: none; }
+  #id-header-content img {
+    display: none;
+  }
 
   #id-header-content .class-header-link {
     /* set the position and dimension */
@@ -77,14 +119,16 @@
     display: initial;
 
     /* set the font properties */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     color: rgba(26, 34, 54, 1);
   }
 
-  header a:hover { border-bottom: 2px solid rgba(26, 34, 54, 1); }
+  header a:hover {
+    border-bottom: 2px solid rgba(26, 34, 54, 1);
+  }
 
   #id-presentation-section .class-presentation {
     /* set the position and dimension */
@@ -97,6 +141,19 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: initial;
+    animation-duration: 3s;
+    animation-name: dots;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes dots {
+    from {
+      background-position: right 200%;
+    }
+
+    to {
+      background-position: right bottom;
+    }
   }
 
   .class-presentation .class-my-name:nth-child(1) {
@@ -128,7 +185,9 @@
     justify-content: space-around;
   }
 
-  #id-works-section h1 { margin-bottom: 10px; }
+  #id-works-section h1 {
+    margin-bottom: 10px;
+  }
 
   .class-project-container .class-sections-titles {
     /* set the dimension and position */
@@ -224,7 +283,9 @@
     overflow: hidden;
   }
 
-  .class-about-technologies #id-about-languages { margin-top: 0; }
+  .class-about-technologies #id-about-languages {
+    margin-top: 0;
+  }
 
   #id-footer #id-other-links {
     /* set the position and dimension */
@@ -236,7 +297,9 @@
     align-items: center;
   }
 
-  #id-other-links .class-social-container { margin: 0 10% 0 0; }
+  #id-other-links .class-social-container {
+    margin: 0 10% 0 0;
+  }
 
   #id-other-links .class-links {
     margin: 0 0 0 10%;
@@ -244,7 +307,9 @@
     font-weight: 500;
   }
 
-  .class-links .link { color: rgba(146, 220, 220, 1); }
+  .class-links .link {
+    color: rgba(146, 220, 220, 1);
+  }
 
   #id-footer #id-contact-form {
     /* set the position and dimension */
@@ -286,9 +351,13 @@
     margin-bottom: 32px;
   }
 
-  #form #name { margin-right: 10px; }
+  #form #name {
+    margin-right: 10px;
+  }
 
-  #form #email { margin-left: 10px; }
+  #form #email {
+    margin-left: 10px;
+  }
 
   #form #message {
     /* set the position and dimension */
@@ -314,11 +383,17 @@
     width: auto;
   }
 
-  .class-project-container .class-project { width: auto; }
+  .class-project-container .class-project {
+    width: auto;
+  }
 
-  .class-project .class-project-image { width: 450px; }
+  .class-project .class-project-image {
+    width: 450px;
+  }
 
-  .class-project .class-project-description { width: 450px; }
+  .class-project .class-project-description {
+    width: 450px;
+  }
 
   .class-project-description .class-project-name {
     font-weight: 600;
@@ -336,7 +411,9 @@
     font-weight: 500;
   }
 
-  .class-project-link .class-project-button { font-weight: 700; }
+  .class-project-link .class-project-button {
+    font-weight: 700;
+  }
 
   #id-presentation-section .class-litle-background {
     /* set the position and dimension */
@@ -402,7 +479,9 @@
     background-position: left bottom;
   }
 
-  .class-project-container .class-project { margin: 0 0; }
+  .class-project-container .class-project {
+    margin: 0 0;
+  }
 
   .class-project-container .project1:nth-child(2) {
     order: 2;
@@ -469,7 +548,9 @@
     color: rgba(26, 34, 54, 1);
   }
 
-  .project1-link .project1-union-pic { filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%); }
+  .project1-link .project1-union-pic {
+    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
+  }
 
   .class-project-container .project2:nth-child(3) {
     order: 3;
@@ -521,7 +602,9 @@
     margin: auto 0 0 0;
   }
 
-  .project6-description .class-project-name { display: none; }
+  .project6-description .class-project-name {
+    display: none;
+  }
 
   .project6-description .project6-other-h2 {
     display: initial;
@@ -535,7 +618,9 @@
     width: max-content;
   }
 
-  .project6-languages .project6-js { display: none; }
+  .project6-languages .project6-js {
+    display: none;
+  }
 
   .project6-languages .class-project-li {
     font-size: 12px;
@@ -571,7 +656,9 @@
     font-size: 14px;
   }
 
-  .project6-link .project6-union-pic { filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%); }
+  .project6-link .project6-union-pic {
+    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
+  }
 
   .class-project-container .project5:nth-child(6) {
     order: 5;
@@ -586,7 +673,9 @@
     background-size: 71.5% 42%;
   }
 
-  .project5 .class-project-description { display: none; }
+  .project5 .class-project-description {
+    display: none;
+  }
 
   .project5 .project5-image {
     width: 100%;
@@ -605,7 +694,9 @@
     background-size: 125px;
   }
 
-  .project3 .class-project-description { display: none; }
+  .project3 .class-project-description {
+    display: none;
+  }
 
   .project3 .class-project-image {
     width: 82.3%;
@@ -625,7 +716,9 @@
     background-size: 60px 60px, 130px 70px;
   }
 
-  .project4 .class-project-description { display: none; }
+  .project4 .class-project-description {
+    display: none;
+  }
 
   .project4 .class-project-image {
     width: 35%;
@@ -665,7 +758,9 @@
     height: 336px;
   }
 
-  .about-container .class-sections-titles { margin-top: 0; }
+  .about-container .class-sections-titles {
+    margin-top: 0;
+  }
 
   .about-container .class-about-description {
     font-size: 14px;
@@ -716,7 +811,9 @@ body {
 }
 
 .class-header-link,
-.project1-desktop-image { display: none; } /* Hide the header link  */
+.project1-desktop-image {
+  display: none;
+} /* Hide the header link  */
 
 .class-my-logo:nth-child(1) {
   display: block;
@@ -725,7 +822,7 @@ body {
   height: auto;
   align-self: flex-start;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .class-side-menu:nth-child(2) {
@@ -754,7 +851,7 @@ body {
   width: 100%;
   height: auto;
   margin: auto;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-size: xx-large;
   font-weight: 100;
@@ -765,7 +862,7 @@ body {
   width: 100%;
   height: auto;
   font-size: small;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgba(26, 34, 54, 1);
   text-align: initial;
 }
@@ -779,7 +876,7 @@ body {
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   border: none;
@@ -788,6 +885,7 @@ body {
 
 .class-start-see-project:hover {
   background-color: rgb(228, 88, 101);
+  transform: scale(1.15);
 } /* Presentation section end here */
 
 /* Little background */
@@ -816,13 +914,15 @@ body {
   width: 288px;
   height: auto;
   margin: 56px auto 10px 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 100;
   text-align: left;
 }
 
-.class-project-container .class-sections-titles { margin-bottom: 26px; }
+.class-project-container .class-sections-titles {
+  margin-bottom: 26px;
+}
 
 /* end of sections title style */
 
@@ -880,12 +980,14 @@ body {
   margin: 20px 30px 16px 20px;
   list-style-type: none;
   background-color: rgba(26, 34, 54, 1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: large;
   font-weight: 300;
 }
 
-.project6-other-h2 { display: none; }
+.project6-other-h2 {
+  display: none;
+}
 
 .class-project-li {
   list-style-type: none;
@@ -893,14 +995,16 @@ body {
   height: auto;
   margin: 0 10px 10px 0;
   padding: 3px 3px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: xx-small;
   text-align: center;
   color: rgba(26, 34, 54, 1);
   background-color: rgba(152, 222, 222, 1);
 }
 
-.project6-plus-one { display: none; }
+.project6-plus-one {
+  display: none;
+}
 
 .class-project-link {
   border: 2px solid rgba(255, 255, 255, 0.911);
@@ -908,7 +1012,7 @@ body {
   height: 44px;
   background-color: rgba(26, 34, 54, 1);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 10px auto 10px 20px;
   display: grid;
   grid-template-columns: auto auto;
@@ -926,12 +1030,14 @@ body {
   border: none;
   background-color: transparent;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
   font-weight: 500;
 }
 
-.class-union-pic { margin: auto 5px; } /* Works or Projects style end here */
+.class-union-pic {
+  margin: auto 5px;
+} /* Works or Projects style end here */
 
 /* About my self style start here */
 #id-section-about-my-self {
@@ -953,7 +1059,7 @@ body {
   width: 100%;
   height: auto;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgba(26, 34, 54, 1);
   text-align: left;
 }
@@ -973,17 +1079,20 @@ body {
   grid-column-gap: 15px;
 }
 
-.class-about-cv:hover { background-color: rgb(228, 88, 101); }
+.class-about-cv:hover {
+  background-color: rgb(228, 88, 101);
+}
 
 .class-about-span {
   background-color: transparent;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-.class-about-technologies { /* global container for class-about-div */
+.class-about-technologies {
+  /* global container for class-about-div */
   list-style-type: none;
   padding-left: 0;
   width: 100%;
@@ -994,7 +1103,8 @@ body {
   align-items: center;
 }
 
-.class-about-div { /* container */
+.class-about-div {
+  /* container */
   margin: 16px 0 0 0;
   display: flex;
   width: 100%;
@@ -1014,7 +1124,7 @@ body {
 .class-about-div-title {
   width: max-content;
   margin: 50px 0 11px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
@@ -1022,9 +1132,10 @@ body {
   padding-left: 50px;
 }
 
-.class-div-list { /* same block  ######### */
+.class-div-list {
+  /* same block  ######### */
   list-style-position: inside;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
@@ -1100,13 +1211,21 @@ body {
   height: auto;
 }
 
-#contact-form { margin: 0 auto 0 auto !important; }
+#contact-form {
+  margin: 0 auto 0 auto !important;
+}
 
-#form { width: 100%; }
+#form {
+  width: 100%;
+}
 
-.class-form-label { width: 99%; }
+.class-form-label {
+  width: 99%;
+}
 
-.class-form-div { height: auto; }
+.class-form-div {
+  height: auto;
+}
 
 .class-start-collaboration {
   margin-top: 0 !important;
@@ -1121,7 +1240,7 @@ body {
   border-radius: 4px;
   border: 1px solid rgb(210, 212, 212);
   text-indent: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   outline: none;
 }
 
@@ -1134,7 +1253,7 @@ body {
   padding-top: 15px;
   text-indent: 16px;
   margin: 10px auto 0 auto !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   outline: thin;
 }
 
@@ -1145,7 +1264,7 @@ body {
 
 .name-email::placeholder {
   color: rgba(125, 124, 132, 1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   position: fixed;
   top: 0;
@@ -1160,7 +1279,7 @@ body {
   align-items: center;
   background-color: rgba(26, 34, 54, 1);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   border: none;
@@ -1203,17 +1322,21 @@ body {
 .class-links a {
   text-decoration: none;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: medium;
   font-weight: 500;
   margin-right: 16px;
 }
 
-.class-links a:hover { color: rgb(228, 88, 101); }
+.class-links a:hover {
+  color: rgb(228, 88, 101);
+}
 
 .class-social-links {
   margin: 0 15px 0 10px;
   height: auto;
 }
 
-.class-social-links a:hover { border-bottom: 3px solid rgb(228, 88, 101); }
+.class-social-links a:hover {
+  border-bottom: 3px solid rgb(228, 88, 101);
+}
