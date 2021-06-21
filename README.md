@@ -1,25 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project: # Marc-Raphael-Portofolio
+# Marc Raphael's Portofolio
 
-> Introduction to Microverse projects
+>Welcome to my Portofolio, with three main versions (mobile, tablette, and desktop) as you can see in the screenshots below.
+![mobile](./images/app-image.png) ![tablette](./images/MyPortofolioTablette.png) ![Desktop](./images/MyPortofolioDesktop.png)
 
-![screenshot](/images/app-image.png)
-
-Additional description about the project and its features.
+Here is a little brief about myself and some project i've done so far. There are well responsive designed projects!
 
 ## Built With
 
 - Major languages : HTML/CSS;
+- IDE : VisualStudio Code;
+- Web Browsers : Firefox, Google Chrome;
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Web browser (choose what you prefered)
+- Code editor **for developers only
+
+### Setup 
+
+- Download the repo, if you don't know, [click here](https://github.com/Marcraphael12/Marc-Raphael-Portofolio/archive/refs/heads/main.zip)!
+- Open the index file with your browser, and enjoy!
+
+### Install
+
+- No need to install something!
+
 
 ## Live Demo
 
-[Take a nice look of this projec here](https://marcraphael12.github.io/Marc-Raphael-Portofolio/)
+[Have a detailed view by clicking here](https://marcraphael12.github.io/Marc-Raphael-Portofolio/)
 
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
+- LinkedIn: [Marc_Raphael](www.linkedin.com/in/marc-raphael-326039204)
 
 
 ## 🤝 Contributing
