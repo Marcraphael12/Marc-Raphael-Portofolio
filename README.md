@@ -4,7 +4,7 @@
 
 >Welcome to my Portofolio, with three main versions (mobile, tablette, and desktop) as you can see in the screenshots below.
 
-[mobile](./images/app-image.png) [tablette](./images/MyPortofolioTablette.png) [Desktop](./images/MyPortofolioDesktop.png)
+![mobile](./images/app-image.png) ![tablette](./images/MyPortofolioTablette.png) ![Desktop](./images/MyPortofolioDesktop.png)
 
 Here is a little brief about myself and some project i've done so far. There are well responsive designed projects!
 
