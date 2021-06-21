@@ -3,7 +3,8 @@
 # Marc Raphael's Portofolio
 
 >Welcome to my Portofolio, with three main versions (mobile, tablette, and desktop) as you can see in the screenshots below.
-![mobile](./images/app-image.png) ![tablette](./images/MyPortofolioTablette.png) ![Desktop](./images/MyPortofolioDesktop.png)
+
+[mobile](./images/app-image.png) [tablette](./images/MyPortofolioTablette.png) [Desktop](./images/MyPortofolioDesktop.png)
 
 Here is a little brief about myself and some project i've done so far. There are well responsive designed projects!
 
@@ -37,8 +38,8 @@ To get a local copy up and running follow these simple example steps.
 
 [Have a detailed view by clicking here](https://marcraphael12.github.io/Marc-Raphael-Portofolio/)
 
-
-👤 **Author**
+### Author
+👤 **Marc Raphael**
 
 - GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
 - LinkedIn: [Marc_Raphael](www.linkedin.com/in/marc-raphael-326039204)
@@ -56,3 +57,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - [@Figma](https://www.Figma.com) for the template
+- [@m05e5](https://github.com/m05e5) for the Form squeletton
+- [@Akhtar-joomun](https://github.com/Akhtar-Joomun) for the header animations
