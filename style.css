@@ -216,7 +216,7 @@
   .class-project-description .class-project-languages {
     align-self: initial;
     margin-left: 21px;
-    width: fit-content;
+    width: auto;
   }
 
   .class-project-languages .class-project-li {
