@@ -6,7 +6,7 @@
 
 ![mobile](./images/app-image.png) ![tablette](./images/MyPortofolioTablette.png) ![Desktop](./images/MyPortofolioDesktop.png)
 
-Here is a little brief about myself and some project i've done so far. There are well responsive designed projects!
+in this portofolio you will see all the projects that I have already done, with various programming languages such as: JavaScript, HTML & CSS, Ruby ... etc. I hope you will be satisfied with the work accomplished!
 
 ## Built With
 
