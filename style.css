@@ -4,7 +4,6 @@
     /* set a new font style */
     font-size: 50px;
     font-weight: 400;
-    transition: transform 2s;
     animation-duration: 3s;
     animation-name: marc;
   }
