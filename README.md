@@ -14,6 +14,10 @@ Here is a little brief about myself and some project i've done so far. There are
 - IDE : VisualStudio Code;
 - Web Browsers : Firefox, Google Chrome;
 
+### Testing
+
+- Microverse Linters
+- [W3C validator](https://validator.w3.org/)
 
 ## Getting Started
 
@@ -26,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup 
 
-- Download the repo, if you don't know, [click here](https://github.com/Marcraphael12/Marc-Raphael-Portofolio/archive/refs/heads/main.zip)!
+- Download the repo, if you don't know how to do it, just [click here](https://github.com/Marcraphael12/Marc-Raphael-Portofolio/archive/refs/heads/main.zip)!
 - Open the index file with your browser, and enjoy!
 
 ### Install
