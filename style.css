@@ -463,8 +463,10 @@
     text-align: end;
 
     /* set the background */
+    background-image: url(./images/image_dots.png);
     background-size: 100px;
     background-position: left bottom;
+    background-repeat: no-repeat;
   }
 
   .class-project-container .class-project {
