@@ -134,6 +134,7 @@
     width: 600px;
     height: auto;
     margin: 0 auto 0 0;
+    overflow: hidden;
 
     /* set the background */
     background-image: url(./images/image_dots.png);
@@ -141,18 +142,6 @@
     background-position: right bottom;
     background-size: initial;
     animation-duration: 3s;
-    animation-name: dots;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes dots {
-    from {
-      background-position: right 200%;
-    }
-
-    to {
-      background-position: right bottom;
-    }
   }
 
   .class-presentation .class-my-name:nth-child(1) {
