@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live De Link](https://marcraphael12.github.io/Marc-Raphael-Portofolio/)
+[Take a nice look of this projec here](https://marcraphael12.github.io/Marc-Raphael-Portofolio/)
 
 
 👤 **Author1**
