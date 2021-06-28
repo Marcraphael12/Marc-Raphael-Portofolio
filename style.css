@@ -4,36 +4,14 @@
     /* set a new font style */
     font-size: 50px;
     font-weight: 400;
-    animation-duration: 3s;
-    animation-name: marc;
-  }
-
-  @keyframes marc {
-    from {
-      margin-left: -120%;
-    }
-
-    to {
-      margin-left: 0;
-    }
   }
 
   .class-presentation .class-about-me:nth-child(2) {
     /* set a new font style */
     font-size: large;
-    animation-duration: 3s;
-    animation-name: about;
+    text-align: justify;
     margin: 0;
-  }
-
-  @keyframes about {
-    from {
-      margin-left: -120%;
-    }
-
-    to {
-      margin-left: 0;
-    }
+    width: 80%;
   }
 
   #id-presentation-section .class-litle-background {
