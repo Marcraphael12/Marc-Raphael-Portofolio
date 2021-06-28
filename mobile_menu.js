@@ -1,10 +1,5 @@
 const hamburger = document.querySelector('.class-side-menu');
 hamburger.addEventListener('click', mobileMenu);
-hamburger.addEventListener('mouseover', hover);
-
-function hover() {
-  hamburger.style.visibility = 'hidden';
-}
 
 function mobileMenu() {
   // create menu element
