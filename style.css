@@ -783,10 +783,10 @@ body {
    /* set the position and dimension */
     width: fit-content;
     height: auto;
-    margin: 0 12.5px 0 12.5px;
+    margin: auto auto 232px auto;
 
     /* set the display */
-    display: initial;
+    display: none;
 
     /* set the font properties */
     font-family: "Poppins", sans-serif;
@@ -794,7 +794,18 @@ body {
     font-weight: 400;
     text-decoration: none;
     color: rgba(26, 34, 54, 1);
-    display: none;
+}
+
+.menu-link {
+  width: fit-content;
+  height: auto;
+  margin: 10px auto;
+  text-decoration: none;
+  color: rgba(26, 34, 54, 1);
+}
+
+.menu-link:hover {
+  border-bottom: 2px solid rgba(26, 34, 54, 1);
 }
 
 .class-header-link,
@@ -813,7 +824,7 @@ body {
 .class-side-menu {
   width: 20px;
   height: 20px;
-  margin-right: 10px;
+  margin-right: 16px;
 } /* Header style end here */
 
 /* Presentation section start here */
