@@ -1,12 +1,13 @@
 const hamburger = document.querySelector('.class-side-menu');
+
 const menuContainer = document.getElementById('id-header-content');
+
 const nav = document.querySelector('.menu-nav');
-const links = document.querySelectorAll('a.menu-link');
+
 const logo = document.querySelector('.class-my-logo');
 
-
 function open() {
-  // 
+  // reset the height, width, the display, and the background of header
   menuContainer.style.height = '568px';
   menuContainer.style.width = '100%';
   menuContainer.style.margin = '0 0 50px 0';
@@ -15,31 +16,35 @@ function open() {
   menuContainer.style.backgroundPosition = 'top left, bottom';
   menuContainer.style.backgroundRepeat = 'no-repeat, no-repeat';
   menuContainer.style.backgroundSize = 'auto auto, 100% auto';
-  menuContainer.style.fontFamily = '"Poppins", sans-serif';
-  menuContainer.style.color = 'rgba(26, 34, 54, 1)';
   menuContainer.style.display = 'flex';
   menuContainer.style.flexDirection = 'column';
   menuContainer.style.flexWrap = 'wrap';
   menuContainer.style.position = 'fixed';
   menuContainer.style.zIndex = '2';
 
+  // remove the logo from header
   logo.style.display = 'none';
 
+  // switch from hamburger image to cross image
   hamburger.src = './mobile-menu-image/Union.png';
-  
   hamburger.style.margin = '24px 20px auto auto';
   
-
+  // display the links and style
   nav.style.display = 'initial';
   nav.style.display = 'flex';
   nav.style.flexDirection = 'column';
   nav.style.justifyContent = 'center';
 
+  // reassigne the class name for menu button
   const cross = hamburger;
-  cross.setAttribute ('class', 'cross');
+  cross.setAttribute('class', 'cross');
 
+  // initializing the closing function
   function close() {
+    // display the logo
     logo.style.display = 'initial';
+
+    // reinitialize the Header
     menuContainer.style.height = 'auto';
     menuContainer.style.width = '100%';
     menuContainer.style.background = 'unset';
@@ -49,14 +54,20 @@ function open() {
     menuContainer.style.position = 'unset';
     menuContainer.style.margin = '10px 0 50px 0';
 
+    // restore the hamburger margin
     hamburger.style.margin = 'auto 16px auto auto';
+
+    // remove the menu
     nav.style.display = 'none';
 
+    // restore the hamburger image
     cross.src = './images/ic_menu.svg';
-    hamburger.setAttribute ('class', 'class-side-menu');
+    hamburger.setAttribute('class', 'class-side-menu');
   }
+
+  // call the close function
   cross.addEventListener('click', close);
 }
 
+// call the open function
 hamburger.addEventListener('click', open);
-
