@@ -19,7 +19,7 @@ function open() {
   menuContainer.style.display = 'flex';
   menuContainer.style.flexDirection = 'column';
   menuContainer.style.flexWrap = 'wrap';
-  menuContainer.style.position = 'fixed';
+  menuContainer.style.position = 'initial';
   menuContainer.style.zIndex = '2';
 
   // remove the logo from header
