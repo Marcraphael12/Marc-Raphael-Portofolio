@@ -16,6 +16,12 @@ function mobileMenu() {
   menuContainer.style.fontFamily = '"Poppins", sans-serif';
   menuContainer.style.color = 'rgba(26, 34, 54, 1)';
 
+  const logo = document.querySelector('.class-my-logo');
+  logo.style.display = 'none';
+
+  hamburger.src = './mobile-menu-image/Union.png';
+  
+
   //document.body.appendChild(menuContainer);
 
   // create menu links
