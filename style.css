@@ -779,6 +779,24 @@ body {
   justify-content: space-between;
 }
 
+.menu-nav {
+   /* set the position and dimension */
+    width: fit-content;
+    height: auto;
+    margin: 0 12.5px 0 12.5px;
+
+    /* set the display */
+    display: initial;
+
+    /* set the font properties */
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(26, 34, 54, 1);
+    display: none;
+}
+
 .class-header-link,
 .project1-desktop-image {
   display: none;
