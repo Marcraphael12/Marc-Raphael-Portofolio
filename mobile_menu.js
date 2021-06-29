@@ -28,7 +28,7 @@ function open() {
   // switch from hamburger image to cross image
   hamburger.src = './mobile-menu-image/Union.png';
   hamburger.style.margin = '24px 20px auto auto';
-  
+
   // display the links and style
   nav.style.display = 'initial';
   nav.style.display = 'flex';
