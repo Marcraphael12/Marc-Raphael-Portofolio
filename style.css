@@ -9,9 +9,9 @@
   .class-presentation .class-about-me:nth-child(2) {
     /* set a new font style */
     font-size: large;
-    text-align: justify;
+    text-align: initial;
     margin: 0;
-    width: 80%;
+    width: 90%;
   }
 
   #id-presentation-section .class-litle-background {
@@ -66,7 +66,7 @@
 
   body #id-header-content {
     width: 100%;
-    height: 100px;
+    height: 100px !important;
     margin: 0 0;
 
     /* set the display */
@@ -79,7 +79,7 @@
   }
 
   #id-header-content .class-my-logo:nth-child(1) {
-    display: none;
+    display: none !important;
   }
 
   #id-header-content img {
