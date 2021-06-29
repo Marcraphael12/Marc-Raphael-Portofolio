@@ -754,7 +754,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: initial;
   margin: 0 0;
-  /*background-color: rgba(255, 255, 255, 1);*/
+  
+  /* background-color: rgba(255, 255, 255, 1); */
 }
 
 #id-main-content {
@@ -780,20 +781,20 @@ body {
 }
 
 .menu-nav {
-   /* set the position and dimension */
-    width: fit-content;
-    height: auto;
-    margin: auto auto 232px auto;
+  /* set the position and dimension */
+  width: fit-content;
+  height: auto;
+  margin: auto auto 232px auto;
 
-    /* set the display */
-    display: none;
+  /* set the display */
+  display: none;
 
-    /* set the font properties */
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgba(26, 34, 54, 1);
+  /* set the font properties */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(26, 34, 54, 1);
 }
 
 .menu-link {
