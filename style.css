@@ -794,7 +794,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
-  color: rgba(26, 34, 54, 1);
 }
 
 .menu-link {
@@ -802,11 +801,11 @@ body {
   height: auto;
   margin: 10px auto;
   text-decoration: none;
-  color: rgba(26, 34, 54, 1);
+  color: #35418c;
 }
 
 .menu-link:hover {
-  border-bottom: 2px solid rgba(26, 34, 54, 1);
+  border-bottom: 2px solid #fdd4c0;
 }
 
 .class-header-link,
