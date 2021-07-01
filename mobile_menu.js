@@ -4,15 +4,23 @@ const menuContainer = document.getElementById('id-header-content');
 
 const nav = document.querySelector('.menu-nav');
 
+const links = document.querySelectorAll('a.menu-link')
+
 const logo = document.querySelector('.class-my-logo');
+//the closig button
+const button = document.querySelector('.close-btn');
+button.style.width = 'min-content';
+button.style.height = 'auto';
+button.style.background = 'unset';
+button.style.fontSize = '30px';
+button.style.fontWeight = '500';
+button.style.padding = '0 0';
+button.style.margin = '20px 20px auto auto'
+button.style.color = '#35418c';// copy the color of background image
+button.style.border = 'none';
+button.style.display = 'none';
 
-const button = document.createElement('button');
-button.setAttribute('type', 'button');
-button.setAttribute('class', 'cls-btn');
-button.innerHTML = '&times';
-
-
-
+//initializing the opening function
 function open() {
   // reset the height, width, the display, and the background of header
   menuContainer.style.height = '568px';
@@ -37,7 +45,8 @@ function open() {
   
   // remove the logo from header
   logo.style.display = 'none';
-  document.replaceChild(button, hamburger);
+  hamburger.style.display = 'none';
+  button.style.display = 'initial';
 }
 
 hamburger.addEventListener('click', open);
@@ -59,4 +68,8 @@ function close() {
   // remove the menu
   nav.style.display = 'none';
   // restore the hamburger margin
+  button.style.display = 'none';
+  hamburger.style.display = 'initial'
 }
+
+button.addEventListener('click', close);
