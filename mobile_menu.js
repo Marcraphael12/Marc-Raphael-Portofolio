@@ -26,8 +26,9 @@ function open() {
   logo.style.display = 'none';
 
   // switch from hamburger image to cross image
-  hamburger.src = './mobile-menu-image/Union.png';
-  hamburger.style.margin = '24px 20px auto auto';
+  //hamburger.src = './mobile-menu-image/Union.png';
+  //hamburger.style.margin = '24px 20px auto auto';
+  hamburger.style.display = 'none';
 
   // display the links and style
   nav.style.display = 'initial';
@@ -35,39 +36,39 @@ function open() {
   nav.style.flexDirection = 'column';
   nav.style.justifyContent = 'center';
 
-  // reassigne the class name for menu button
-  const cross = hamburger;
-  cross.setAttribute('class', 'cross');
+  const links = document.querySelectorAll('a.menu-link')
 
-  // initializing the closing function
-  function close() {
-    // display the logo
-    logo.style.display = 'initial';
-
-    // reinitialize the Header
-    menuContainer.style.height = 'auto';
-    menuContainer.style.width = '100%';
-    menuContainer.style.background = 'unset';
-    menuContainer.style.display = 'flex';
-    menuContainer.style.flexDirection = 'row';
-    menuContainer.style.flexWrap = 'nowrap';
-    menuContainer.style.position = 'unset';
-    menuContainer.style.margin = '10px 0 50px 0';
-
-    // restore the hamburger margin
-    hamburger.style.margin = 'auto 16px auto auto';
-
-    // remove the menu
-    nav.style.display = 'none';
-
-    // restore the hamburger image
-    cross.src = './images/ic_menu.svg';
-    hamburger.setAttribute('class', 'class-side-menu');
-  }
-
-  // call the close function
-  cross.addEventListener('click', close);
+  links.addEventListener('click', close)
 }
 
 // call the open function
+
+
+// reassigne the class name for menu button
+
+// initializing the closing function
+function close() {
+  // display the logo
+  logo.style.display = 'initial';
+
+  // reinitialize the Header
+  menuContainer.style.height = 'auto';
+  menuContainer.style.width = '100%';
+  menuContainer.style.background = 'unset';
+  menuContainer.style.display = 'flex';
+  menuContainer.style.flexDirection = 'row';
+  menuContainer.style.flexWrap = 'nowrap';
+  menuContainer.style.position = 'unset';
+  menuContainer.style.margin = '10px 0 50px 0';
+
+  // restore the hamburger margin
+  hamburger.style.margin = 'auto 16px auto auto';
+
+  // remove the menu
+  nav.style.display = 'none';
+
+  // restore the hamburger image
+  //cross.src = './images/ic_menu.svg';
+}
 hamburger.addEventListener('click', open);
+// call the close function
