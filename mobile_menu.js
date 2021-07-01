@@ -6,6 +6,13 @@ const nav = document.querySelector('.menu-nav');
 
 const logo = document.querySelector('.class-my-logo');
 
+const button = document.createElement('button');
+button.setAttribute('type', 'button');
+button.setAttribute('class', 'cls-btn');
+button.innerHTML = '&times';
+
+
+
 function open() {
   // reset the height, width, the display, and the background of header
   menuContainer.style.height = '568px';
@@ -22,29 +29,18 @@ function open() {
   menuContainer.style.position = 'initial';
   menuContainer.style.zIndex = '2';
 
-  // remove the logo from header
-  logo.style.display = 'none';
-
-  // switch from hamburger image to cross image
-  //hamburger.src = './mobile-menu-image/Union.png';
-  //hamburger.style.margin = '24px 20px auto auto';
-  hamburger.style.display = 'none';
-
-  // display the links and style
+// display the links and style
   nav.style.display = 'initial';
   nav.style.display = 'flex';
   nav.style.flexDirection = 'column';
   nav.style.justifyContent = 'center';
-
-  const links = document.querySelectorAll('a.menu-link')
-
-  links.addEventListener('click', close)
+  
+  // remove the logo from header
+  logo.style.display = 'none';
+  document.replaceChild(button, hamburger);
 }
 
-// call the open function
-
-
-// reassigne the class name for menu button
+hamburger.addEventListener('click', open);
 
 // initializing the closing function
 function close() {
@@ -60,15 +56,7 @@ function close() {
   menuContainer.style.flexWrap = 'nowrap';
   menuContainer.style.position = 'unset';
   menuContainer.style.margin = '10px 0 50px 0';
-
-  // restore the hamburger margin
-  hamburger.style.margin = 'auto 16px auto auto';
-
   // remove the menu
   nav.style.display = 'none';
-
-  // restore the hamburger image
-  //cross.src = './images/ic_menu.svg';
+  // restore the hamburger margin
 }
-hamburger.addEventListener('click', open);
-// call the close function
