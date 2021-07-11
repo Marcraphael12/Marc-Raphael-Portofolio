@@ -25,7 +25,13 @@
   </head>
   <body>
     <header id="header">
-      <img src="./linkpics/ic_menu.svg" alt="menu" class="menu"/>
+      <img src="./linkpics/ic_menu.svg" alt="menu" class="menu-btn"/>
+      <menu class="menu">
+        <a href="#section1" class="link">hello</a>
+        <a href="#section2" class="link">portofolio</a>
+        <a href="#section3" class="link">about</a>
+        <a href="#footer" class="link">contact</a>
+      </menu>
     </header>
 
     <main id="main">
@@ -57,7 +63,7 @@
             <h2>Projects</h2>
           </li>
           <li class="card">
-            <img src="" alt="project image" class="card-pic">
+            <img src="./images/Rectangle21_2.png" alt="project image" class="card-pic">
 
             <div class="card-desc">
               <h3 class="ttl-3">Project name goes here</h3>
@@ -91,34 +97,73 @@
           </button>
         </div>
 
-        <ul class="competences cmps-1">
-          <h3 class="cmp-ttl">Languages</h3>
-          <li class="competence"><span>JavaScript(ES5/ES6)</span></li>
-          <li class="competence"><span>Ruby</span></li>
-          <li class="competence"><span>HTML</span></li>
-          <li class="competence"><span>CSS</span></li>
-        </ul>
+        <div class="block">
+          <ul class="competences cmps-1">
+            <h3 class="cmp-ttl">Languages</h3>
+            <li class="competence">•<span>JavaScript(ES5/ES6)</span></li>
+            <li class="competence">•<span>Ruby</span></li>
+            <li class="competence">•<span>HTML</span></li>
+            <li class="competence">•<span>CSS</span></li>
+          </ul>
 
-        <ul class="competences cmps-2">
-          <h3 class="cmp-ttl">Frameworks</h3>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-        </ul>
+          <ul class="competences cmps-2">
+            <h3 class="cmp-ttl">Frameworks</h3>
+            <li class="competence">•<span>Ruby on rails</span></li>
+            <li class="competence">•<span>Bootstrap</span></li>
+            <li class="competence">•<span>Rspec</span></li>
+            <li class="competence">•<span>Capibara</span></li>
+            <li class="competence">•<span>Selenium</span></li>
+          </ul>
 
-        <ul class="competences cmps-3">
-          <h3 class="cmp-ttl">Skills</h3>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-          <li class="competence"><span></span></li>
-        </ul>
-        
+          <ul class="competences cmps-3">
+            <h3 class="cmp-ttl">Skills</h3>
+            <li class="competence">•<span>Codekit</span></li>
+            <li class="competence">•<span>Codepen</span></li>
+            <li class="competence">•<span>Github</span></li>
+            <li class="competence">•<span>GitLab</span></li>
+            <li class="competence">•<span>Terminal</span></li>
+          </ul>
+        </div>
       </section>
     </main>
-    <script src="./mobile_menu.js"></script>
+
+    <footer id="footer">
+      <div class="cards">
+        <h2 class="ttl"> Get Started</h2>
+        <p class="txt">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna.
+        </p>
+        <button type="button" class="btn cv-btn"> Start collaboration </button>
+      </div>
+      
+      <form class="form">
+        <div class="inputs">
+          <input type="text" class="mail-name" name="name" placeholder="your name" required maxlength="30">
+          <input type="email" class="mail-name" name="email" placeholder="your email" required maxlength="30">
+          <textarea class="msg" name="message" placeholder="Enter your message here" required maxlength="500"></textarea>
+        </div>
+        
+        <button type="submit" class="btn cv-btn"> Start collaboration </button>
+      </form>
+      
+      <div class="join">
+        <button type="button" class="see-btn btn">
+          Get my resume
+          <img src="./linkpics/ic_union.svg" alt="">
+        </button>
+        
+        <ul class="links">
+          <li class="link"> <img src="./linkpics/ic_stackoverflow.svg" alt="link-pic" /> </li>
+          <li class="link"> <img src="./linkpics/ic_github.svg" alt="link-pic" /> </li>
+          <li class="link"> <img src="./linkpics/ic_twitter.svg" alt="link-pic" /> </li>
+          <li class="link"> <img src="./linkpics/ic_linkedin.svg" alt="link-pic" /> </li>
+          <li class="link"> <img src="./linkpics/ic_medium.svg" alt="link-pic" /> </li>
+          <li class="link"> <img src="./linkpics/ic_angellist.svg" alt="link-pic" /> </li>
+        </ul>
+        
+       </div>
+    </footer>
+    <script src="mobile_menu.js"></script>
   </body>
 </html>
