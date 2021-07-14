@@ -1,0 +1,94 @@
+# This is a configuration file to customize code analysis by Sider.
+#
+# For more information, see the documentation:
+# https://help.sider.review/getting-started/custom-configuration
+
+# Customize each tool. If analyses fail, try adjusting each option referencing the following example.
+linter:
+
+#   # PHP_CodeSniffer example. See https://help.sider.review/tools/php/code-sniffer
+#   code_sniffer:
+#     root_dir: project/
+#     target: [app/, test/]
+#     standard: [CakePHP, custom-ruleset.xml]
+#     extensions: [php, inc]
+#     encoding: utf-8
+#     ignore:
+#       - app/vendor/
+#     parallel: true
+
+#   # HAML-Lint example. See https://help.sider.review/tools/ruby/haml-lint
+#   haml_lint:
+#     root_dir: project/
+#     dependencies:
+#       - { name: "rubocop", version: "1.0.0" }
+#     target: [app/, lib/]
+#     include_linter:
+#       - EmptyScript
+#       - MultilinePipe
+#     exclude_linter:
+#       - TagName
+#     config: config/.haml-lint.yml
+#     parallel: false
+
+#   # Misspell example. See https://help.sider.review/tools/others/misspell
+#   misspell:
+#     root_dir: project/
+#     target: [src/, test/]
+#     exclude: ["**/*.min.*"]
+#     locale: UK
+#     ignore: [center, behavior]
+
+#   # PHPMD example. See https://help.sider.review/tools/php/phpmd
+#   phpmd:
+#     root_dir: project/
+#     target: [src/, test/]
+#     rule: [cleancode, codesize]
+#     minimumpriority: 3
+#     suffixes: [php, phtml]
+#     exclude: [vendor/, "test/*.php"]
+#     strict: true
+#     custom_rule_path:
+#       - Custom_PHPMD_Rule.php
+#       - "custom/phpmd/rules/**/*.php"
+
+#   # ShellCheck example. See https://help.sider.review/tools/shellscript/shellcheck
+#   shellcheck:
+#     root_dir: project/
+#     target:
+#       - "**/*.{sh,bash}"
+#       - shebang: true
+#     include: [SC2104, SC2105]
+#     exclude: [SC1000, SC1118]
+#     enable: all
+#     shell: bash
+#     severity: error
+#     norc: true
+
+#   # stylelint example. See https://help.sider.review/tools/css/stylelint
+#   stylelint:
+#     root_dir: project/
+#     dependencies:
+#       - my-stylelint-plugin@2
+#     npm_install: false
+#     config: config/.stylelintrc.yml
+#     syntax: scss
+#     ignore-path: config/.stylelintignore
+#     ignore-disables: true
+#     report-needless-disables: true
+#     quiet: true
+#     target: ["app/**/*.scss"]
+
+# Ignore specific files. Example:
+# ignore:
+#   - "*.pdf"
+#   - "*.mp4"
+#   - "*.min.*"
+#   - "images/**"
+
+# Exclude specific branches. Example:
+# branches:
+#   exclude:
+#     - master
+#     - development
+#     - /^release-.*$/
