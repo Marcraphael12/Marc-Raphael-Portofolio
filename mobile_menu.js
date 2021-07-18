@@ -35,5 +35,3 @@ cross.addEventListener('click', close)
 
 for (i = 0; i < link.length; ++i)
   { link[i].addEventListener('click', close) } // close menu when clicking on link
-
-
