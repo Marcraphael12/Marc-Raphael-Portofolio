@@ -410,6 +410,53 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) {
-  
+@media screen and (min-width: 700px) {
+
+  /* Thi part is only for the modal */
+  aside {
+    padding: 70px;
+  }
+
+  aside div h2 {
+    font-size: 35px;
+    width: 93% !important;
+  }
+
+  aside div ul {
+    width: 93% !important;
+  }
+
+  aside div ul li {
+    padding: 10px 30px !important;
+    font-size: 20px !important;
+  }
+
+  /* the code continue by here */
+}
+
+@media screen and (min-width: 820px) {
+
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 45px;
+  }
+
+  /* the code continue by here */
+}
+
+@media screen and (min-width: 900px) {
+
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 50px;
+  }
+  /* the code continue by here */
+}
+
+@media screen and (min-width: 1080px) {
+
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 60px;
+  }
 }
