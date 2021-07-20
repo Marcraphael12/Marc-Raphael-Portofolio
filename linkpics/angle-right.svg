@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Outline"
+   viewBox="0 0 24 24"
+   version="1.1"
+   sodipodi:docname="fi-rr-angle-right.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="22.166667"
+     inkscape:cx="11.977444"
+     inkscape:cy="12.022556"
+     inkscape:window-width="1314"
+     inkscape:window-height="704"
+     inkscape:window-x="52"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Outline" />
+  <title
+     id="title2">168 arrow right</title>
+  <path
+     d="M 7,24 C 6.1092709,23.99981 5.6632545,22.922936 6.293,22.293 l 8.172,-8.172 c 1.752083,-2.1288 1.765501,-2.165951 0,-4.242 L 6.293,1.707 C 5.3826776,0.76447362 6.7644736,-0.61732244 7.707,0.293 l 7.954818,8.0628609 c 3.168562,3.3693211 3.200558,3.3112781 0.776199,6.0376131 L 7.707,23.707 C 7.5195073,23.894549 7.2651948,23.999943 7,24 Z"
+     fill="#ffffff"
+     id="path4"
+     sodipodi:nodetypes="cccccccccc" />
+  <metadata
+     id="metadata274">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>168 arrow right</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

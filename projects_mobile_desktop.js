@@ -1,8 +1,8 @@
 /******** Projects techs **********/
 const technologiesUsed = {
   htmlCss : 'HTML/CSS',
+  ruby : 'Ruby on Rails',
   JavaScript : 'JavaScript',
-  ruby : 'Ruby',
 }
 
 function techStyle(tech) {
@@ -10,8 +10,8 @@ function techStyle(tech) {
   display: flex;\
   align-items: center;\
   justify-content: center;\
-  padding: 6px 10px;\
-  font-size: 11px;\
+  padding: 4px 10px;\
+  font-size: 9px;\
   font-weight: 300;\
   margin-right: 10px;\
   border: solid 0.5px #1A2236;\
@@ -25,42 +25,161 @@ tech1.innerHTML = technologiesUsed.htmlCss
 techStyle(tech1)
 
 const tech2 = document.createElement('li')
-tech2.innerHTML = technologiesUsed.JavaScript
+tech2.innerHTML = technologiesUsed.ruby
 techStyle(tech2)
 
 const tech3 = document.createElement('li')
-tech3.innerHTML = technologiesUsed.ruby
+tech3.innerHTML = technologiesUsed.JavaScript
 techStyle(tech3)
 
 const techs = document.createElement('ul')
 techs.setAttribute('style', '\
 list-style-type: none;\
 display: flex;\
-width: 100%;\
+width: 93%;\
 margin-bottom: 18px;\
+border: none;\
 height: auto;')
 
 techs.appendChild(tech1)
 techs.appendChild(tech2)
 techs.appendChild(tech3)
 
-/******** Images library **********/
+/******** Images library: Found all modal's images here **********/
 const images = {
   image1 : document.createElement('img')
   // can add more imeges later
 }
 
-function imagesStyle(img) {
+function imagesStyle(img) { // the default dispay of each big image is set to none
   img.setAttribute('style','\
   width: 93%;\
   height: auto;\
   margin: auto;')
+  img.style.display = 'none'
+  img.setAttribute('class', 'img-to-slide') // This class will be used to create the slider in the opening function
   return img
 }
 
-const img1 = images.image1
+const sliderImages = document.querySelectorAll('.img-to-slide')
+let slidesLength = sliderImages.length
+
+const img1 = images.image1 // The first big image
 img1.setAttribute('src', './images/Rectangle21_2.png')
+img1.style.display = 'block'
+
 imagesStyle(img1)
+
+
+/************** The button allowing to slide images **************/
+function slideButtonStyle(elem) {
+  elem.setAttribute('style', '\
+  width: 35px;\
+  height: 50px;\
+  margin: auto 3.5%;\
+  cursor: pointer;')
+  return elem
+}
+const slideLeft = document.createElement('img')
+slideLeft.setAttribute('src', './linkpics/angle-left.svg')
+slideButtonStyle(slideLeft)
+
+const slideRight = document.createElement('img')
+slideRight.setAttribute('src', './linkpics/angle-right.svg')
+slideButtonStyle(slideRight)
+
+const slideButtonContainer = document.createElement('div')
+slideButtonContainer.setAttribute('style', '\
+width: 100%;\
+height: auto;\
+position: absolute;\
+z-index: 1;\
+top: 100px;\
+margin-top: 40%;\
+display: flex;\
+flex-direction: row;\
+justify-content: space-between;\
+align-items: center;')
+slideButtonContainer.appendChild(slideLeft)
+slideButtonContainer.appendChild(slideRight)
+
+let count = 0 // counter : allow to switch to the next or previews images
+function nextSlide() {
+  sliderImages[count].style.display = 'none' // remove this element and set it to display none
+  if (count < slidesLength - 1) { ++count; }
+  else { count = 0; }
+
+  sliderImages[count].style.display = 'block' // add yhe next image by diaplaying it as block
+}
+
+/******* Little images library ********/
+const litlesImages = {
+  img1 : document.createElement('img'),
+  img2 : document.createElement('img'),
+  img3 : document.createElement('img'),
+  img4 : document.createElement('img'),
+}
+
+// The litles images
+function litleImageStyle(ele) {
+  ele.setAttribute('style', '\
+  width: 100%;\
+  height: auto;')
+
+  ele.setAttribute('src', './images/Rectangle21.png')
+
+  return ele
+}
+
+const litleImage1 = litlesImages.img1
+litleImageStyle(litleImage1)
+
+const litleImage2 = litlesImages.img2
+litleImageStyle(litleImage2)
+
+const litleImage3 = litlesImages.img3
+litleImageStyle(litleImage3)
+
+const litleImage4 = litlesImages.img4
+litleImageStyle(litleImage4)
+
+// the list element to keep every litle images
+function litleImageListStyle(ele) {
+  ele.setAttribute('style', '\
+  width: 25%;\
+  height: auto;\
+  padding: 0 !important;')
+
+  return ele
+}
+
+const litleImageList1 = document.createElement('li')
+litleImageListStyle(litleImageList1)
+litleImageList1.appendChild(litleImage1)
+
+const litleImageList2 = document.createElement('li')
+litleImageListStyle(litleImageList2)
+litleImageList2.appendChild(litleImage2)
+
+const litleImageList3 = document.createElement('li')
+litleImageListStyle(litleImageList3)
+litleImageList3.appendChild(litleImage3)
+
+const litleImageList4 = document.createElement('li')
+litleImageListStyle(litleImageList4)
+litleImageList4.appendChild(litleImage4)
+
+const litlesImagesKeeper = document.createElement('ul')
+litlesImagesKeeper.setAttribute('style', '\
+width: 93%;\
+height: auto;\
+margin: auto;\
+display: flex;\
+border: none;')
+litlesImagesKeeper.appendChild(litleImageList1)
+litlesImagesKeeper.appendChild(litleImageList2)
+litlesImagesKeeper.appendChild(litleImageList3)
+litlesImagesKeeper.appendChild(litleImageList4)
 
 /******** Texts library **********/
 const texts = {
@@ -69,9 +188,15 @@ const texts = {
   text1 :'	Lorem ipsum dolor sit amet consectetur,\
 	adipisicing elit. Illum, sed doloribus praesentium\
 	aperiam voluptate facilis maxime quos similique nihil saepe,\
+	qui soluta! Ad minima, architecto nostrum earum nobis id provident?	Lorem ipsum dolor sit amet consectetur,\
+	adipisicing elit. Illum, sed doloribus praesentium\
+	aperiam voluptate facilis maxime quos similique nihil saepe,\
 	qui soluta! Ad minima, architecto nostrum earum nobis id provident?',
 
   text2 : '	Lorem ipsum dolor sit amet consectetur,\
+	adipisicing elit. Illum, sed doloribus praesentium\
+	aperiam voluptate facilis maxime quos similique nihil saepe,\
+	qui soluta! Ad minima, architecto nostrum earum nobis id provident?	Lorem ipsum dolor sit amet consectetur,\
 	adipisicing elit. Illum, sed doloribus praesentium\
 	aperiam voluptate facilis maxime quos similique nihil saepe,\
 	qui soluta! Ad minima, architecto nostrum earum nobis id provident?',
@@ -80,8 +205,9 @@ const texts = {
 const projectName = document.createElement('h2')
 projectName.innerHTML = texts.title
 projectName.setAttribute('style', '\
-width: 100%;\
+width: 93%;\
 height: auto;\
+font-size: 20px;\
 font-weight: 700;\
 color: #1A2236;\
 margin-bottom: 23px;')
@@ -93,7 +219,7 @@ function textsStyle(txt) {
   font-size: 12px;\
   line-height: 21px;\
   font-weight: 400;\
-  max-width: 700px;\
+  max-width: 600px;\
   height: auto;\
   margin: auto;\
   margin-block-start: 10px;\
@@ -209,7 +335,9 @@ flex-direction: column;')
 card.appendChild(closeModal)
 card.appendChild(projectName)
 card.appendChild(techs)
+card.appendChild(slideButtonContainer)
 card.appendChild(img1)
+card.appendChild(litlesImagesKeeper)
 card.appendChild(txt1)
 card.appendChild(txt2)
 card.appendChild(Buttons)
@@ -218,7 +346,7 @@ card.appendChild(Buttons)
 const modal = document.createElement('aside') // Consider modal as an aside element
 modal.setAttribute('style','\
 height: 100%;\
-width: 100%;\
+width: 100vw;\
 background: rgba(26, 34, 54, 1);\
 position: fixed;\
 top: 0;\
@@ -227,8 +355,6 @@ display: flex;\
 flex-direction: column;\
 overflow: scroll;')
 modal.appendChild(card)
-
-/************ Window object: screen size by using JavaScript Media method ************/
 
 /******* Opening and closing functions part *********/
 function openProject() { // open the modal

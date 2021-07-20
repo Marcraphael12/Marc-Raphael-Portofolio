@@ -335,6 +335,11 @@ body {
 
 @media screen and (min-width: 401px) {
 
+    /* Thi part is only for the modal */
+    aside div h2 {
+      font-size: 28px !important;
+    }
+
   /* global element style */
   .ttl {
     font-size: 50px;
@@ -414,11 +419,15 @@ body {
 
   /* Thi part is only for the modal */
   aside {
-    padding: 70px;
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+  aside div {
+    width: calc(100% - 140px) !important;
   }
 
   aside div h2 {
-    font-size: 35px;
+    font-size: 35px !important;
     width: 93% !important;
   }
 
@@ -438,7 +447,7 @@ body {
 
   /* Thi part is only for the modal */
   aside div h2 {
-    font-size: 45px;
+    font-size: 45px !important;
   }
 
   /* the code continue by here */
@@ -448,7 +457,7 @@ body {
 
   /* Thi part is only for the modal */
   aside div h2 {
-    font-size: 50px;
+    font-size: 50px !important;
   }
   /* the code continue by here */
 }
@@ -457,6 +466,6 @@ body {
 
   /* Thi part is only for the modal */
   aside div h2 {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 }
