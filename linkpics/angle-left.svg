@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Outline"
+   viewBox="0 0 24 24"
+   version="1.1"
+   sodipodi:docname="fi-rr-angle-left.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="22.166667"
+     inkscape:cx="11.977444"
+     inkscape:cy="4.8045113"
+     inkscape:window-width="1314"
+     inkscape:window-height="704"
+     inkscape:window-x="52"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Outline" />
+  <title
+     id="title2">169 arrow left</title>
+  <path
+     d="m 17.172,24 c -0.265195,-5.7e-5 -0.519507,-0.105451 -0.707,-0.293 L 8.293,15.535 c -3.0119004,-3.675262 -3.0035078,-3.700066 0,-7.07 l 8.172,-8.172 c 0.942526,-0.91032244 2.324322,0.47147362 1.414,1.414 L 9.707,9.879 c -1.853774,2.284598 -1.832878,2.284433 0,4.242 l 8.172,8.172 c 0.629745,0.629936 0.183729,1.70681 -0.707,1.707 z"
+     fill="#000"
+     id="path4"
+     sodipodi:nodetypes="cccccccccc" />
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>169 arrow left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,1310 +1,469 @@
-/* Starting with @media queries */
-@media screen and (min-width: 450px) {
-  .class-presentation .class-my-name:nth-child(1) {
-    /* set a new font style */
-    font-size: 50px;
-    font-weight: 400;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(26, 34, 54, 1); /* default text color */
+}
 
-  .class-presentation .class-about-me:nth-child(2) {
-    /* set a new font style */
-    font-size: large;
-    text-align: justify;
-    margin: 0;
-    width: 80%;
-  }
+body {
+  background-image: url(./backgrounds/image_geometry_1.png);
+  background-repeat: no-repeat;
+}
 
-  #id-presentation-section .class-litle-background {
-    height: 250px;
-  }
+.menu { display: none; } /* default display of menu */
 
-  #id-works-section .class-project-container {
-    /* set a new width and margin */
-    margin: 0 0;
-    width: auto;
-  }
+.ttl { /* all default sections title style */
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  width: max-content;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
 
-  .class-project .class-project-image {
-    width: 450px;
-  }
+.txt { /* all paragraph style */
+  font-family: 'Poppins', sans-serif;
+  color: #1a2236;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
 
-  .class-project-description .class-project-name {
-    font-weight: 600;
-    font-size: x-large;
-  }
-
-  .class-project-description .class-project-languages {
-    align-self: initial;
-    margin-left: 21px;
-  }
-
-  .class-project-languages .class-project-li {
-    font-size: small;
-    width: auto;
-    padding: 5px 5px;
-    font-weight: 500;
-  }
-
-  .class-project-link .class-project-button {
-    font-weight: 700;
-  }
-
-  .about-container .class-about-description {
-    /* set a new font style */
-    font-size: large;
-  }
-
-  .class-about-cv .class-about-span {
-    font-weight: 700;
-  }
-} /* media for min-width: 450px ends here */
-
-@media screen and (min-width: 600px) {
-  html body {
-    background: none;
-  }
-
-  body #id-header-content {
-    width: 100%;
-    height: 100px;
-    margin: 0 0;
-
-    /* set the display */
+@media screen and (min-width: 200px) {
+  #header {
+    max-width: 400px;
+    height: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+
+  .menu-btn {
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  section {
+    max-width: 400px;
+    height: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .block {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profil {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 2px darkblue;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 38px;
+  }
+
+  .para1 {
+    width: 95%;
+    text-align: center;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    width: 280px;
+    height: 44px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(26, 34, 54, 1);
+  }
+
+  .bg {
+    max-width: 400px;
+    height: 180px;
+    background-image: url(./backgrounds/image_geometry_2.png);
+    background-size: 100% 100%;
+    margin-top: 45px;
+  }
+
+  .cards {
+    min-width: 280px;
+    max-width: 400px;
+  }
+
+  .cards .ttl h2 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-pic {
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .card-desc {
+    min-width: 280px;
+    width: 100%;
+    height: 180px;
+    background: #1a2236;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ttl-3 {
+    width: max-content;
+    height: auto;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 20px;
+    list-style-type: none;
+    color: white;
+  }
+
+  .techs {
+    width: max-content;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .tech {
+    width: max-content;
+    height: auto;
+    color: #1a2236;
+    background: rgba(152, 222, 222, 1);
+    margin-left: 15px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 0.5px solid rgba(185, 185, 185, 0.747);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 5px;
+    padding-block-end: 5px;
   }
 
-  #id-header-content .class-my-logo:nth-child(1) {
-    display: none;
-  }
+  .tech:nth-child(1) { margin-left: 0; } /* remove left margin only on the first tech element */
 
-  #id-header-content img {
-    display: none;
-  }
-
-  #id-header-content .class-header-link {
-    /* set the position and dimension */
-    width: fit-content;
-    height: auto;
-    margin: 0 12.5px 0 12.5px;
-
-    /* set the display */
-    display: initial;
-
-    /* set the font properties */
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgba(26, 34, 54, 1);
-  }
-
-  header a:hover {
-    border-bottom: 2px solid rgba(26, 34, 54, 1);
-  }
-
-  #id-presentation-section .class-presentation {
-    /* set the position and dimension */
-    width: 600px;
-    height: auto;
-    margin: 0 auto 0 0;
-    overflow: hidden;
-
-    /* set the background */
-    background-image: url(./images/image_dots.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: initial;
-    animation-duration: 3s;
-  }
-
-  .class-presentation .class-my-name:nth-child(1) {
-    font-size: 110px;
-    font-weight: 500;
-  }
-
-  .class-presentation .class-start-see-project:nth-child(3) {
-    /* set the position and dimension */
-    width: 254px;
-    height: 70px;
-    margin: 80px auto 188px 0;
-
-    /* set the font */
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  #id-presentation-section .class-litle-background {
-    /* set the position and dimension */
-    margin-top: 0;
-    height: 350px;
-  }
-
-  #id-works-section .class-project-container {
-    /* set the display */
-    display: grid;
-    grid-template-columns: auto auto;
+  .see-btn {
+    width: 178px;
+    display: flex;
     justify-content: space-around;
-  }
-
-  #id-works-section h1 {
-    margin-bottom: 10px;
-  }
-
-  .class-project-container .class-sections-titles {
-    /* set the dimension and position */
-    width: 100%;
-    height: 230px;
-
-    /* set the font */
-    font-size: 110px;
-    font-weight: 400;
-
-    /* set the display */
-    grid-column: 1 / 3;
-  }
-
-  .class-project-container .class-project {
-    width: 300px;
-    margin-bottom: 30px;
-    height: auto;
-    background-color: unset;
-  }
-
-  .class-project-description .class-project-name {
-    font-weight: 600;
-    font-size: large;
-  }
-
-  .class-project-description .class-project-languages {
-    align-self: initial;
-    margin-left: 21px;
-    width: auto;
-  }
-
-  .class-project-languages .class-project-li {
-    font-size: xx-small;
-    width: auto;
-    font-weight: 400;
-  }
-
-  .class-project .class-project-image {
-    width: 300px;
-  }
-
-  #id-section-about-my-self .about-container {
-    width: 580px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .about-container .class-sections-titles {
-    /* set the position and dimension */
-    width: 100%;
-    height: auto;
-    margin-left: 0;
-
-    /* set the font properties */
-    font-size: 110px;
-  }
-
-  .about-container .class-about-cv {
-    /* set the position and dimension */
-    width: 254px;
-    height: 70px;
-    margin-left: 0;
-
-    /* set the font properties */
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  #id-section-about-my-self .class-about-technologies {
-    width: fit-content;
-    height: auto;
-    padding-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-    /* set the diplay */
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: flex-start;
-
-    /* set the background */
-    background-image: url(./images/image_dots_with_teal.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-
-  .class-about-technologies .class-about-div {
-    /* set the position and dimension */
-    width: 289px;
-    height: 295px;
-    margin-top: 0;
-    overflow: hidden;
-  }
-
-  .class-about-technologies #id-about-languages {
-    margin-top: 0;
-  }
-
-  #id-footer #id-other-links {
-    /* set the position and dimension */
-    height: 123px;
-
-    /* set the display */
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #id-other-links .class-social-container {
-    margin: 0 10% 0 0;
-  }
-
-  #id-other-links .class-links {
-    margin: 0 0 0 10%;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  .class-links .link {
-    color: rgba(146, 220, 220, 1);
-  }
-
-  #id-footer #id-contact-form {
-    /* set the position and dimension */
-    width: auto;
-  }
-
-  #id-contact-form .class-sections-titles {
-    /* set the position and dimension */
-    width: 548px;
-    height: auto;
-    margin: 0 auto 0 auto;
-
-    /* set the font properties */
-    font-size: 100px;
-    font-weight: 500;
-  }
-
-  #id-contact-form .class-about-description {
-    /* set the position and dimension */
-    width: 542px;
-    height: auto;
-    margin: 0 auto 0 auto;
-
-    /* set the font properties */
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  #id-contact-form #form {
-    /* set the position and dimension */
-    width: 542px;
-    margin: 82px auto 0 auto;
-  }
-
-  #form .name-email {
-    /* set the position and dimension */
-    width: 250px;
-    height: 60px;
-    margin-bottom: 32px;
-  }
-
-  #form #name {
-    margin-right: 10px;
-  }
-
-  #form #email {
+    margin-bottom: 20px;
     margin-left: 10px;
   }
 
-  #form #message {
-    /* set the position and dimension */
-    width: 532px;
-    height: 142px;
-  }
-
-  #form .class-start-see-project {
-    /* set the position and dimension */
-    width: 254px;
-    height: 70px;
-
-    /* set the font properties */
-    font-size: 18px;
-    font-weight: 500;
-  }
-} /* end of media queries for min-width: 600px */
-
-@media screen and (min-width: 820px) {
-  #id-works-section .class-project-container {
-    /* set a new width and margin */
-    margin: 0 0;
-    width: auto;
-  }
-
-  .class-project-container .class-project {
-    width: auto;
-  }
-
-  .class-project .class-project-image {
-    width: 450px;
-  }
-
-  .class-project .class-project-description {
-    width: 450px;
-  }
-
-  .class-project-description .class-project-name {
-    font-weight: 600;
-    font-size: x-large;
-  }
-
-  .class-project-description .class-project-languages {
-    align-self: initial;
-    margin-left: 21px;
-  }
-
-  .class-project-languages .class-project-li {
-    font-size: small;
-    width: auto;
-    font-weight: 500;
-  }
-
-  .class-project-link .class-project-button {
-    font-weight: 700;
-  }
-
-  #id-presentation-section .class-litle-background {
-    /* set the position and dimension */
-    margin-top: 0;
-    height: 500px;
-  }
-} /* end of style for min-width: 820px */
-
-@media screen and (min-width: 1024px) {
-  #id-main-content #id-works-section {
-    margin: 210px auto 0 auto;
-    width: auto;
-  }
-
-  #id-main-content #id-presentation-section {
+  #section3 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-
-  #id-presentation-section .class-litle-background {
-    /* set the position and dimension */
-    margin: 0 0;
-    width: 55%;
-    height: 877px;
-
-    /* set the background */
-    background-image: url(./images/image-geometry_1.png);
-  }
-
-  #id-presentation-section .class-presentation {
-    margin: 105px 0 0 auto;
-    width: 40%;
-  }
-
-  #id-works-section .class-project-container {
-    width: 1024px;
-    margin: 0 auto 0 auto;
-
-    /* set the display */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .class-project-container .works-section-title:nth-child(1) {
-    order: 1;
-
-    /* set the dimension and position */
-    width: 25%;
-    height: auto;
-    margin: 0 0 0 auto;
-    transform: rotate(-180deg);
-
-    /* set the font */
-    font-size: 85px;
-    writing-mode: tb-rl;
-    text-align: end;
-
-    /* set the background */
-    background-image: url(./images/image_dots.png);
-    background-size: 100px;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-  }
-
-  .class-project-container .class-project {
-    margin: 0 0;
-  }
-
-  .class-project-container .project1:nth-child(2) {
-    order: 2;
-
-    /* set the position and dimension */
-    width: 70%;
-    height: 380px;
-    margin-right: 0;
-
-    /* set the background */
-    background-image: url(./images/Rectangle21_2.png);
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-
-  .project1 .class-project-image {
-    display: none;
-  }
-
-  .project1 .project1-description {
-    /* set the position and dimension */
-    width: 100%;
-    height: 250px;
-    margin: auto auto 0 auto;
-    cursor: pointer;
-  }
-
-  .project1-description .project1-name {
-    width: fit-content;
-    font-weight: 500;
-    font-size: 40px;
-    margin-left: 40px;
-    margin-bottom: 15px;
-  }
-
-  .project1-description .project1-languages {
-    align-self: initial;
-    margin-left: 40px;
-    margin-top: 0;
-    width: auto;
-  }
-
-  .project1-languages .project1-li {
-    font-size: 12px;
-    width: max-content;
-    margin-right: 20px;
-    padding: 10px 10px;
-    font-weight: 300;
-  }
-
-  .project1-description .project1-link {
-    /* set the position and dimension */
-    height: 51px;
-    width: 212px;
-    margin-left: 40px;
-    margin-top: 10px;
-    font-weight: 500;
-    font-size: 18px;
-    background-color: white;
-  }
-
-  .project1-link .project1-button {
-    color: rgba(26, 34, 54, 1);
-  }
-
-  .project1-link .project1-union-pic {
-    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
-  }
-
-  .class-project-container .project2:nth-child(3) {
-    order: 3;
-
-    /* set the position and dimension */
-    width: 70%;
-    height: 252px;
-    margin: 0 0 0 0;
-
-    /* set the background */
-    background-image: url(./images/image-geometry_2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-  }
-
-  .project2 .class-project-description {
-    display: none;
-  }
-
-  .project2 .class-project-image {
-    width: 45%;
-    height: 200px;
-    margin: auto auto 0 0;
-  }
-
-  .class-project-container .project6:nth-child(7) {
-    order: 4;
-    width: 30%;
-    height: 190px;
-
-    /* set the background */
-    background-image: url(./images/Rectangle21_6.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-
-  .project6 .class-project-image {
-    display: none;
-  }
-
-  .project6 .project6-description {
-    cursor: pointer;
-
-    /* set the position and dimension */
-    width: 100%;
-    height: 80%;
-    margin: auto 0 0 0;
-  }
-
-  .project6-description .class-project-name {
-    display: none;
-  }
-
-  .project6-description .project6-other-h2 {
-    display: initial;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px auto 10px 20px;
-  }
-
-  .project6-description .project6-languages {
-    margin-left: 20px;
-    width: max-content;
-  }
-
-  .project6-languages .project6-js {
-    display: none;
-  }
-
-  .project6-languages .class-project-li {
-    font-size: 12px;
-    width: max-content;
-    margin-right: 15px;
-    margin-bottom: 0;
-    padding: 5px 10px;
-    font-weight: 300;
-  }
-
-  .project6-languages .project6-plus-one {
-    display: initial;
-    font-size: 12px;
-    width: max-content;
-    margin-right: 15px;
-    padding: 5px 10px;
-    font-weight: 300;
-  }
-
-  .project6-description .project6-link {
-    /* set the position and dimension */
-    height: 36px;
-    width: 160px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-weight: 500;
-    background-color: white;
-  }
-
-  .project6-link .project6-button {
-    color: rgba(26, 34, 54, 1);
-    font-size: 14px;
-  }
-
-  .project6-link .project6-union-pic {
-    filter: invert(9%) sepia(62%) saturate(519%) hue-rotate(183deg) brightness(0) contrast(92%);
-  }
-
-  .class-project-container .project5:nth-child(6) {
-    order: 5;
-    height: 300px;
-    width: 30%;
-    margin-top: -63px;
-
-    /* set thebackground */
-    background-image: url(./images/Group_83.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 71.5% 42%;
-  }
-
-  .project5 .class-project-description {
-    display: none;
-  }
-
-  .project5 .project5-image {
-    width: 100%;
-    height: 175px;
-  }
-
-  .class-project-container .project3:nth-child(4) {
-    order: 5;
-    width: 70%;
-    height: 310px;
-
-    /* set the background */
-    background-image: url(./images/Shape.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 125px;
-  }
-
-  .project3 .class-project-description {
-    display: none;
-  }
-
-  .project3 .class-project-image {
-    width: 82.3%;
-    height: 310px;
-  }
-
-  .class-project-container .project4:nth-child(5) {
-    order: 7;
-    width: 89%;
-    height: 220px;
-    margin: 0 auto 0 0;
-
-    /* set the background */
-    background-image: url(./images/image-geometry_4.png), url(./images/image-geometry_5.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 535px top, left top;
-    background-size: 60px 60px, 130px 70px;
-  }
-
-  .project4 .class-project-description {
-    display: none;
-  }
-
-  .project4 .class-project-image {
-    width: 35%;
-    height: auto;
-    margin: 0 0 0 auto;
-  }
-
-  #id-main-content #id-section-about-my-self {
-    /* set the position and dimension */
-    height: auto;
-    margin-top: 216px;
-    width: 100%;
-    max-width: 1440px;
-
-    /* set the display */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
   }
 
-  #id-section-about-my-self .class-about-technologies:nth-child(2) {
-    margin: 0 50px 0 100px;
-    order: 1;
-    width: 40.5%;
+  .abt {
+    margin-bottom: 50px;
+  }
+
+  .cv-btn {
+    width: 290px;
+    margin: 0 auto 0 auto;
+  }
+
+  .cv-btn img {
+    margin-left: 20px;
+  }
+
+  .competences {
+    width: 290px;
+    height: 290px;
+    font-size: 18px;
+    font-weight: 600;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .cmp-ttl {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .competence {
+    width: max-content;
     height: auto;
-    padding-bottom: 15px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    color: white;
   }
 
-  #id-section-about-my-self .about-container:nth-child(1) {
-    order: 2;
-    margin-left: 0;
-    margin-right: 160px;
-    margin-top: 28px;
-    width: 30%;
-    height: 336px;
+  .competence span {
+    margin-left: 3px;
+    color: white;
   }
 
-  .about-container .class-sections-titles {
-    margin-top: 0;
+  .competence:last-child { margin-bottom: 0; }
+
+  .cmps-1 {
+    background-color: rgba(28, 82, 138, 1);
+    background-image: url(./backgrounds/htag.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 
-  .about-container .class-about-description {
-    font-size: 14px;
-    font-weight: 400;
+  .cmps-2 {
+    background: rgba(226, 80, 92, 1);
+    background-image: url(./backgrounds/Group18.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 
-  #id-main-content #id-footer {
-    margin-top: 126px;
+  .cmps-3 {
+    background: rgba(254, 191, 82, 1);
+    background-image: url(./backgrounds/ic_skills.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 
-    /* set the background */
-    background-image: url(./images/image-geometry_6.png), url(./images/image-geometry_7.png);
-    background-position: left top, right 490px;
-    background-repeat: no-repeat, no-repeat;
+  #footer {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .form {
+    max-width: 400px;
+    margin-top: 50px;
+  }
+
+  .inputs {
+    width: max-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto 50px auto;
+  }
+
+  .mail-name,
+  .msg {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 30px;
+    text-indent: 16px;
+    outline: none;
+    box-shadow: 0 0 1px #1a2236;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .msg {
+    height: 110px;
+    margin-bottom: 0;
+    resize: none;
+    padding-block-start: 15px;
+  }
+
+  .join {
+    max-width: 400px;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(26, 34, 54, 1);
+    margin-top: 50px;
+  }
+
+  .join button { margin-bottom: 0; }
+
+  .links {
+    width: max-content;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .link { /* default link style, also for the menu link on header */
+    margin-left: 20px;
+  }
+
+  .link:nth-child(1) { margin-left: 0 !important; }
+}
+
+@media screen and (min-width: 401px) {
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 25px !important;
+  }
+
+  /* global element style */
+  .ttl {
+    font-size: 50px;
+  }
+
+  .txt {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  #header {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    max-width: none;
+    width: 100%;
+    box-shadow: 0 1px 1px blue;
+  }
+
+  .menu-btn { display: none !important; }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+  }
+
+  #footer {
+    width: 100%;
+    max-width: none;
+    align-items: center;
+  }
+
+  #section2 { max-width: 550px; }
+
+  .cards {
+    max-width: 550px;
+  }
+
+  .ttl-3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .card-pic {
+    height: 250px;
+  }
+
+  .card-desc {
+    height: 200px;
+  }
+
+  .tech {
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+  }
+
+  .join {
+    width: 100%;
+    max-width: none;
   }
 }
 
-/* mobile version style start here */
+@media screen and (min-width: 700px) {
+  /* Thi part is only for the modal */
+  aside {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
 
-body {
-  /* set the background */
-  background-image: url(./images/image_geometry_1.png);
-  background-size: 90px;
-  background-repeat: no-repeat;
-  background-attachment: initial;
+  aside div {
+    width: calc(100% - 140px) !important;
+  }
+
+  aside div h2 {
+    font-size: 35px !important;
+    width: 93% !important;
+  }
+
+  aside div ul {
+    width: 93% !important;
+  }
+
+  aside div ul li {
+    padding: 10px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* the code continue by here */
 }
 
-#id-main-content {
-  /* set the dimension and position */
-  width: auto;
-  height: auto;
-  margin: auto auto;
+@media screen and (min-width: 820px) {
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 45px !important;
+  }
 
-  /* set the display */
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-} /* Header style start here */
-
-#id-header-content {
-  width: 98%;
-  height: auto;
-  margin: 10px auto 50px auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+  /* the code continue by here */
 }
 
-.class-header-link,
-.project1-desktop-image {
-  display: none;
-} /* Hide the header link  */
+@media screen and (min-width: 900px) {
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 50px !important;
+  }
 
-.class-my-logo:nth-child(1) {
-  display: block;
-  width: 100px;
-  margin-left: 10px;
-  height: auto;
-  align-self: flex-start;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  /* the code continue by here */
 }
 
-.class-side-menu:nth-child(2) {
-  display: block;
-  width: 20px;
-  height: 20px;
-  align-self: flex-end;
-  margin-right: 10px;
-} /* Header style end here */
-
-/* Presentation section start here */
-#id-presentation-section {
-  margin: 0 auto 0 auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.class-presentation {
-  margin: 0 16px auto 16px;
-}
-
-.class-my-name:nth-child(1) {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-size: xx-large;
-  font-weight: 100;
-}
-
-.class-about-me:nth-child(2) {
-  margin: 30px auto auto auto;
-  width: 100%;
-  height: auto;
-  font-size: small;
-  font-family: "Poppins", sans-serif;
-  color: rgba(26, 34, 54, 1);
-  text-align: initial;
-}
-
-.class-start-see-project:nth-child(3) {
-  margin: 30px auto auto auto;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(26, 34, 54, 1);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  border: none;
-  box-shadow: 0 0 2px black;
-}
-
-.class-start-see-project:hover {
-  background-color: rgb(228, 88, 101);
-  transform: scale(1.15);
-} /* Presentation section end here */
-
-/* Little background */
-.class-litle-background {
-  width: 100%;
-  height: 150px;
-  background-image: url(./images/image_geometry_2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-top: 10px;
-}
-
-/* Works or Projects section start here */
-#id-works-section {
-  width: 100%;
-  height: auto;
-  margin-top: 30px;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-}
-
-/* Style for all section title */
-.class-sections-titles {
-  width: 288px;
-  height: auto;
-  margin: 56px auto 10px 0;
-  font-family: "Playfair Display", serif;
-  font-size: 50px;
-  font-weight: 100;
-  text-align: left;
-}
-
-.class-project-container .class-sections-titles {
-  margin-bottom: 26px;
-}
-
-/* end of sections title style */
-
-/* the container of all the project */
-.class-project-container {
-  list-style-type: none;
-  padding: 0 0;
-  width: fit-content;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  justify-content: center;
-  margin: auto auto;
-}
-
-.class-project {
-  width: 100%;
-  height: auto;
-  margin: 0 0 0 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  color: white;
-  list-style-type: none;
-}
-
-.class-project-image {
-  margin: 0 0;
-}
-
-.class-project-description {
-  margin: 0 0;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: rgba(26, 34, 54, 1);
-}
-
-.class-project-languages {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 300px;
-  margin: 0 0 0 0;
-  padding: 0 0;
-  height: auto;
-  background-color: rgba(26, 34, 54, 1);
-  align-self: flex-end;
-}
-
-.class-project-name {
-  margin: 20px 30px 16px 20px;
-  list-style-type: none;
-  background-color: rgba(26, 34, 54, 1);
-  font-family: "Poppins", sans-serif;
-  font-size: large;
-  font-weight: 300;
-}
-
-.project6-other-h2 {
-  display: none;
-}
-
-.class-project-li {
-  list-style-type: none;
-  width: 70px;
-  height: auto;
-  margin: 0 10px 10px 0;
-  padding: 3px 3px;
-  font-family: "Poppins", sans-serif;
-  font-size: xx-small;
-  text-align: center;
-  color: rgba(26, 34, 54, 1);
-  background-color: rgba(152, 222, 222, 1);
-}
-
-.project6-plus-one {
-  display: none;
-}
-
-.class-project-link {
-  border: 2px solid rgba(255, 255, 255, 0.911);
-  width: 178px;
-  height: 44px;
-  background-color: rgba(26, 34, 54, 1);
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  margin: 10px auto 10px 20px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 5px;
-}
-
-.class-project-link:hover {
-  background-color: rgba(228, 88, 101);
-}
-
-.class-project-button {
-  width: fit-content;
-  height: auto;
-  margin: auto 0 auto 12px;
-  border: none;
-  background-color: transparent;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: medium;
-  font-weight: 500;
-}
-
-.class-union-pic {
-  margin: auto 5px;
-} /* Works or Projects style end here */
-
-/* About my self style start here */
-#id-section-about-my-self {
-  margin: 0 auto 0 auto;
-  width: min-content;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.about-container {
-  width: fit-content;
-  height: auto;
-}
-
-.class-about-description {
-  margin: 10px auto auto auto;
-  width: 100%;
-  height: auto;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  color: rgba(26, 34, 54, 1);
-  text-align: left;
-}
-
-.class-about-cv {
-  width: 100%;
-  height: 50px;
-  margin: 30px auto 0 auto;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(26, 34, 54, 1);
-  font-weight: 500;
-  text-align: center;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 15px;
-}
-
-.class-about-cv:hover {
-  background-color: rgb(228, 88, 101);
-}
-
-.class-about-span {
-  background-color: transparent;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.class-about-technologies {
-  /* global container for class-about-div */
-  list-style-type: none;
-  padding-left: 0;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.class-about-div {
-  /* container */
-  margin: 16px 0 0 0;
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.class-about-div-ul {
-  margin: 11px 0 53px 50px;
-  padding: 0 0 0 0;
-  width: max-content;
-  list-style-type: disc;
-}
-
-.class-about-div-title {
-  width: max-content;
-  margin: 50px 0 11px 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 1);
-  list-style-type: none;
-  padding-left: 50px;
-}
-
-.class-div-list {
-  /* same block  ######### */
-  list-style-position: inside;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 1);
-}
-
-.class-div-list span {
-  position: relative;
-  right: 2px;
-} /* ######### */
-
-#id-about-languages {
-  margin-top: 40px;
-  background-color: rgba(28, 82, 138, 1);
-  background-image: url(./images/htag.png);
-  background-position: bottom right;
-  background-size: initial;
-  background-repeat: no-repeat;
-}
-
-#id-about-frameworks {
-  background-color: rgba(226, 80, 92, 1);
-  background-image: url(./images/Group18.png);
-  background-position: bottom right;
-  background-size: initial;
-  background-repeat: no-repeat;
-}
-
-#id-about-skills {
-  background-color: rgba(254, 191, 82, 1);
-  background-image: url(./images/ic_skills.png);
-  background-position: bottom right;
-  background-size: initial;
-  background-repeat: no-repeat;
-}
-
-/* Contact form section, and footer start here */
-#id-footer {
-  width: 100%;
-  height: auto;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: rgba(249, 249, 250, 1);
-  background-image: url(./images/image_geometry_1.png);
-  background-repeat: no-repeat;
-  background-position: top left;
-}
-
-#id-contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto auto;
-  width: 288px;
-  background-color: transparent;
-}
-
-.class-contact-div {
-  height: auto;
-  width: 100%;
-  margin-top: 106px;
-}
-
-#id-contact-form .class-contact-div h1 {
-  margin-top: 0 !important;
-  margin-bottom: 20px !important;
-}
-
-.class-contact-div p {
-  margin-bottom: 32px;
-  height: auto;
-}
-
-#contact-form {
-  margin: 0 auto 0 auto !important;
-}
-
-#form {
-  width: 100%;
-}
-
-.class-form-label {
-  width: 99%;
-}
-
-.class-form-div {
-  height: auto;
-}
-
-.class-start-collaboration {
-  margin-top: 0 !important;
-  font-size: 16px !important;
-  font-weight: 500 !important;
-}
-
-.name-email {
-  width: 281px;
-  height: 52px;
-  margin-top: 8px;
-  border-radius: 4px;
-  border: 1px solid rgb(210, 212, 212);
-  text-indent: 16px;
-  font-family: "Poppins", sans-serif;
-  outline: none;
-}
-
-#message {
-  width: 281px;
-  border-radius: 4px;
-  border: 1px solid rgb(210, 212, 212);
-  height: 112px;
-  resize: none;
-  padding-top: 15px;
-  text-indent: 16px;
-  margin: 10px auto 0 auto !important;
-  font-family: "Poppins", sans-serif;
-  outline: thin;
-}
-
-#message::placeholder {
-  position: absolute;
-  top: 15px;
-}
-
-.name-email::placeholder {
-  color: rgba(125, 124, 132, 1);
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  position: fixed;
-  top: 0;
-}
-
-.button {
-  margin: 30px auto auto auto;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(26, 34, 54, 1);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  border: none;
-}
-
-#id-other-links {
-  width: 100%;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  list-style-type: none;
-  background-color: rgba(26, 34, 54, 1);
-  margin: 64px auto 0 auto;
-}
-
-.class-social-container {
-  width: fit-content;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  list-style-type: none;
-  background-color: rgba(26, 34, 54, 1);
-  padding: 0 0;
-  margin: 15px 0 30px 0;
-}
-
-.class-links {
-  width: fit-content;
-  height: auto;
-  margin: 32px 0 22px 16px;
-  border: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.class-links a {
-  text-decoration: none;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: medium;
-  font-weight: 500;
-  margin-right: 16px;
-}
-
-.class-links a:hover {
-  color: rgb(228, 88, 101);
-}
-
-.class-social-links {
-  margin: 0 15px 0 10px;
-  height: auto;
-}
-
-.class-social-links a:hover {
-  border-bottom: 3px solid rgb(228, 88, 101);
+@media screen and (min-width: 1080px) {
+  /* Thi part is only for the modal */
+  aside div h2 {
+    font-size: 60px !important;
+  }
 }
