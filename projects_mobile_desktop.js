@@ -1,5 +1,5 @@
 /* eslint-disable no-multi-str */
-/** ****** Projects techs ********* */
+/* ****** Projects techs ********* */
 const technologiesUsed = {
   htmlCss: 'HTML/CSS',
   ruby: 'Ruby on Rails',
@@ -20,7 +20,7 @@ function techStyle(tech) {
   return tech;
 }
 
-/** *** Technologies list *** */
+/* **** Technologies list *** */
 const tech1 = document.createElement('li');
 tech1.innerHTML = technologiesUsed.htmlCss;
 techStyle(tech1);
@@ -288,7 +288,7 @@ Buttons.appendChild(seeLive);
 Buttons.appendChild(seeSource);
 
 /** ***************** Open modal button: see this project **************** */
-const openModal = document.querySelector('.see-btn');
+const openModal = document.querySelectorAll('.see-btn');
 
 /** ***************** Close modal button ****************** */
 const closeModal = document.createElement('button'); // create closeBtn button
@@ -344,7 +344,11 @@ modal.appendChild(card);
 function openProject() { // open the modal
   document.body.appendChild(modal);
 }
-openModal.addEventListener('click', openProject);
+
+// eslint-disable-next-line no-plusplus
+for (let i = 0; i < openModal.length; ++i) {
+  openModal[i].addEventListener('click', openProject);
+}
 
 function closeProject() { // close the modal
   document.body.removeChild(modal);

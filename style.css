@@ -54,7 +54,7 @@ body {
   }
 
   section {
-    max-width: 400px;
+    width: 100%;
     height: auto;
     margin-top: 70px;
     display: grid;
@@ -338,17 +338,17 @@ body {
   aside div h2 {
     font-size: 25px !important;
   }
-
+  
   /* global element style */
   .ttl {
     font-size: 50px;
   }
-
+  
   .txt {
     font-size: 20px;
     line-height: 33px;
   }
-
+  
   #header {
     align-items: center;
     justify-content: center;
@@ -357,64 +357,127 @@ body {
     width: 100%;
     box-shadow: 0 1px 1px blue;
   }
-
+  
   .menu-btn { display: none !important; }
-
+  
   .menu {
     display: flex;
     flex-direction: row;
     align-items: center !important;
   }
-
+  
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: none;
   }
-
+  
   #footer {
     width: 100%;
     max-width: none;
     align-items: center;
   }
-
+  
   #section2 { max-width: 550px; }
-
+  
   .cards {
     max-width: 550px;
   }
-
+  
   .ttl-3 {
     font-size: 30px;
     font-weight: 600;
   }
-
+  
   .card {
     max-width: 100%;
   }
-
+  
   .card-pic {
     height: 250px;
   }
-
+  
   .card-desc {
     height: 200px;
   }
-
+  
   .tech {
     padding-inline-start: 15px;
     padding-inline-end: 15px;
     padding-block-start: 10px;
     padding-block-end: 10px;
   }
-
+  
   .join {
     width: 100%;
     max-width: none;
   }
 }
 
+/* The medias queries for tablette and Desktop version */
+@media screen and (min-width: 600px) {
+  .ttl {
+    font-size: 110px;
+    font-weight: 400;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  #section3 {
+    width: 100% !important;
+  }
+
+ #section3 .block {
+    background-image: url(./backgrounds/image_dots_with_teal.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    max-width: 580px;
+    padding-bottom: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .competences {
+    margin: 0;
+  }
+
+  .competences:first-child {
+    padding-bottom: 29px;
+  }
+
+  #footer {
+    padding-top: 168px;
+  }
+  .form {
+    max-width: 542px;
+    margin-bottom: 132px;
+  }
+  .inputs {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .mail-name {
+    width: 254px;
+    height: 60px;
+  }
+
+  .msg {
+    width: 542px;
+    height: 140px;
+  }
+  .join {
+    padding: 0 10%;
+  }
+}
+
+/* Media queries for mobile menu and the modals */
 @media screen and (min-width: 700px) {
   /* Thi part is only for the modal */
   aside {
