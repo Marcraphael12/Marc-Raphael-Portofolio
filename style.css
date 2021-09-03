@@ -740,6 +740,7 @@ body {
 #id-presentation-section {
   margin: 0 auto 0 auto;
   width: 100%;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
